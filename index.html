@@ -110,7 +110,7 @@
 
 
 
-  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  
 
   <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
   <script src="assets/js/jquery.min.js"></script>
@@ -120,7 +120,25 @@
   <script src="assets/js/custom.js"></script>
 
 
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+  {
+    "vars" : {
+      "gtag_id": "<UA-179394527-1>",
+      "config" : {
+        "<UA-179394527-1>": { "groups": "default" }
+      }
+    }
+  }
+  </script>
+  </amp-analytics>
 
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+
+... (several lines of code) ...
+
+</script>
 
 
 
