@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 @font-face{ font-family:'Oswald'; font-style:normal; font-weight:400; src:local('Oswald Regular'),local('Oswald-Regular'),url("../fonts/Oswald-Regular-400.woff") format('woff')}
-body{background-color:rgb(13, 14, 0); color:#333; overflow-x:hidden !important}
+body{background-color:rgb(227, 228, 210); color:#333; overflow-x:hidden !important}
 ul{padding:0; margin:0; list-style:none}
 a{text-decoration:none; color:#798992}
 a:hover{color:#646464; text-decoration:none}
@@ -60,7 +60,7 @@ img:hover{opacity:0.75}
 .dropdown-menu > li > a{color:#fff; font-family:"Oswald",sans-serif; padding:5px 15px; border-top:1px solid transparent; border-bottom:1px solid transparent; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff}
 
-#mainContent{background-color:#000000; display:inline; float:left; padding-top:15px; width:100%}
+#mainContent{background-color:#faf5f5; display:inline; float:left; padding-top:15px; width:100%}
 .content_top{float:left; display:inline; width:100%}
 .latest_slider{float:left; display:inline; width:100%; padding-left:10px}
 .single_iteam{position:relative}
