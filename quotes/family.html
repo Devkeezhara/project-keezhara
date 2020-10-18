@@ -23,7 +23,7 @@
         src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
     <script async="" custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
     <script async="" src="https://cdn.ampproject.org/v0.js"></script>
-    <script async="" custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
     <script async="" custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
     <script async="" custom-element="amp-image-lightbox"
         src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
@@ -2715,14 +2715,24 @@
 
 
     </style>
+
+
+
+    <!-- AMP Analytics -->
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+
 </head>
 
 <body>
 
-    <amp-analytics type="gtag" data-credentials="include">
-        <script
-            type="application/json">{"vars" :{"gtag_id": "UA-179394527-1", "config" :{"UA-179394527-1":{"groups": "default"}}}}</script>
-    </amp-analytics>
+
+    <!-- Google Tag Manager -->
+    <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-KH6SR5N&gtm.url=SOURCE_URL"
+        data-credentials="include"></amp-analytics>
+
+
+
 
 
     <div id="top-page"></div>
