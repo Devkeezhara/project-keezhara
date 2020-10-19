@@ -3029,7 +3029,7 @@
     <!-- AMP Analytics -->
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
-
+	<script async custom-element="amp-facebook-comments" src="https://cdn.ampproject.org/v0/amp-facebook-comments-0.1.js"></script>
 </head>
 
 <body>
@@ -3413,6 +3413,17 @@
 			</div>
 		</div>
 	</section>
+
+    <amp-facebook-comments
+  width="486"
+  height="657"
+  layout="responsive"
+  data-numposts="5"
+  data-href="https://www.keezhara.com/index.html"
+>
+</amp-facebook-comments>
+
+
 	<footer data-mydop-background-image=""
 		style="background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(&quot;https://cdn.dopweb.com/template/default/bg2.png&quot;);"
 		id="i07540425608495243">
@@ -3476,13 +3487,7 @@
 
 
 
-	<amp-user-notification id="my-notification" class="cookie-notification" layout="nodisplay">
-		<p data-mydop-display-name="Cookie" data-mydop-text="" class="display-text-4"
-			style="line-height: 120%; letter-spacing: normal;">This website uses cookies to ensure you get the best
-			experience on our website.</p>
-		<button on="tap:my-notification.dismiss"
-			style="margin-left: 5px; background-color:#fff;border:none; line-height:20px;">I accept</button>
-	</amp-user-notification>
+
 	<button data-mydop-background-color="" id="scrollToTopButton" on="tap:top-page.scrollTo(duration=800)" class="btn"
 		style="background-color:#000; text-align:center; border-radius:20em;padding:10px;" aria-label="scrolltotop">
 		<amp-img width="30" height="30" layout="fixed" src="https://cdn.dopweb.com/master/angle-double-up-solid.svg"
