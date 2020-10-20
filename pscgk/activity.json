@@ -1,23 +1,402 @@
 {"quizlist":[
   
 	{
-	"question":"Portuguese is spoken in _______",
-	"option1":"Brazil",
+	"question":"സമ്പൂർണ്ണമായി വൈദ്യുതീകരിച്ച കേരളത്തിലെ ആദ്യ നിയമസഭ മണ്ഡലം?",
+	"option1":"മങ്കട",
 	"option2":"Argentina",
 	"option3":"Ecuador"
 	},
 	{
-	"question":"What is the capital of Peru?",
-	"option1":"Lima",
+	"question":"രാജീവ് ഗാന്ധി ഖേൽരത്ന അവാർഡ് നേടിയ ആദ്യ മലയാളി വനിത?",
+	"option1":"കെ.എം.ബീനാ മോൾ",
 	"option2":"Bogota",
 	"option3":"San Juan"
 	},
 	{
-	"question":"Which country is long and thin?",
-	"option1":"Chile",
+	"question":"ഉത്തര കൊറിയയുടെ തലസ്ഥാനം?",
+	"option1":"പ്യോങ്ഗ്യാങ്",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"മഹാഭാരതത്തിന്റെ ഹൃദയം എന്നറിയപ്പെടുന്നത്??",
+	"option1":"ഭഗവത് ഗീത",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"അൽബറൂണി “ഹിലി” രാജ്യമെന്ന് വിശേഷിപ്പിച്ച നാട്ടുരാജ്യം?",
+	"option1":"കോലത്തുനാട്",
 	"option2":"Uruguay",
 	"option3":"Colombia"
 	}
+
+	,
+	{
+	"question":"ഏറ്റവും ചെറിയ ഉപനിഷത്ത്?",
+	"option1":"ഈശോവാസ്യോപനിഷത്ത്",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"‘സഹൃന്‍റെ മകൻ’ എന്ന കൃതിയുടെ രചയിതാവ്?",
+	"option1":"വൈലോപ്പള്ളി ശ്രീധരമേനോൻ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"വിഷ്ണുവിന്റെ വാസസ്ഥലം?",
+	"option1":"വൈകുണ്ഠം",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"പോസ്റ്റോഫീസുകള്‍ ആധുനികവല്‍ക്കരിക്കാനുള്ള തപാല്‍ വകുപ്പിന്‍റെ നൂതന സംരംഭം?",
+	"option1":"പ്രോജക്ട് ആരോ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"ആദ്യ ശിശു സൗഹൃത സംസ്ഥാനം?",
+	"option1":"കേരളം",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"ലോകബാങ്കിന്‍റെ ആസ്ഥാനം എവിടെ?",
+	"option1":"വാഷിങ്ടൺ ഡി സി",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"ശതവാഹന രാജവംശത്തിന്‍റെ ആസ്ഥാനം?",
+	"option1":"ശ്രീകാകുളം",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"ലോകസഭയിൽ ക്വാറം തികയാൻ എത്ര അംഗങ്ങൾ സന്നി ഹിതരാവണം?",
+	"option1":"ആകെ അംഗങ്ങളുടെ പത്തിലൊന്ന്",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി തപാൽ സംവിധാനം കൊണ്ടുവന്നത്?",
+	"option1":"അലാവുദ്ധീൻ ഖിൽജി",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":" ‘അകനാനൂറ്’ എന്ന കൃതി രചിച്ചത്?",
+	"option1":"രുദ്രവർമ്മൻ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"ആഡ്രിയാട്ടിക്കിന്‍റെ രാജ്ഞി എന്ന് വിശേഷിപ്പിക്കപ്പെടുന്ന സ്ഥലം?",
+	"option1":"വെനീസ്",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"രാജസ്ഥാന്‍റെ തലസ്ഥാനം?",
+	"option1":"ജയ്പൂർ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"ജിബ്രാൾട്ടർ കടലിടുക്ക് നീന്തി കടന്ന ആദ്യ ഇന്ത്യാക്കാരി?",
+	"option1":"ആരതിപ്രധാൻ",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"പ്ലീനി എഴുതിയ പ്രസിദ്ധ ഗ്രന്ഥം?",
+	"option1":"Natural History",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"വൈറസുകളെക്കുറിച്ചുള്ള ശാസ്ത്രീയ പഠനം?",
+	"option1":"വൈറോളജി",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"പൊതിയിൽ മല (ആയ്ക്കുടി)ഇപ്പോഴത്തെപ്പേര്?",
+	"option1":"അഗസ്ത്യകൂടം",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"ഏഷ്യയിൽ നിന്നും ഏറ്റവും ഒടുവിൽ UN ൽ ചേർന്ന 191 മത്തെ രാജ്യം?",
+	"option1":"ഈസ്റ്റ് തിമൂർ",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"സഞ്ചാരികളുടെ രാജകുമാരൻ എന്നറിയപ്പെടുന്നത്?",
+	"option1":"മാർക്കോ പോളോ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"ഭൂമി സൂര്യനോട് ഏറ്റവും അടുത്തു വരുന്ന ദിവസം?",
+	"option1":"ജനുവരി 3",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"പൊന്നാനിയുടെ പഴയ പേര്?",
+	"option1":"തിണ്ടിസ്",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"സ്വാമി ദയാനന്ദ സരസ്വതിയുടെ ശിഷ്യനായ പ്രധാന സ്വാതന്ത്ര്യസമര സേനാനി?",
+	"option1":"ലാലാ ലജ്പത് റായ്",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"പുകയില ഉത്പാദനത്തില്‍ മുമ്പില്‍നില്‍ക്കുന്ന കേരളത്തിലെ ജില്ല?",
+	"option1":"കാസര്‍ഗോ‍‍‍‍ഡ്",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"ആസ്ത്രേലിയൻ പ്രധാനമന്ത്രിയുടെ ഔദ്യോഗിക വസതി?",
+	"option1":"ദ ലോഡ്ജ്",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"വാതകങ്ങളുടെ ഡീ ഹൈഡേഷനായി ഉപയോഗിക്കുന്ന കാത്സ്യം സംയുക്തം?",
+	"option1":"കാത്സ്യം ഓക്സൈഡ്",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"ഏറ്റവും കൂടുതല്‍ മരച്ചീനി ഉല്പ്പാദിപ്പിക്കുന്ന ജില്ല?",
+	"option1":"തിരുവനന്തപുരം",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"പോർച്ചുഗലിലെ കാതറിനെ വിവാഹം കഴിച്ചപ്പോൾ ഇംഗ്ലണ്ടിലെ ചാൾസ് രണ്ടാമൻ രാജാവിന് സ്ത്രീധനമായി ലഭിച്ച പ്രദേശം?",
+	"option1":"ബോംബെ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"ഇന്ത്യയിൽ ഏറ്റവും നീളം കൂടിയ നദി?",
+	"option1":"ഗംഗ",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"UPSC- യൂണിയൻ പബ്ലിക് സർവ്വീസ് കമ്മിഷന്‍റെ ആദ്യ ചെയർമാൻ?",
+	"option1":"സർ. റോസ് ബാർക്കർ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"കേരളത്തിലെ ആദ്യത്തെ ഡെപ്യൂട്ടി സ്പീക്കർ?",
+	"option1":"കെ.ഒഐഷാ ഭായി",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"ഭഗവത് ഗീതയ്ക്ക് ഗാന്ധിജി എഴുതിയ വ്യാഖ്യാനം?",
+	"option1":"അനാസക്തി യോഗം",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"ശതവാഹനസ്ഥാപകന്‍?",
+	"option1":"സിമുഖന്‍",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"ഇന്ത്യയിലെ ആദ്യ റബ്ബർ ഡാം എവിടെയാണ്?",
+	"option1":"ആന്ധ്രാപ്രദേശ് 1928-ൽ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"പിന്നാക്ക സമുദായം സംബന്ധിച്ച എന്വേഷണ കമ്മീഷന്‍?",
+	"option1":"മണ്ടൽ കമ്മീഷൻ",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"ഫറൂക്ക് പട്ടണത്തിന് ഫറൂക്കാബാദ് എന്ന് പേര് നൽകിയത്?",
+	"option1":"ടിപ്പു സുൽത്താൻ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി മെഡിക്കൽ കോളേജ് സ്ഥാപിക്കപ്പെട്ട സ്ഥലം?",
+	"option1":"കൊൽക്കത്ത",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"കേരളാ സര്‍വ്വകാലാശാലയുടെ ആദ്യത്തെ വൈസ് ചാന്‍സലര്‍ ആരായിരുന്നു?",
+	"option1":"ഡോജോണ്‍ മത്തായി",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"അമേരിക്കൻ വൈസ് പ്രസിഡന്‍റ്ന്‍റെ ഔദ്യോഗിക വസതി?",
+	"option1":"നമ്പർ വൺ ഒബ്സർവേറ്ററി സർക്കിൾ",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"ശബരിമല സ്ഥിതി ചെയ്യുന്ന വന്യജീവി സങ്കേതം?",
+	"option1":"പെരിയാർ വന്യജീവി സങ്കേതം",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"കമ്മ്യൂണിസ്റ്റ് പ്രസ്ഥാനത്തെക്കുറിച്ച് കോസ്റ്റാവറസ്സ് നിർമ്മിച്ച ചിത്രം?",
+	"option1":"ദി കൺഫഷൻ - 1970",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"സമ്പൂർണ്ണ വിപ്ലവത്തിന്റെ പിതാവ് എന്നറിയപ്പെടുന്നത്?",
+	"option1":"ജയപ്രകാശ് നാരായണൻ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"കേരള ഹൈകോടതി ചീഫ് ജസ്റ്റിസായ ആദ്യ മലയാളി?",
+	"option1":"വനിത കെ കെ ഉഷ",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"അന്താരാഷ്ട്ര ഫുട്ബോള് മത്സരത്തിന്‍റെ സമയ ദൈര്ഘ്യം?",
+	"option1":"90 min",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"“ഓമന തിങ്കൾ കിടാവോ” എന്ന താരാട്ട് പാട്ടിന്‍റെ രചയിതാവ്?",
+	"option1":"ഇരയിമ്മൻ തമ്പി",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"ഗരീബ് എക്സ്പ്രസിന്‍റെ നിറം?",
+	"option1":"പച്ച; മഞ്ഞ",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+	,
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"",
+	"option1":"",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+
+	
 
 ]
 }
