@@ -2321,470 +2321,728 @@
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം: പൂര്‍ണ്ണ സ്വരാജ് പ്രമേയം അംഗീകരിച്ച ലാഹോര്‍ പ്രമേയം",
+	"option1":"1929",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം: ഗാന്ധിജിയുടെ ദണ്ഢി മാര്‍ച്ച്",
+	"option1":"1930",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം:  മൂന്നാം വട്ടമേശ സമ്മേളനം",
+	"option1":"1932",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം: പ്രൊവിന്‍സുകളില്‍ സ്വയംഭരണം",
+	"option1":"1937",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം: ക്വിറ്റ് ഇന്ത്യാ പ്രസ്ഥാനം",
+	"option1":"1942",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം: ചെങ്കോട്ടയില്‍ INA വിചാരണ",
+	"option1":"1945",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം: ക്യാബിനറ്റ് മിഷന്‍ ഇന്ത്യ സന്ദര്‍ശിച്ചു.",
+	"option1":"1946",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം: മഹാത്മഗാന്ധി കൊല്ലപ്പെട്ടു.",
+	"option1":"1948",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വര്ഷം: ഇന്ത്യ റിപ്പബ്ലിക്കായി",
+	"option1":"1950",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ചൂട് കൂടിയ ഗ്രഹം",
+	"option1":"ശുക്രൻ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"പച്ചഗ്രഹം",
+	"option1":"യുറാനസ്",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"അന്തരീക്ഷമില്ലാത്ത ഗ്രഹം",
+	"option1":"ബുധൻ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഭൂമിയുടേതുപോലെ ഋതുഭേദങ്ങൾ അനുഭവപ്പെടുന്ന ഗ്രഹം",
+	"option1":"ചൊവ്വ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"സൽഫ്യൂരിക് ആസിഡ് നിറഞ്ഞ മേഖപാളികളാൽ ആവൃതമായ ഗ്രഹം",
+	"option1":"ശുക്രൻ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഭൂമിയുടേതുപോലുള്ള സമാനദിനരാത്രങ്ങൾ ഉള്ള ഗ്രഹം",
+	"option1":"ചൊവ്വ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"കരിമഴ പെയ്യുന്ന ഗ്രഹം",
+	"option1":"ശനി",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"അന്തർഗ്രഹങ്ങളിൽ ഏറ്റവും വലുത്",
+	"option1":"ഭൂമി",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഏറ്റവും വേഗത്തിൽ കാറ്റ് വീശുന്ന ഗ്രഹം",
+	"option1":"നെപ്ട്യൂൺ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഏറ്റവും വലിയ കുള്ളൻ ഗ്രഹം",
+	"option1":"ഇറിസ്",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ടെലിസ്കോപ്പിലൂടെ കണ്ടെത്തിയ ആദ്യ ഗ്രഹം",
+	"option1":"യുറാനസ്",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"പരിക്രമണ വേഗത ഏറ്റവും കൂടിയ ഗ്രഹം",
+	"option1":"ബുധൻ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"കമ്മ്യൂണിസ്റ്റ്‌ പാർടി അധികാരത്തിലെത്തിയ ആദ്യ ഇന്ത്യൻ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"356-ആം വകുപ്പ്‌ പ്രകാരം ഒരു മന്ത്രിസഭ പിരിച്ചു വിടപ്പെട്ട ആദ്യ സംസ്ഥാനം (1959)",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"സമ്പൂർണ സാക്ഷരത നേടിയ ആദ്യ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"സമ്പൂർണ ആദിവാസി സാക്ഷരത നേടിയ ആദ്യ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"സാർവത്രിക പ്രാഥമിക വിദ്യാഭ്യാസം നേടിയ ആദ്യ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"മുഴുവൻ ഗ്രാമങ്ങളെയും റോഡ്‌ മുഖേന ബന്ധിപ്പിച്ച ആദ്യ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"മുഴുവൻ ഗ്രാമങ്ങളിലും പോസ്റ്റ്‌ ഓഫീസ് ഉള്ള ആദ്യ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"സമ്പൂർണ റേഷനിങ് സമ്പ്രദായം നടപ്പിലാക്കിയ ആദ്യ ഇന്ത്യൻ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ആദ്യ സമ്പൂർണ ബാങ്കിംഗ് സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി ദുരന്ത നിവാരണ അതോറിട്ടി സ്ഥാപിച്ച സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി മുഖ്യമന്ത്രിയുടെ ഓഫീസിൽ കാൾ സെന്റർ സ്ഥാപിച്ച സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി ലോട്ടറി ആരംഭിച്ച സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി സ്കൂളുകളിൽ ഡിജിറ്റൽ പാഠപുസ്തകങ്ങൾ ഏർപ്പെടുത്തിയ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഭൂപരിഷ്കരണ നിയമം നടപ്പിലാക്കിയ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി ഡാം സുരക്ഷ അതോറിറ്റി രൂപീകരിച്ച സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ജനന, മരണ നിരക്ക് കുറവുള്ള സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി കാൻസർ ചികിത്സ സൗജന്യമാകുന്ന ആദ്യ സംസ്ഥാനം (സുകൃതം പദ്ധതി)",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിൽ ആദ്യമായി ചലച്ചിത്ര അക്കാഢമി രൂപവത്കരിച്ച സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ജലനയത്തിനു രൂപം നൽകിയ സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"MBBS ബിരുദം നേടുന്നവർ നിര്ബന്ധം ആയും ഗ്രാമീണ സേവനം നേടണം എന്ന നിയമം കൊണ്ട് വന്ന സംസ്ഥാനം",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിലെ ആദ്യ ഡിജിറ്റൽ സംസ്ഥാനം:",
+	"option1":"കേരളം",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിലെ ആദ്യ ഡിജിറ്റൽ വില്ലേജ് ഓഫീസ്:",
+	"option1":"പൊന്നാനി",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിലെ ആദ്യ ഡിജിറ്റൽ പട്ടികവർഗ കോളനി:",
+	"option1":"നെടുങ്കയം ( മലപ്പുറം)",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിലെ ആദ്യ ഡിജിറ്റൽ പഞ്ചായത്ത്:",
+	"option1":"പാമ്പാക്കുട (എറണാകുളം)",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിലെ ആദ്യ ഡിജിറ്റൽ പഞ്ചായത്ത് വാർഡ്:",
+	"option1":"വാർഡ് 15 അയ്മനം ( കോട്ടയം)",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിലെ ആദ്യ ഡിജിറ്റൽ നഗരസഭ:",
+	"option1":"തിരൂർ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിലെ ആദ്യ ഡിജിറ്റൽ നഗരം:",
+	"option1":"കോട്ടയ്ക്കൽ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഇന്ത്യയിലെ ആദ്യ ഡിജിറ്റൽ ജില്ല:",
+	"option1":"നാഗ്പൂർ",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ആറ്റിങ്ങൽ കലാപം നടന്ന വര്ഷം",
+	"option1":"1721",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"കുളച്ചൽ യുദ്ധ നടന്ന വര്ഷം ",
+	"option1":"1741",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"കുണ്ടറ വിളംബരം നടന്ന വര്ഷം",
+	"option1":"1809",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"കുറിച്ച്യർ ലഹള നടന്ന വര്ഷം",
+	"option1":"1812",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ചാന്നാർ ലഹള നടന്ന വര്ഷം",
+	"option1":"1859",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"പണ്ടാരപ്പാട്ട വിളംബരം നടന്ന വര്ഷം ",
+	"option1":"1865",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വൈക്കം സത്യാഗ്രഹം നടന്ന വര്ഷം",
+	"option1":"1924",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ഗുരുവായൂർ സത്യാഗ്രഹം നടന്ന വര്ഷം ",
+	"option1":"1931",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"നിവർത്തന പ്രക്ഷോഭം",
+	"option1":"1932",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"പുസ്തക വർഷം",
+	"option1":"1972",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"കോപ്പർനിക്കസ് വർഷം",
+	"option1":"1973",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ജനസംഖ്യാ വർഷം",
+	"option1":"1974",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വനിത വർഷം",
+	"option1":"1975",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"യുവജന വർഷം",
+	"option1":"1985",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ലോക സമാധാനവർഷം",
+	"option1":"1986",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"അഭയാർത്ഥി പാർപ്പിട വർഷം",
+	"option1":"1987",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
+	"question":"എയ്ഡ്സ് വർഷം1988",
 	"option1":"",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ബഹിരാകാശ വർഷം",
+	"option1":"1992",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"തദ്ദേശിയ ജനസംഖ്യ വർഷം",
+	"option1":"1993",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"കുടുംബ വർഷം",
+	"option1":"1994",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"സഹിഷ്ണുത വർഷം",
+	"option1":"1995",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"സമുദ്ര വർഷം",
+	"option1":"1998",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"വയോജന വർഷം",
+	"option1":"1999",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"കൾച്ചർ ഓഫ് പീസ് വർഷം",
+	"option1":"2000",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"സന്നദ്ധ സേവകാ വർഷം",
+	"option1":"2001",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"പർവ്വത വർഷം",
+	"option1":"2002",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ശുദ്ധജലവർഷം",
+	"option1":"2003",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"നെല്ല് വർഷം",
+	"option1":"2004",
 	"option2":"option2",
 	"option3":"option3"
 	},
 	{
-	"question":"",
-	"option1":"",
+	"question":"ദൗതിക ശാസ്ത്ര പഠനവർഷം",
+	"option1":"2005",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മരുഭൂമി മരുവൽക്കരണ നിരോധന വർഷം",
+	"option1":"2006",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഡോൾഫിൻ വർഷം",
+	"option1":"2007",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭൗമ വർഷം",
+	"option1":"2008",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജൈവ വൈവിധ്യവർഷം",
+	"option1":"2010",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വനവർഷം",
+	"option1":"2011",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"സഹകരണ വർഷം",
+	"option1":"2012",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജല സഹകരണ വർഷം",
+	"option1":"2013",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഫാമിലി ഫാമിംഗ് വർഷം",
+	"option1":"2014",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മണ്ണ് വർഷം",
+	"option1":"2015",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"പയർ വർഷം",
+	"option1":"2016",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"സുസ്ഥിര ടൂറിസം വർഷം",
+	"option1":"2017",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"​വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ക്ഷയം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"വസൂരി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ചിക്കന്പോക്സ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"അഞ്ചാംപനി(മീസില്സ്)",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ആന്ത്രാക്സ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ഇൻഫ്ളുവൻസ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"സാർസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ജലദോഷം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"മുണ്ടുനീര്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ഡിഫ്ത്തീരിയ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വായുവിലൂടെ പകരുന്ന രോഗം",
+	"option1":"വില്ലൻചുമ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"​​ജലത്തിലൂടെ പകരുന്ന രോഗം​​",
+	"option1":"കോളറ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജലത്തിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ടൈഫോയിഡ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജലത്തിലൂടെ പകരുന്ന രോഗം",
+	"option1":"എലിപ്പനി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജലത്തിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ഹൈപ്പറ്റൈറ്റിസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജലത്തിലൂടെ പകരുന്ന രോഗം",
+	"option1":"വയറുകടി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജലത്തിലൂടെ പകരുന്ന രോഗം",
+	"option1":"പോളിയോ മൈലറ്റിസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"​​ലൈംഗിക സമ്പർക്കത്തിലൂടെ പകരുന്ന രോഗം",
+	"option1":"ഗോണോറിയ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"​​ലൈംഗിക സമ്പർക്കത്തിലൂടെ പകരുന്ന രോഗം",
+	"option1":"സിഫിലിസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"​​ലൈംഗിക സമ്പർക്കത്തിലൂടെ പകരുന്ന രോഗം",
+	"option1":"എയ്ഡ്സ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"​​രോഗാണു ബാധിതമായ രക്തം സ്വീകരിക്കുന്നതിലൂടെ പകരുന്ന രോഗം​​",
+	"option1":"ഹൈപ്പറ്റൈറ്റിസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"രോഗാണു ബാധിതമായ രക്തം സ്വീകരിക്കുന്നതിലൂടെ പകരുന്ന രോഗം",
+	"option1":"എയ്ഡ്സ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മന്ത്​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"ക്യൂലക്സ് പെണ്കൊതുകുകള്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലേറിയ​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"അനോഫിലസ് പെണ്കൊതുകുകള്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഡെങ്കിപ്പനി​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"ഈഡിസ് ഈജിപ്റ്റി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മഞ്ഞപ്പനി​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"ഈഡിസ് ഈജിപ്റ്റി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജപ്പാന് ജ്വരം​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"കൊതുകുകള്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ചിക്കന്ഗുനിയ​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"ഈഡിസ് ഈജിപ്റ്റി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"പ്ലേഗ്​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"എലിച്ചെള്ള",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ടൈഫസ്​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"പേന്,ചെള്ള്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കാലാ അസര്​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"സാന്ഡ് ഫ്ള്ളൈ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"സ്ലീപ്പിങ്ങ് സിക്ക്നസ്സ്​​ പരത്തുന്ന ഷഡ്പദങ്ങൾ",
+	"option1":"സെ സെ ഫ്ളൈ",
 	"option2":"option2",
 	"option3":"option3"
 	},
