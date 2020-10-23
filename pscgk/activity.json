@@ -4949,6 +4949,918 @@
 	"option3":"option3"
 	},
 	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ സന്ദേശകാവ്യം",
+	"option1":"ഉണ്ണുനീലിസന്ദേശം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ സംസ്കൃത സന്ദേശകാവ്യം",
+	"option1":"ശുക സന്ദേശം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ ആത്മനിഷ്ഠ ഖണ്ഡകാവ്യം",
+	"option1":"മലയവിലാസം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ശുദ്ധ മലയാളത്തിൽ രചിച്ച ആദ്യമഹാകാവ്യം",
+	"option1":"കൃഷ്ണഗാഥ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ പാട്ടുകൃതി",
+	"option1":"രാമചരിതം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ തുള്ളൽ കൃതി",
+	"option1":"കല്യാണസൗഗന്ധികം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ ചെറുകഥ",
+	"option1":"വാസനാവികൃതി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ നോവൽ",
+	"option1":"കുന്ദലത",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ ലക്ഷണമൊത്ത നോവൽ",
+	"option1":"ഇന്ദുലേഖ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ റിയലിസ്റ്റിക് നോവൽ",
+	"option1":"ധൂമകേതുവിന്റെ ഉദയം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ മിസ്റ്റിക് നോവൽ",
+	"option1":"എന്റെ ഗീത",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ കുറ്റാന്വേഷണ നോവൽ",
+	"option1":"ഭാസ്കരമേനോൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ സൈബർനോവൽ",
+	"option1":"നൃത്തം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ ഓഡിയോനോവൽ",
+	"option1":"ഇതാണെന്റെ പേര്‌",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ യാത്രാവിവരണം",
+	"option1":":വർത്തമാനപുസ്തകം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ ഏകാങ്ക നാടകം",
+	"option1":"മുന്നാട്ടുവീരൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ തനതു നാടകം",
+	"option1":"കലി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ രാഷ്ട്രീയ നാടകം",
+	"option1":"പാട്ടബാക്കി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മലയാളത്തിലെ ആദ്യത്തെ ചവിട്ടുനാടകം",
+	"option1":"കാറൽമാൻ ചരിതം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 14 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"അവസര സമത്വത്തെ പാദിക്കുന്നു.",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 19 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ആറു  അടിസ്ഥാന സ്വാതന്ത്ര്യങ്ങളെക്കുറിച്ച്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 21 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ജീവനും വ്യക്തി സ്വാതന്ത്രി ത്തിനുമുള്ളഅവകാശം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 24 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ബാലവേല നിരോധനം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 25 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"മതസ്വാതന്ത്ര്യം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 31 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"സ്വത്തവകാശം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 32 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ഭരണഘടനാ പ്രതിവിധിക്കുള്ള അവകാശം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 40 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"പഞ്ചായത്തുകളുടെ രൂപീകരണം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 123 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ഓർഡിനൻസ് പുറപ്പെടുവിക്കാനുള്ള രാഷ്ട്രപതിയുടെ അധികാരം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 213 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ഓർഡിനൻസ് പുറപ്പെടുവിക്കാനുള്ള ഗവർണറുടെ അധികാരം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 280 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ധനകാര്യ കമ്മീഷൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 324 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ഇലക്ഷൻ കമ്മീഷൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 368 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ഭരണഘടനാ ഭേദഗതി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഭരണഘടന അർട്ടിക്കിൾ 370 എന്തിനെ കുറിച്ച് പ്രതിപാദിക്കുന്നു",
+	"option1":"ജമ്മു കാശ്മീരിനുള്ള പ്രത്യക പദവി (നീക്കം ചെയ്തു)",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇപ്പോഴത്തെ രാഷ്ട്രപതി",
+	"option1":"ശ്രീ. രാംനാഥ് കോവിന്ദ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇപ്പോഴത്തെ ഉപരാഷ്ട്രപതി",
+	"option1":"ശ്രീ. വെങ്കയ്യ നായിഡു",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ കാലം ഉപരാഷ്ട്രപതി ആയിരുന്ന വ്യക്തി",
+	"option1":"ഹമീദ് അൻസാരി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇപ്പോഴത്തെ പ്രധാന മന്ത്രി",
+	"option1":"ശ്രീ. നരേന്ദ്ര മോദി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"നിതി ആയോഗ് ചെയർമാൻ",
+	"option1":"ശ്രീ. നരേന്ദ്ര മോദി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"നിതി ആയോഗ് വൈസ് ചെയർമാൻ",
+	"option1":"ശ്രീ. രാജീവ് കുമാർ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"നിതി ആയോഗ് CEO",
+	"option1":"ശ്രീ. അമിതാബ് കന്ത്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഫോറിൻ സെക്രട്ടറി",
+	"option1":"ശ്രീ. വിജയ് കേശവ് ഗോഖലെ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഹോം സെക്രട്ടറി(ആഭ്യന്തര സെക്രട്ടറി )",
+	"option1":"ശ്രീ.രാജീവ് ഗൗബ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കാബിനറ്റ് സെക്രട്ടറി",
+	"option1":"ശ്രീ. പ്രദീപ്‌ കുമാർ സിൻഹ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"സുപ്രീം കോടതി ചീഫ് ജസ്റ്റിസ് ",
+	"option1":"ജസ്റ്റിസ്. ദീപക് മിശ്ര",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ അഭ്രം ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ഇന്ത്യ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ അലുമിനിയം ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചൈന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ ലെഡ് ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചൈന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ ആസ്ബസ്റ്റോസ് ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"റഷ്യ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ പ്ലാറ്റിനo ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"സൗത്ത് ആഫ്രിക്ക",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ നിക്കൽ ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ഫിലിപ്പെയ്ൻസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ സിങ്ക് ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചൈന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ ഇരുമ്പആയിരു ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചൈന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ മാoഗനീസ് ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"സൗത്ത് ആഫ്രിക്ക",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ ടിൻ ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചൈന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ ടങ്ങ്സ്റ്റണ് ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചൈന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ കൽകരി ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചൈന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ കല്ലുപ്പ് ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"U.S.A",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ ഫോസ്ഫേറ്റ് ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"U.S.A",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ ചെമ്പ് ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചിലി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ സൾഫർ ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"ചൈന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കൂടുതൽ പെട്രോളിയം ഉൽപ്പാദിപ്പിക്കുന്ന രാജ്യം",
+	"option1":"സൗദി അറേബിയ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- വിവരാവകാശ കമ്മീഷൻ",
+	"option1":"അഗസ്ത് ക്രാന്തി ഭവൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- ആസൂത്രണ കമ്മീഷൻ",
+	"option1":"യോജനാ ഭവൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- ഇലക്ഷന് കമ്മീഷൻ",
+	"option1":"നിർവാചൻ സദൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- ദൂരദർശൻ",
+	"option1":"മാണ്ഡി ഹൗസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- UPSC",
+	"option1":"ധോൻപുർ ഭവൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- ദേശീയ ന്യുനപക്ഷ കമ്മീഷൻ & കമ്മീഷൻ",
+	"option1":"ലോകനായക്‌ ഭവൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- ദേശീയ മനുഷ്യാവകാശ കമ്മീഷൻ",
+	"option1":"മാനവ് അധികാർ ഭവൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- ദേശീയ വനിത കമ്മീഷൻ",
+	"option1":"നിർഭയ ഭവൻ ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആസ്ഥാന മന്ദിരം- ദേശീയ വിജിലൻസ്‌ കമ്മീഷൻ",
+	"option1":"സാതാരക്ത ഭവൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"'ക' വർഗ്ഗത്തിലെ മൃദു?",
+	"option1":"ഗ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഘോഷി എന്നറിയപ്പെടുന്ന അക്ഷരം ?",
+	"option1":"ഹ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"സ്വരീകൃത വ്യഞ്ജനങ്ങൾ ?",
+	"option1":"ചില്ലുകൾ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"'ത'വർഗ്ഗത്തിലെ അനുനാസികം ?",
+	"option1":"ന",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ചുട്ടെഴുത്തുകൾ എന്നറിയപ്പെടുന്ന സ്വരങ്ങൾ",
+	"option1":"അ,ഇ,എ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജനസംഖ്യയിൽ ലോകത്ത് ഇന്ത്യയുടെ സ്ഥാനം..?",
+	"option1":"രണ്ടാം സ്ഥാനം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കൂടൽ കമ്മീഷൻ എന്തുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
+	"option1":"ഗാന്ധി സമാധാന പുരസ്കാരം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും കുടുതല്‍ ഉപ്പുരസം ഉള്ള വെള്ളം ഏത് തടാകത്തിലാണ്?",
+	"option1":"ചാവ് കടല്‍",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"പാലക്കാട് മണി അയ്യർ ഏത് സംഗീത ഉപകരണവുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
+	"option1":" മൃദംഗം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആദ്യവനിതാ ലോക്കോ പൈലറ്റ്?",
+	"option1":"സുരേഖ ബോൺസ്സെ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏറ്റവും നീളം കൂടിയ എക്സ്പ്രസ് ഹൈവേ?",
+	"option1":"അഹമ്മദാബാദ് - വഡോദര",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ശൈശവ ഗ്രന്ധി എന്നറിയപ്പെടുന്ന ഗ്രന്ധി?",
+	"option1":"തൈമസ് ഗ്രന്ധി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ക്രിസ്തുമത നിരൂപണം (ക്രിസ്തുമത ചേതനം) രചിച്ചത്?",
+	"option1":"ചട്ടമ്പിസ്വാമികൾ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മാലിദ്വീപിന്‍റെ ദേശീയ പുഷ്പം?",
+	"option1":"റോസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ലോകത്തില്‍ ഏറ്റവും ആഴം കൂടിയ സമുദ്രഭാഗം?",
+	"option1":"മറിയാനാ ട്രഞ്ച്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഏതു രാജ്യത്തെ ലിപിയായിരുന്നു ഹീറോഗ്ലി ഫിക്സ്?",
+	"option1":"ഈജിപ്ത്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇന്ത്യയിലാദ്യമായി ഇലക്ട്രോണിക് വോട്ടിങ്ങ് യന്ത്രം ഉപയോഗിച്ച് തെരഞ്ഞെടുപ്പ് നടന്നത്?",
+	"option1":"വടക്കൻ പറവൂർ 1982",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"രക്തം കട്ടപിടിക്കാന്‍ സഹായിക്കുന്ന ലോഹം?",
+	"option1":"കാല്‍സ്യം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മഹാരസ്സ ഏത് സംസ്ഥാനത്തെ നൃത്തരൂപമാണ്?",
+	"option1":"മണിപ്പൂർ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കേരളത്തിൽ ഉപതിരഞ്ഞെടുപ്പിലൂടെ സീറ്റ് നില നിർത്തിയ ആദ്യ അംഗം?",
+	"option1":"റോസമ്മാ പുന്നൂസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"രണ്ടാം മൈസൂർ യുദ്ധത്തിൽ ബ്രിട്ടീഷ് ഗവർണ്ണർ ജനറൽ?",
+	"option1":"വാറൻ ഹേസ്റ്റിങ്ങ്സ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മിൽമയുടെ ആസ്ഥാനം?",
+	"option1":"തിരുവനന്തപുരം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"SCI (The shipping Corporation India Ltd) പബ്ലിക് ലിമിറ്റഡ് കമ്പനിയായ വർഷം?",
+	"option1":"1992 സെപ്റ്റംബർ 18",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"രാജീവ് ഗാന്ധി ഖേൽരത്ന അവാർഡ് നേടിയ ആദ്യ മലയാളി വനിത?",
+	"option1":"കെ.എം.ബീനാ മോൾ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"അമുക്തമാല്യത എന്ന കൃതി രചിച്ചതാര്?",
+	"option1":"കൃഷ്ണദേവരായര്‍",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ബ്രിട്ടീഷ് ഇന്ത്യയിൽ ആദ്യമായി സാമുദായിക സംവരണം ഏർപ്പെടുത്തിയ വൈസ്രോയി?",
+	"option1":"മിന്റോ പ്രഭു (മിന്റോ മോർലി ഭരണ പരിഷ്കാരം)",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"സുബ്രഹ്മണ്യന്‍ കമ്മിറ്റി എന്തുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
+	"option1":"കാര്‍ഗില്‍ നുഴഞ്ഞുകയറ്റം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"പാവങ്ങളുടെ ബാങ്കർ എന്നറിയപ്പെടുന്നത്?",
+	"option1":"മുഹമ്മദ് യൂനസ് - ബംഗ്ലാദേശ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കേരള സർക്കാർ ആരംഭിച്ച മഴവെള്ളക്കൊയ്ത്ത് പദ്ധതി?",
+	"option1":"വർഷ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇന്ത്യന്‍ ഇന്‍സ്റ്റിറ്റ്യൂട്ട് ഓഫ് പെട്രോളിയത്തിന്‍റെ ആസ്ഥാനം?",
+	"option1":"ഡെറാഡൂണ്‍",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കേരളത്തിന്‍റെ സാംസ്കാരിക തലസ്ഥാനം?",
+	"option1":"തൃശ്ശൂര്‍",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇൻഫോസിസിന്‍റെ ആസ്ഥാനം?",
+	"option1":"ബംഗലരു",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"'എന്റെ ബാല്യകാല സ്മരണകൾ സ്മരണയുടെ ഏടുകൾ' ആരുടെ ആത്മകഥയാണ്?",
+	"option1":"സി.അച്ചുതമേനോൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"'കിങ് ഓഫ് ദി ഡാർക്ക് ചേംബർ' എന്ന കൃതിയുടെ കർത്താവ്?",
+	"option1":"രബീന്ദ്രനാഥ ടാഗോർ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"അംബേദ്‌ക്കര്‍ ബുദ്ധമതം സ്വീകരിച്ച വര്‍ഷം?",
+	"option1":"1956",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വൈലോപ്പിള്ളി ശ്രീധരമേനോന്‍റെ പ്രധാന കൃതി?",
+	"option1":"കുടിയൊഴിക്കല്‍",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇന്ത്യയിൽ ദലൈലാമയുടെ താമസസ്ഥലം?",
+	"option1":"ധർമ്മശാല",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"അജന്താ ഗുഹകൾ സ്ഥിതി ചെയ്യുന്ന സംസ്ഥാനം?",
+	"option1":"മഹാരാഷ്ട്ര",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"'ഗണദേവത ' എന്ന കൃതി ആരെഴുതിയതാണ്?",
+	"option1":"താരാശങ്കർ ബന്ധോപാധ്യായ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കൊച്ചി തുറമുഖത്തിന്‍റെയും വെല്ലിംഗ്ടണ്‍ ഐലന്‍റിന്‍റെയും ശില്‍പ്പി?",
+	"option1":"സര്‍.റോബോര്‍ട്ട് ബ്രിസ്റ്റോ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"പ്രധാനമന്ത്രിയായശേഷം പ്രതിപക്ഷ നേതാവായ വ്യക്തി?",
+	"option1":"രാജീവ്ഗാന്ധി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ബംഗാൾ വിഭജനം റദ്ദു ചെയ്ത വൈസ്രോയി?",
+	"option1":"ഹാർഡിഞ്ച് Il",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വടക്കു കിഴക്കന്‍ സംസ്ഥാനങ്ങളിലെ വലിയ സ‍ംസ്ഥാനം?",
+	"option1":"അരുണാചല്‍പ്രദേശ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"നേതാജി സുഭാഷ് ചന്ദ്രബോസിന്റെ ആത്മീയ ഗുരു?",
+	"option1":"സി.ആർ. ദാസ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ബള്‍ബില്‍ നിറയ്കുന്ന വാതകം?",
+	"option1":"ആര്‍ഗണ്‍",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"പ്ലൂട്ടോയെ ചുറ്റുന്ന ഏറ്റവും വലിയ ഗോളം?",
+	"option1":"കെയ്റോൺ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വയനാട് (മുത്തങ്ങ) വന്യജീവി സങ്കേതത്തിന്‍റെ ആസ്ഥാനം?",
+	"option1":"സുല്‍ത്താന്‍ ബത്തേരി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇന്ത്യന്‍ ഹോക്കിയുടെ മാന്ത്രികന്‍ എന്നറിയപ്പെടുന്നത് ആര്?",
+	"option1":"ധ്യാന്‍ചന്ദ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ബഹിരാകാശ വാഹനങ്ങളിൽ ഓക്സിജൻ ലഭ്യത വർദ്ധിപ്പിക്കാനായി വളർത്തുന്ന സസ്യം?",
+	"option1":"ക്ലോറെല്ലാ (ആൽഗ )",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ബൾബുകളുടെ ഫിലമെന്റുകൾ നിർമ്മിക്കാനുപയോഗിക്കുന്ന ലോഹം?",
+	"option1":"ടങ്‌സ്റ്റൺ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ശ്രീനാരായണഗുരു ഒടുവിൽ സ്ഥാപിച്ച ക്ഷേത്രം?",
+	"option1":"കളവൻകോട്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഗാന്ധിജി അധ്യക്ഷനായ ഏക കോണ്ഗ്രസ് സമ്മേളനം?",
+	"option1":"1924 ലെ ബല്‍ഗാം സമ്മേളനം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"സംഖ്യാ ദർശനത്തിന്റെ കർത്താവ്?",
+	"option1":"കപിലൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇന്ത്യയുടെ വ്യവസായിക തലസ്ഥാനം?",
+	"option1":"മുംബൈ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ബംഗാളിൽ ദ്വിഭരണം ഏർപ്പെടുത്തിയ ഗവർണ്ണർ?",
+	"option1":"റോബർട്ട് ക്ലൈവ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ചുഴലിക്കാറ്റുകൾക്കു പേര് നൽകാൻ ആരംഭിച്ചത്",
+	"option1":"1953",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഓഖി എന്ന വാക്കിന്റെ അർത്ഥം",
+	"option1":"കണ്ണ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഓഖി ചുഴലിക്കാറ്റ് - വര്ഷം",
+	"option1":"2017 നവംബർ 30 ന്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഒഫെലിയ- വര്ഷം",
+	"option1":"2017 ഒക്ടോബർ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഡെബ്ബി ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2017 മാർചിൽ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മരിയ ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2017 സെപ്റ്റംബറിൽ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"മാത്യു ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2017 ജൂലൈ ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വർദചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2016 ഡിസംബറിൽ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"Oanu ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2016 മെയ്‌",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"വിൻസ്റ്റൺ ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2016 ഫെബ്രുവരിയിൽ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഹുദ് ഹുദ് ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2014 ഒക്ടോബർ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"നിലോഫർ ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2014 ഒക്ടോബറിൽ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"അശോഭ ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2014 നവംബറിൽ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"Phailin ചുഴലിക്കാറ്റ്- വര്ഷം",
+	"option1":"2013 ഒക്ടോബറിൽ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജോർജ്ജ് ബർണാഡ് ഷാ അഭിനയിച്ച ചിത്രം?",
+	"option1":"പിഗ്മാലിയൻ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"അറബി വ്യാപാരി സുലൈമാന്‍ കേരളാ സന്ദർശനം ഏതു വർഷത്തിലായിരുന്നു?",
+	"option1":"എ.ഡി. 851",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഡെവിൾസ് വിൻഡ് (ചെകുത്താന്റെ കാറ്റ്) എന്ന് ബ്രിട്ടീഷുകാർ വിശേഷിപ്പിച്ചത്?",
+	"option1":"1857ലെ ഒന്നാം സ്വാതന്ത്ര്യ സമരം",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കേരള നിയമസഭ മലയാള ഭാഷാ ബിൽ പാസാക്കിയത്?",
+	"option1":"2015 ഡിസംബർ 17",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"രാമകൃഷ്ണ മിഷൻ സ്ഥാപിതമായത്?",
+	"option1":"1897",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ഇന്ത്യയിലെ ആദ്യത്തെ കായിക സർവ്വകലാശാല സ്ഥാപിതമായത് എവിടെ?",
+	"option1":"മണിപ്പൂർ",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ആധുനിക മാമാങ്കം നടന്ന വർഷം?",
+	"option1":"1999",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ജനസാന്ദ്രത കുറഞ്ഞ ജില്ല?",
+	"option1":"ഇടുക്കി",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കേരളത്തിലെ ആദ്യത്തെ ICDS പദ്ധതി (1975) ആരംഭിച്ചത്?",
+	"option1":"വെങ്ങറ ബ്ലോക്ക് പഞ്ചായത്ത് (മലപ്പുറം ജില്ല)",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"ചുവന്ന നദി എന്നറിയപ്പെടുന്ന നദി?",
+	"option1":"ബ്രഹ്മപുത്ര",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കേന്ദ്ര സർക്കാർ പാസാക്കിയ പുതിയ ദേശീയ ബൗദ്ധിക സ്വത്തവകാശ നിയമത്തിന്‍റെ (Intellectual Property Rights) മുദ്രാവാക്യം?",
+	"option1":"Creative India; Innovative India",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"കൊച്ചിയിൽ ദിവാൻ ഭരണം അവസാനിച്ച വർഷം?",
+	"option1":"1947",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
+	"question":"നാലാമത്തെ ആണി രചിച്ചത്?",
+	"option1":"ആനന്ദ്",
+	"option2":"option2",
+	"option3":"option3"
+	},
+	{
 	"question":"",
 	"option1":"",
 	"option2":"option2",
