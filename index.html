@@ -2,6 +2,7 @@
 <html ⚡ lang=en>
 
 <head>
+    
     <meta name="google-site-verification" content="PYzEWKwdnAiKZdZVM7adOkm3BY4NNRqYqzotEixkl7Y" />
     <meta charset=UTF-8 />
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -2561,6 +2562,20 @@
 </head>
 
 <body>
+    <amp-analytics type="gtag" data-credentials="include">
+        <script type="application/json">
+        {
+          "vars" : {
+            "gtag_id": "<UA-179394527-1>",
+            "config" : {
+              "<UA-179394527-1>": { "groups": "default" }
+            }
+          }
+        }
+        </script>
+        </amp-analytics>
+
+
     <!-- Google Tag Manager -->
     <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-KH6SR5N&gtm.url=SOURCE_URL"
         data-credentials="include"></amp-analytics>
@@ -2569,6 +2584,9 @@
         <script
             type=application/json> { "duration": "200ms", "fill": "both", "iterations": "1", "direction": "alternate", "animations": [ { "selector": "#scrollToTopButton", "keyframes": [ { "opacity": "1", "visibility": "visible", "transform": "translate(0, 0)" } ] }, { "selector": "#custom-header", "keyframes": [ { "opacity": "1", "visibility": "visible", "transform": "translate(0, 0)" } ] } ] } </script>
     </amp-animation>
+
+
+
     <div id=marker>
         <amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout=nodisplay> </amp-position-observer>
     </div>
