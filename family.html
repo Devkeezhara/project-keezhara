@@ -12,36 +12,10 @@
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicon.png" />
     <link rel="preconnect" href="https://www.googletagmanager.com" />
-    <script async="" custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-    <script async="" custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
-    <script async="" custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-    <script async="" custom-element="amp-lightbox-gallery"
-        src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
-    <script async="" custom-element="amp-user-notification"
-        src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
-    <script async="" custom-element="amp-position-observer"
-        src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
-    <script async="" custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
+
     <script async="" src="https://cdn.ampproject.org/v0.js"></script>
 
-    <script async="" custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
-    <script async="" custom-element="amp-image-lightbox"
-        src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
-    <script async="" custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
-    <script async="" custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
-    <script async="" custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
-    <script async="" custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-    <script async="" custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
 
-    
-    <script async="" custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
-    <script async="" custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
-    <script async="" custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-    <script async="" custom-element="amp-fx-collection"
-        src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
-    
-    <script async="" custom-element="amp-vimeo" src="https://cdn.ampproject.org/v0/amp-vimeo-0.1.js"></script>
-    <script async="" custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
     <style amp-boilerplate>
         body {
             -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -814,31 +788,10 @@
 
     <div id="top-page"></div>
 
-    <amp-animation id="showAnim" layout="nodisplay">
-        <script type="application/json">
-{
-"duration": "200ms",
-"fill": "both",
-"iterations": "1",
-"direction": "alternate",
-"animations": [
-{ "selector": "#scrollToTopButton",
-"keyframes": [ { "opacity": "1", "visibility": "visible", "transform": "translate(0, 0)" } ]
-},
-{ "selector": "#custom-header",
-"keyframes": [ { "opacity": "1", "visibility": "visible", "transform": "translate(0, 0)" } ]
-}
-]
-}
 
-</script>
-    </amp-animation>
 
     <!-- We use `amp-position-observer` to start the animation when the user starts to scroll. -->
-    <div id="marker">
-        <amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay">
-        </amp-position-observer>
-    </div>
+
 
 
 
@@ -2172,13 +2125,7 @@ data-href="https://www.keezhara.com/index.html"
                     </div>
                 </div>
                 <div class="col-6 pad0" data-mydop-item="" data-mydop-card="" data-mydop-display-name="Map">
-                    <amp-iframe data-mydop-display-name="Map" data-mydop-map="" title="google-map1" width="100"
-                        height="100" sandbox="allow-scripts allow-same-origin" layout="responsive" style="height:70vh;"
-                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDSPc8WpNWSw0K4VUusgbOnNstFNY85dX8&amp;q=6555+barton+90038&amp;zoom=17">
-                        <amp-img data-mydop-display-name="Fallback image" data-mydop-image=""
-                            src="https://cdn.dopweb.com/template/default/square1.png" placeholder="" layout="fill">
-                        </amp-img>
-                    </amp-iframe>
+
                 </div>
             </div>
         </div>
@@ -2246,13 +2193,7 @@ data-href="https://www.keezhara.com/index.html"
 
 
 
-    <amp-user-notification id="my-notification" class="cookie-notification" layout="nodisplay">
-        <p data-mydop-display-name="Cookie" data-mydop-text="" class="display-text-4"
-            style="line-height: 120%; letter-spacing: normal;">This website uses cookies to ensure you get the best
-            experience on our website.</p>
-        <button on="tap:my-notification.dismiss"
-            style="margin-left: 5px; background-color:#fff;border:none; line-height:20px;">I accept</button>
-    </amp-user-notification>
+
     <button data-mydop-background-color="" id="scrollToTopButton" on="tap:top-page.scrollTo(duration=800)" class="btn"
         style="background-color:#000; text-align:center; border-radius:20em;padding:10px;" aria-label="scrolltotop">
         <amp-img width="30" height="30" layout="fixed" src="https://cdn.dopweb.com/master/angle-double-up-solid.svg"
