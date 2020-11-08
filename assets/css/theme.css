@@ -2,7 +2,7 @@
 .scrollToTop:hover, .scrollToTop:focus, .pagination_area ul li a{background-color:#fff; color:#ffa500; border-color:1px solid #ffa500}
 .top_nav li a:hover{color:#FFA500}
 .search_form input[type="submit"]:hover{background-color:#FFA500}
-.navbar-default{background-color:#ffa500; border-color:#ffa500}
+.navbar-default{background-color:#ff7800; border-color:#ffa500}
 .custom_nav li a:hover{border-color:#FFAE00}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{background-color:#fff; color:#ffa500; border-color:#FFAE00}
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{background-color:#fff; color:#ffa500; border-color:#FFAE00}
