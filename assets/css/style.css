@@ -10,11 +10,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 @font-face{ font-family:'Oswald'; font-style:normal; font-weight:400; src:local('Oswald Regular'),local('Oswald-Regular'),url("../fonts/Oswald-Regular-400.woff") format('woff')}
-body{background-color:rgb(19, 4, 26); color:rgb(10, 8, 8); overflow-x:hidden !important}
+body{background-color:rgb(0, 0, 0); color:rgb(10, 8, 8); overflow-x:hidden !important}
 ul{padding:0; margin:0; list-style:none}
-a{text-decoration:none; color:#798992}
-a:hover{color:#646464; text-decoration:none}
+a{text-decoration:none; color:#5b97b9}
+a:hover{color:#f37a08; text-decoration:none}
 a:focus{outline:none; text-decoration:none}
+
+
 h2{font-family:'Oswald',sans-serif; line-height:23px}
 img{border:none}
 img:hover{opacity:0.75}
@@ -30,7 +32,7 @@ img:hover{opacity:0.75}
 .blue_btn:hover{background-color:#39c8f7; color:#fff}
 .transition{-webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 #header{float:left; display:inline; width:100%}
-.header_top{ display:inline; float:left; width:100%;  border-bottom:1px solid #e6e6e6}
+.header_top{ display:inline; float:left; width:100%;  border-bottom:1px solid #cc7e7e}
 .header_top_left{ float:left; display:inline; width:70%}
 .top_nav{ text-align:left}
 .top_nav li{ display:inline-block}
@@ -38,13 +40,13 @@ img:hover{opacity:0.75}
 .top_nav li a:hover{ color:#FFA500; text-decoration:none; outline:none}
 .header_top_right{ float:right; display:inline; width:30%; text-align:right}
 .search_form{ padding:3px 0 0}
-.search_form input[type="text"]{ background:none repeat scroll 0 0 #fff; border:medium none; color:#afafaf; display:inline-block; line-height:27px; margin:0; max-height:31px; padding:0 0 0 15px; width:180px}
+.search_form input[type="text"]{ background:none repeat scroll 0 0 rgb(241, 227, 227); border:medium none; color:#afafaf; display:inline-block; line-height:27px; margin:0; max-height:31px; padding:0 0 0 15px; width:180px}
 .search_form input[type="submit"]{ background:url("images/icon-search.png") no-repeat scroll center 5px rgba(0,0,0,0); height:27px; line-height:27px; width:30px; border:none}
 .header_bottom{display:inline; float:left; width:100%; padding:30px 0px}
 .header_bottom_left{float:left; display:inline; width:217px}
 .logo{display:block; font-family:"Oswald",sans-serif; font-size:35px; font-weight:bold; line-height:32px; width:217px}
 .logo > img:hover{opacity:1}
-.logo > strong{color:#FFA500}
+.logo > strong{color:#ff4800}
 .logo > span{display:block; font-size:16px; font-weight:normal}
 .header_bottom_right{float:right; display:inline; width:728px}
 #preloader{position:fixed; top:0; left:0; right:0; bottom:0; background-color:#fff; z-index:99}
