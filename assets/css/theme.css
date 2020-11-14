@@ -1,13 +1,13 @@
 .scrollToTop, .pagination_area ul li a:hover{background-color:#ffa500; color:#fff}
 .scrollToTop:hover, .scrollToTop:focus, .pagination_area ul li a{background-color:#fff; color:#ffa500; border-color:1px solid #ffa500}
-.top_nav li a:hover{color:#FFA500}
+.top_nav li a:hover{color:#0084ff}
 .search_form input[type="submit"]:hover{background-color:#FFA500}
-.navbar-default{background-color:#ff7800; border-color:#ffa500}
-.custom_nav li a:hover{border-color:#FFAE00}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{background-color:#fff; color:#ffa500; border-color:#FFAE00}
+.navbar-default{background-color:#206a74; border-color:#27945e}
+.custom_nav li a:hover{border-color:#3f3112}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{background-color:rgb(18, 224, 70); color:#383633; border-color:#FFAE00}
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{background-color:#fff; color:#ffa500; border-color:#FFAE00}
-.navbar-nav > li > .dropdown-menu{margin-top:1px; background-color:#ffa500}
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:#fff; color:#ffa500; border-color:#FFAE00; padding-left:20px}
+.navbar-nav > li > .dropdown-menu{margin-top:1px; background-color:#30c40c}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:#fff; color:#1100ff; border-color:#FFAE00; padding-left:20px}
 .navbar-default .navbar-nav .open .dropdown-menu > li > a{color:#fff}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color:#fcc259}
 .slick-prev, .slick-next{background-color:#ffa500}
