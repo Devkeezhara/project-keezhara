@@ -50,8 +50,8 @@ h1 {
 }
 
 #chessboard {
-	width: 700px;
-	height: 700px;
+	width: auto;
+	height: auto;
 	float: left;
 	padding: auto;
 }
