@@ -2,7 +2,7 @@ body {
 	width: auto;
 	margin-left: 0px;
 	margin-right: 0px;
-
+	table-layout: auto;
 	text-align: left;
 
 	font-size: 12pt;
@@ -50,6 +50,7 @@ h1 {
 }
 
 #chessboard {
+	table-layout: auto;
 	width: auto;
 	height: auto;
 	float: left;
