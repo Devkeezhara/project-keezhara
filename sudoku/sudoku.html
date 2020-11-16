@@ -82,251 +82,243 @@
               <a href="#">Home</a>
 
             </ol>
-            <h1 class="post_titile"> Sudoku Board </h1>
-
-            <style type="text/css">
-    
-              html, body {
-                background-color: #080000
+            <style>
+              .sudoku-board {
+               min-height: 22.75rem;
+               margin-top: 3px;
+               margin-bottom: 1em;
               }
-        
-              table {
-                border: 2px solid #000000;
-              }
-        
-              td {
-                border: 1px solid #000000;
-                text-align: center;
-                vertical-align: middle;  
-              }
-        
-              input {
-                color: #000000;
-                padding: 0;
-                border: 0;
-                text-align: center;
-                width: 48px;
-                height: 48px;
-                font-size: 24px;
-                background-color: #FFFFFF;
-                outline: none;
-              }
-        
-              input:disabled {
-                background-color: #EEEEEE;
-              }
-        
-              #cell-0,  #cell-1,  #cell-2  { border-top:    2px solid #000000; }
-              #cell-2,  #cell-11, #cell-20 { border-right:  2px solid #000000; }
-              #cell-18, #cell-19, #cell-20 { border-bottom: 2px solid #000000; }
-              #cell-0,  #cell-9,  #cell-18 { border-left:   2px solid #000000; }
-        
-              #cell-3,  #cell-4,  #cell-5  { border-top:    2px solid #000000; }
-              #cell-5,  #cell-14, #cell-23 { border-right:  2px solid #000000; }
-              #cell-21, #cell-22, #cell-23 { border-bottom: 2px solid #000000; }
-              #cell-3,  #cell-12, #cell-21 { border-left:   2px solid #000000; }
-        
-              #cell-6,  #cell-7,  #cell-8  { border-top:    2px solid #000000; }
-              #cell-8,  #cell-17, #cell-26 { border-right:  2px solid #000000; }
-              #cell-24, #cell-25, #cell-26 { border-bottom: 2px solid #000000; }
-              #cell-6,  #cell-15, #cell-24 { border-left:   2px solid #000000; }
-        
-              #cell-27, #cell-28, #cell-29 { border-top:    2px solid #000000; }
-              #cell-29, #cell-38, #cell-47 { border-right:  2px solid #000000; }
-              #cell-45, #cell-46, #cell-47 { border-bottom: 2px solid #000000; }
-              #cell-27, #cell-36, #cell-45 { border-left:   2px solid #000000; }
-        
-              #cell-30, #cell-31, #cell-32 { border-top:    2px solid #000000; }
-              #cell-32, #cell-41, #cell-50 { border-right:  2px solid #000000; }
-              #cell-48, #cell-49, #cell-50 { border-bottom: 2px solid #000000; }
-              #cell-30, #cell-39, #cell-48 { border-left:   2px solid #000000; }
-        
-              #cell-33, #cell-34, #cell-35 { border-top:    2px solid #000000; }
-              #cell-35, #cell-44, #cell-53 { border-right:  2px solid #000000; }
-              #cell-51, #cell-52, #cell-53 { border-bottom: 2px solid #000000; }
-              #cell-33, #cell-42, #cell-51 { border-left:   2px solid #000000; }
-        
-              #cell-54, #cell-55, #cell-56 { border-top:    2px solid #000000; }
-              #cell-56, #cell-65, #cell-74 { border-right:  2px solid #000000; }
-              #cell-72, #cell-73, #cell-74 { border-bottom: 2px solid #000000; }
-              #cell-54, #cell-63, #cell-72 { border-left:   2px solid #000000; }
-        
-              #cell-57, #cell-58, #cell-59 { border-top:    2px solid #000000; }
-              #cell-59, #cell-68, #cell-77 { border-right:  2px solid #000000; }
-              #cell-75, #cell-76, #cell-77 { border-bottom: 2px solid #000000; }
-              #cell-57, #cell-66, #cell-75 { border-left:   2px solid #000000; }
-        
-              #cell-60, #cell-61, #cell-62 { border-top:    2px solid #000000; }
-              #cell-62, #cell-71, #cell-80 { border-right:  2px solid #000000; }
-              #cell-78, #cell-79, #cell-80 { border-bottom: 2px solid #000000; }
-              #cell-60, #cell-69, #cell-78 { border-left:   2px solid #000000; }
-        
-            </style>
- 
-        
-            <div class="container">
               
-              <h1></h1>
-        
-              <table id="grid">
-        
-                <tr>
-                  <td><input id="cell-0"  type="text" value="5" disabled></td>
-                  <td><input id="cell-1"  type="text" value="3" disabled></td>
-                  <td><input id="cell-2"  type="text"></td>
+              .sudoku-board-cell {
+               display: inline-block;
+               position: relative;
+               border: 1px solid #ddd;
+               background: white;
+               max-width: 11.11111%;
+              }
+              
+              [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(9n+1) {
+               border-left-width: 2px;
+               border-left-color: #808080;
+              }
+              
+              [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(n):nth-of-type(-n+9) {
+               border-top-width: 2px;
+               border-top-color: #808080;
+              }
+              
+              [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(3n) {
+               border-right-width: 2px;
+               border-right-color: #808080;
+              }
+              
+              [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(n+19):nth-of-type(-n+27),
+              [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(n+46):nth-of-type(-n+54),
+              [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(n+73):nth-of-type(-n+81) {
+               border-bottom-width: 2px;
+               border-bottom-color: #808080;
+              }
+              
+              .sudoku-board-cell input {
+               background: none;
+               font-size: 19.2px;
+               font-size: 1.2rem;
+               text-align: center;
+               width: 2em;
+               max-width: 100%;
+               height: 2em;
+               border: 0;
+               position: relative;
+               z-index: 1; /*on top of candidates*/
+              }
+              
+              .sudoku-board-cell .highlight-val {
+               color: #00d;
+              }
+              
+              .sudoku-board-cell .board-cell--error {
+               background: #d00;
+               color: #eee;
+              }
+              
+              .sudoku-board-cell .candidates {
+               display: none; /*hidden by default*/
+               position: absolute;
+               top: 0; bottom: 0; left: 0; right: 0;
+               text-align: center;
+               font-size: .75em;
+               letter-spacing: -.5px;
+               font-family: monospace, sans-serif;
+               line-height: 0;
+               text-align: justify;
+              }
+              
+              .sudoku-board .candidates:after {
+               content: "";
+               display: inline-block;
+               width: 100%;
+              }
+              
+              @media(max-width: 23em){
+               .sudoku-board .candidates {
+                letter-spacing: -2px;
+               }
+              }
+               .showCandidates .candidates {
+                display: block;
+               }
+              
+              .sudoku-board .candidates div {
+               display: inline-block;
+               width: 20%;
+               line-height: 1.13;
+               vertical-align: top;
+               *display: inline;
+               *zoom: 1;
+              }
+              
+              .candidate--highlight {
+               background-color: yellow;
+              }
+              .candidate--to-remove {
+               background-color: red;
+               color: white;
+              }
+              
+              .sudokubutton1,.sudokubutton2,.sudokubutton3,.sudokubutton4,
+              .sudokubutton5,.sudokubutton6,.sudokubutton7 {
+              color: white;
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              padding: 1px 6px;
+              }
+              .sudokubutton1 {
+              background-color: #3cbf71;
+              }
+              .sudokubutton2 {
+              background-color: #ff9224;
+              }
+              .sudokubutton3 {
+              background-color: #ff3c3c;
+              }
+              .sudokubutton4 {
+              background-color: #020202;
+              }
+              .sudokubutton5,.sudokubutton6 {
+              background-color: #4040ff;
+              }
+              .sudokubutton7 {
+              background-color: #899db6;
+              }
+              .sudokubutton1:hover,.sudokubutton2:hover,.sudokubutton3:hover,.sudokubutton4:hover,
+              .sudokubutton5:hover,.sudokubutton6:hover,.sudokubutton7:hover {
+              background-color: #EDEDED;
+              color: black;
+              cursor: pointer;
+              }
+              
+              * {
+               margin:0; padding:0;
+               -moz-box-sizing: border-box;
+               -webkit-box-sizing: border-box;
+               box-sizing: border-box;
+              }
+              
+              .wrap {
+               padding: 2em 1em;
+               width: 400px;
+               max-width: 100%;
+               margin-left: auto;
+               margin-right: auto;
+              }
+              
+              @media(min-width: 30em) {
+               .wrap {
+                width: 490px;
+               }
+               .sudoku-board input {
+                font-size: 24px;
+                font-size: 1.5rem;
+               }
+               .sudoku-board .candidates {
+                font-size: .8em;
+               }
+              }
+              </style>
+              
+              <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+              <script src="https://mczak.com/code/sudoku/js/sudoku2.js"></script>
+              <!-- </head> -->
+              
+              <!-- <body> -->
+              <div class="wrap">
                   
-                  <td><input id="cell-3"  type="text"></td>
-                  <td><input id="cell-4"  type="text" value="7" disabled></td>
-                  <td><input id="cell-5"  type="text"></td>
-                  
-                  <td><input id="cell-6"  type="text"></td>
-                  <td><input id="cell-7"  type="text"></td>
-                  <td><input id="cell-8"  type="text"></td>
-                </tr>
-        
-                <tr>
-                  <td><input id="cell-9"  type="text" value="6" disabled></td>
-                  <td><input id="cell-10" type="text"></td>
-                  <td><input id="cell-11" type="text"></td>
-                  
-                  <td><input id="cell-12" type="text" value="1" disabled></td>
-                  <td><input id="cell-13" type="text" value="9" disabled></td>
-                  <td><input id="cell-14" type="text" value="5" disabled></td>
-                  
-                  <td><input id="cell-15" type="text"></td>
-                  <td><input id="cell-16" type="text"></td>
-                  <td><input id="cell-17" type="text"></td>
-                </tr>
-        
-                <tr>          
-                  <td><input id="cell-18" type="text"></td>
-                  <td><input id="cell-19" type="text" value="9" disabled></td>
-                  <td><input id="cell-20" type="text" value="8" disabled></td>
-                  
-                  <td><input id="cell-21" type="text"></td>
-                  <td><input id="cell-22" type="text"></td>
-                  <td><input id="cell-23" type="text"></td>
-                  
-                  <td><input id="cell-24" type="text"></td>
-                  <td><input id="cell-25" type="text" value="6" disabled></td>
-                  <td><input id="cell-26" type="text"></td>
-                </tr>
-        
-                <tr>          
-                  <td><input id="cell-27" type="text" value="8" disabled></td>
-                  <td><input id="cell-28" type="text"></td>
-                  <td><input id="cell-29" type="text"></td>
-                  
-                  <td><input id="cell-30" type="text"></td>
-                  <td><input id="cell-31" type="text" value="6" disabled></td>
-                  <td><input id="cell-32" type="text"></td>
-                  
-                  <td><input id="cell-33" type="text"></td>
-                  <td><input id="cell-34" type="text"></td>
-                  <td><input id="cell-35" type="text" value="3" disabled></td>
-                </tr>
-        
-                <tr>          
-                  <td><input id="cell-36" type="text" value="4" disabled></td>
-                  <td><input id="cell-37" type="text"></td>
-                  <td><input id="cell-38" type="text"></td>
-                  
-                  <td><input id="cell-39" type="text" value="8" disabled></td>
-                  <td><input id="cell-40" type="text"></td>
-                  <td><input id="cell-41" type="text" value="3" disabled></td>
-                  
-                  <td><input id="cell-42" type="text"></td>
-                  <td><input id="cell-43" type="text"></td>
-                  <td><input id="cell-44" type="text" value="1" disabled></td>
-                </tr>
-        
-                <tr>          
-                  <td><input id="cell-45" type="text" value="7" disabled></td>
-                  <td><input id="cell-46" type="text"></td>
-                  <td><input id="cell-47" type="text"></td>
-                  
-                  <td><input id="cell-48" type="text"></td>
-                  <td><input id="cell-49" type="text" value="2" disabled></td>
-                  <td><input id="cell-50" type="text"></td>
-                  
-                  <td><input id="cell-51" type="text"></td>
-                  <td><input id="cell-52" type="text"></td>
-                  <td><input id="cell-53" type="text" value="6" disabled></td>
-                </tr>
-        
-                <tr>          
-                  <td><input id="cell-54" type="text"></td>
-                  <td><input id="cell-55" type="text" value="6" disabled></td>
-                  <td><input id="cell-56" type="text"></td>
-                  
-                  <td><input id="cell-57" type="text"></td>
-                  <td><input id="cell-58" type="text"></td>
-                  <td><input id="cell-59" type="text"></td>
-                  
-                  <td><input id="cell-60" type="text" value="2" disabled></td>
-                  <td><input id="cell-61" type="text" value="8" disabled></td>
-                  <td><input id="cell-62" type="text"></td>
-                </tr>
-        
-                <tr>          
-                  <td><input id="cell-63" type="text"></td>
-                  <td><input id="cell-64" type="text"></td>
-                  <td><input id="cell-65" type="text"></td>
-                  
-                  <td><input id="cell-66" type="text" value="4" disabled></td>
-                  <td><input id="cell-67" type="text" value="1" disabled></td>
-                  <td><input id="cell-68" type="text" value="9" disabled></td>
-                  
-                  <td><input id="cell-69" type="text"></td>
-                  <td><input id="cell-70" type="text"></td>
-                  <td><input id="cell-71" type="text" value="5" disabled></td>
-                </tr>
-        
-                <tr>          
-                  <td><input id="cell-72" type="text"></td>
-                  <td><input id="cell-73" type="text"></td>
-                  <td><input id="cell-74" type="text"></td>
-                  
-                  <td><input id="cell-75" type="text"></td>
-                  <td><input id="cell-76" type="text" value="8" disabled></td>
-                  <td><input id="cell-77" type="text"></td>
-                  
-                  <td><input id="cell-78" type="text"></td>
-                  <td><input id="cell-79" type="text" value="7" disabled></td>
-                  <td><input id="cell-80" type="text" value="9" disabled></td>
-                </tr>
-        
-              </table>
-        
-            </div>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              <!--show candidates toggle-->
+              <label for="toggleCandidates">Show candidates </label>
+              <input id="toggleCandidates" class="js-candidate-toggle" type="checkbox"/>
+              <!--generate board buttons-->
+              New:
+              <button type="button" class="sudokubutton1 js-generate-board-btn--easy">Easy</button>
+              <button type="button" class="sudokubutton2 js-generate-board-btn--medium">Medium</button>
+              <button type="button" class="sudokubutton3 js-generate-board-btn--hard">Hard</button>
+              <button type="button" class="sudokubutton4 js-generate-board-btn--very-hard">Very Hard</button>
+              
+              <!--the only required html-->
+              <div id="sudoku" class="sudoku-board">
+              </div>
+              
+              <!--solve buttons-->
+              Solve: <button type="button" class="sudokubutton5 js-solve-step-btn">One Step</button>
+              <button type="button" class="sudokubutton6 js-solve-all-btn">All</button>
+              <br>
+              <!--clear board btn-->
+              Clear: <button type="button" class="sudokubutton7 js-clear-board-btn">Board</button>
+              </div>
+              
+              <script>
+               var $candidateToggle = $(".js-candidate-toggle"),
+               $generateBoardBtnEasy = $(".js-generate-board-btn--easy"),
+               $generateBoardBtnMedium = $(".js-generate-board-btn--medium"),
+               $generateBoardBtnHard = $(".js-generate-board-btn--hard"),
+               $generateBoardBtnVeryHard = $(".js-generate-board-btn--very-hard"),
+               
+               $solveStepBtn = $(".js-solve-step-btn"),
+               $solveAllBtn = $(".js-solve-all-btn"),
+               $clearBoardBtn = $(".js-clear-board-btn"),
+               
+               mySudokuJS = $("#sudoku").sudokuJS({
+                difficulty: "very hard"
+                //change state of our candidate showing checkbox on change in sudokuJS
+                ,candidateShowToggleFn : function(showing){
+                 $candidateToggle.prop("checked", showing);
+                }
+               });
+              
+               $solveStepBtn.on("click", mySudokuJS.solveStep);
+               $solveAllBtn.on("click", mySudokuJS.solveAll);
+               $clearBoardBtn.on("click", mySudokuJS.clearBoard);
+              
+               $generateBoardBtnEasy.on("click", function(){
+                mySudokuJS.generateBoard("easy");
+               });
+               $generateBoardBtnMedium.on("click", function(){
+                mySudokuJS.generateBoard("medium");
+               });
+               $generateBoardBtnHard.on("click", function(){
+                mySudokuJS.generateBoard("hard");
+               });
+               $generateBoardBtnVeryHard.on("click", function(){
+                mySudokuJS.generateBoard("very hard");
+               });
+              
+               $candidateToggle.on("change", function(){
+                if($candidateToggle.is(":checked"))
+                 mySudokuJS.showCandidates();
+                else
+                 mySudokuJS.hideCandidates();
+               });
+               $candidateToggle.trigger("change");
+              </script>
 
 
 
