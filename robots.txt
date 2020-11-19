@@ -1,4 +1,5 @@
 User-agent: Googlebot
-Disallow:
+User-agent: Bingbot
+
  
 Sitemap: https://www.keezhara.com/sitemap.xml
