@@ -29,8 +29,10 @@ h1 {
 }
 
 #content {
-	background: white;
+	background: rgb(231, 222, 222);
 	padding: 10px 5px;
+	width: fit-content;
+
 }
 
 #help {
