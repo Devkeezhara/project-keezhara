@@ -98,6 +98,36 @@
       height: auto;
     }
     </style>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?AIzaSyDrU0aE7iBFF50so5ZhsmZO6sva7IBIyS8&callback=initMap&libraries=&v=weekly"
+        defer
+      ></script>
+      <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+          height: 200px;
+          /* The height is 400 pixels */
+          width: 100%;
+          /* The width is the width of the web page */
+        }
+      </style>
+      <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of keezhara
+          const keezhara = { lat: 11.999371, lng: 75.327689 };
+          // The map, centered at keezhara
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: keezhara,
+          });
+          // The marker, positioned at Uluru
+          const marker = new google.maps.Marker({
+            position: keezhara,
+            map: map,
+          });
+        }
+      </script>
     
 </head>
 <body>
@@ -551,6 +581,10 @@
            
             <a href="https://twitter.com/intent/tweet?screen_name=keezhara&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @keezhara</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <br>
+          <h3>My Google Maps Demo</h3>
+          <!--The div element for the map -->
+          <div id="map"></div>
+        </body>
   </div>
         </div>
       </div>
