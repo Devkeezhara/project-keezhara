@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Play Free Sudoku online - solve web sudoku puzzles</title>
+  <title>Youtube Downloader - Download and Save YouTube Videos</title>
   <meta name="google-site-verification" content="PYzEWKwdnAiKZdZVM7adOkm3BY4NNRqYqzotEixkl7Y" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179394527-1"></script>
@@ -18,7 +18,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-    content="Play free Sudoku online from Easy to Expert level on Sudoku.com. Select a difficulty level of a web sudoku puzzle to challenge yourself and enjoy the game!">
+    content="The fastest free YouTube video downloader. Download and save YouTube video for free in 720p, 1080p, HD, and FullHD quality.">
   <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
@@ -29,28 +29,7 @@
 <script src="../assets/js/html5shiv.min.js"></script>
 <script src="../assets/js/respond.min.js"></script>
 <![endif]-->
-  <!--This Sudoku game is licensed under the MIT license:
 
-Copyright (c) 2015 Jonas Ohlsson Aden (jonassebastianohlsson.com)
-Modified work copyright (c) 2019 Nicolai Jaeger (McZak.com)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.-->
 
   <script type='text/javascript'
     src='https://platform-api.sharethis.com/js/sharethis.js#property=5f9ee9f9de3ed900198bbe88&product=inline-share-buttons'
@@ -144,280 +123,22 @@ SOFTWARE.-->
             <div class="single_page_area">
               <ol class="breadcrumb">
                 <a href="/#123456">GAMES</a>
+</ol>
+<div>
+                <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+                <form class="form-download" method="get" id="download" action="http://youtube-download.bl.ee/getvideo.php">
+                  <h1 class="form-download-heading">Youtube Downloader</h1>
+                  <div class="input-group">
+                    <span class="input-group-addon">https://www.youtube.com/watch?v=</span>
+                  <input type="text" class="form-control" name="videoid" id="videoid" size="40" placeholder="Video ID"></div>
+                  <span class="help-block">Put in just the ID bit, the part after v=.</span>
+                  <input class="btn btn-primary btn-lg btn-block" type="submit" name="type" id="type" value="Download">
+                  <span class="help-block">Example: https://www.youtube.com/watch?v=<b>x0Er5zX_sCw</b></span>
+              <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fyoutube-download.bl.ee%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=793574723989121" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowtransparency="true"></iframe>
+ 
+              
 
-              </ol>
-              <style>
-                .sudoku-board {
-                  min-height: 22.75rem;
-                  margin-top: 3px;
-                  margin-bottom: 1em;
-                }
-
-                .sudoku-board-cell {
-                  display: inline-block;
-                  position: relative;
-                  border: 1px solid #ddd;
-                  background: white;
-                  max-width: 11.11111%;
-                }
-
-                [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(9n+1) {
-                  border-left-width: 2px;
-                  border-left-color: #808080;
-                }
-
-                [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(n):nth-of-type(-n+9) {
-                  border-top-width: 2px;
-                  border-top-color: #808080;
-                }
-
-                [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(3n) {
-                  border-right-width: 2px;
-                  border-right-color: #808080;
-                }
-
-                [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(n+19):nth-of-type(-n+27),
-                [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(n+46):nth-of-type(-n+54),
-                [data-board-size="9"].sudoku-board .sudoku-board-cell:nth-of-type(n+73):nth-of-type(-n+81) {
-                  border-bottom-width: 2px;
-                  border-bottom-color: #808080;
-                }
-
-                .sudoku-board-cell input {
-                  background: none;
-                  font-size: 19.2px;
-                  font-size: 1.2rem;
-                  text-align: center;
-                  width: 2em;
-                  max-width: 100%;
-                  height: 2em;
-                  border: 0;
-                  position: relative;
-                  z-index: 1;
-                  /*on top of candidates*/
-                }
-
-                .sudoku-board-cell .highlight-val {
-                  color: #00d;
-                }
-
-                .sudoku-board-cell .board-cell--error {
-                  background: #d00;
-                  color: #eee;
-                }
-
-                .sudoku-board-cell .candidates {
-                  display: none;
-                  /*hidden by default*/
-                  position: absolute;
-                  top: 0;
-                  bottom: 0;
-                  left: 0;
-                  right: 0;
-                  text-align: center;
-                  font-size: .75em;
-                  letter-spacing: -.5px;
-                  font-family: monospace, sans-serif;
-                  line-height: 0;
-                  text-align: justify;
-                }
-
-                .sudoku-board .candidates:after {
-                  content: "";
-                  display: inline-block;
-                  width: 100%;
-                }
-
-                @media(max-width: 23em) {
-                  .sudoku-board .candidates {
-                    letter-spacing: -2px;
-                  }
-                }
-
-                .showCandidates .candidates {
-                  display: block;
-                }
-
-                .sudoku-board .candidates div {
-                  display: inline-block;
-                  width: 20%;
-                  line-height: 1.13;
-                  vertical-align: top;
-                  *display: inline;
-                  *zoom: 1;
-                }
-
-                .candidate--highlight {
-                  background-color: yellow;
-                }
-
-                .candidate--to-remove {
-                  background-color: red;
-                  color: white;
-                }
-
-                .sudokubutton1,
-                .sudokubutton2,
-                .sudokubutton3,
-                .sudokubutton4,
-                .sudokubutton5,
-                .sudokubutton6,
-                .sudokubutton7 {
-                  color: white;
-                  -webkit-transition-duration: 0.3s;
-                  transition-duration: 0.3s;
-                  padding: 1px 6px;
-                }
-
-                .sudokubutton1 {
-                  background-color: #3cbf71;
-                }
-
-                .sudokubutton2 {
-                  background-color: #ff9224;
-                }
-
-                .sudokubutton3 {
-                  background-color: #ff3c3c;
-                }
-
-                .sudokubutton4 {
-                  background-color: #020202;
-                }
-
-                .sudokubutton5,
-                .sudokubutton6 {
-                  background-color: #4040ff;
-                }
-
-                .sudokubutton7 {
-                  background-color: #899db6;
-                }
-
-                .sudokubutton1:hover,
-                .sudokubutton2:hover,
-                .sudokubutton3:hover,
-                .sudokubutton4:hover,
-                .sudokubutton5:hover,
-                .sudokubutton6:hover,
-                .sudokubutton7:hover {
-                  background-color: #EDEDED;
-                  color: black;
-                  cursor: pointer;
-                }
-
-                * {
-                  margin: 0;
-                  padding: 0;
-                  -moz-box-sizing: border-box;
-                  -webkit-box-sizing: border-box;
-                  box-sizing: border-box;
-                }
-
-                .wrap {
-                  padding: 2em 1em;
-                  width: 400px;
-                  max-width: 100%;
-                  margin-left: auto;
-                  margin-right: auto;
-                }
-
-                @media(min-width: 30em) {
-                  .wrap {
-                    width: 490px;
-                  }
-
-                  .sudoku-board input {
-                    font-size: 24px;
-                    font-size: 1.5rem;
-                  }
-
-                  .sudoku-board .candidates {
-                    font-size: .8em;
-                  }
-                }
-              </style>
-
-              <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
-              <script src="https://mczak.com/code/sudoku/js/sudoku2.js"></script>
-              <!-- </head> -->
-
-              <!-- <body> -->
-              <div class="wrap">
-
-                <!--show candidates toggle-->
-                <label for="toggleCandidates">Show candidates </label>
-                <input id="toggleCandidates" class="js-candidate-toggle" type="checkbox" />
-                <!--generate board buttons-->
-                New:
-                <button type="button" class="sudokubutton1 js-generate-board-btn--easy">Easy</button>
-                <button type="button" class="sudokubutton2 js-generate-board-btn--medium">Medium</button>
-                <button type="button" class="sudokubutton3 js-generate-board-btn--hard">Hard</button>
-                <button type="button" class="sudokubutton4 js-generate-board-btn--very-hard">Very Hard</button>
-
-                <!--the only required html-->
-                <div id="sudoku" class="sudoku-board">
-                </div>
-
-                <!--solve buttons-->
-                Solve: <button type="button" class="sudokubutton5 js-solve-step-btn">One Step</button>
-                <button type="button" class="sudokubutton6 js-solve-all-btn">All</button>
-                <br><br>
-                <!--clear board btn-->
-                Clear: <button type="button" class="sudokubutton7 js-clear-board-btn">Board</button>
-              </div>
-
-              <script>
-                var $candidateToggle = $(".js-candidate-toggle"),
-                  $generateBoardBtnEasy = $(".js-generate-board-btn--easy"),
-                  $generateBoardBtnMedium = $(".js-generate-board-btn--medium"),
-                  $generateBoardBtnHard = $(".js-generate-board-btn--hard"),
-                  $generateBoardBtnVeryHard = $(".js-generate-board-btn--very-hard"),
-
-                  $solveStepBtn = $(".js-solve-step-btn"),
-                  $solveAllBtn = $(".js-solve-all-btn"),
-                  $clearBoardBtn = $(".js-clear-board-btn"),
-
-                  mySudokuJS = $("#sudoku").sudokuJS({
-                    difficulty: "very hard"
-                    //change state of our candidate showing checkbox on change in sudokuJS
-                    , candidateShowToggleFn: function (showing) {
-                      $candidateToggle.prop("checked", showing);
-                    }
-                  });
-
-                $solveStepBtn.on("click", mySudokuJS.solveStep);
-                $solveAllBtn.on("click", mySudokuJS.solveAll);
-                $clearBoardBtn.on("click", mySudokuJS.clearBoard);
-
-                $generateBoardBtnEasy.on("click", function () {
-                  mySudokuJS.generateBoard("easy");
-                });
-                $generateBoardBtnMedium.on("click", function () {
-                  mySudokuJS.generateBoard("medium");
-                });
-                $generateBoardBtnHard.on("click", function () {
-                  mySudokuJS.generateBoard("hard");
-                });
-                $generateBoardBtnVeryHard.on("click", function () {
-                  mySudokuJS.generateBoard("very hard");
-                });
-
-                $candidateToggle.on("change", function () {
-                  if ($candidateToggle.is(":checked"))
-                    mySudokuJS.showCandidates();
-                  else
-                    mySudokuJS.hideCandidates();
-                });
-                $candidateToggle.trigger("change");
-              </script>
-
-
-
-
-
-
-
+            </div>
 
 
 
@@ -510,26 +231,11 @@ SOFTWARE.-->
                     <div class="media-body">
                       <h4 class="media-heading"><a href="/pscgk/psc.html">KERALA PSC GK QUIZ </a></h4>
                       <p>ചോദ്യോത്തര രീതിയിൽ ക്രമീകരിച്ചത്. ശരിയുത്തരങ്ങൾ-മലയാളത്തിൽ കൊടുത്തിരിക്കുന്നു
+
                       </p>
                     </div>
                   </div>
                 </li>
-                <li>
-                  <div class="media wow fadeInDown"> <a href="/youtube/youtube.html" class="media-left"><img
-                        alt="KERALA PSC GK QUIZ" src="/youtube/youtube.png"> </a>
-                    <div class="media-body">
-                      <h4 class="media-heading"><a href="/youtube/youtube.html">YouTube Video Downloader </a></h4>
-                      <p>ഈസിയായി യൂട്യൂബ് വീഡിയോകൾ ഡൌൺലോഡ് ചെയ്യാം 
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-
-
-
-
-
               </ul>
             </div>
 
