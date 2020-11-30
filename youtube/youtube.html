@@ -25,7 +25,11 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/slick.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/theme.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+ 
+  
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
   <!--[if lt IE 9]>
 <script src="../assets/js/html5shiv.min.js"></script>
 <script src="../assets/js/respond.min.js"></script>
@@ -123,31 +127,108 @@
           <div class="content_bottom_left">
             <div class="single_page_area">
               <ol class="breadcrumb">
-                <a href="/#123456">GAMES</a>
+                <a href="/#123456">Youtube Videos Download Any Online Videos</a>
+
+
 </ol>
-<div>
-               
-                <form class="form-download" method="get" id="download" action="http://youtube-download.bl.ee/getvideo.php">
-                  <h1 class="form-download-heading">Youtube Downloader</h1>
-                  <div class="input-group">
-                    <span class="input-group-addon">https://www.youtube.com/watch?v=</span>
-                  <input type="text" class="form-control" name="videoid" id="videoid" size="40" placeholder="Video ID"></div>
-                  <span class="help-block">Put in just the ID bit, the part after v=.</span>
-                  <input class="btn btn-primary btn-lg btn-block" type="submit" name="type" id="type" value="Download">
-                  <span class="help-block">Example: https://www.youtube.com/watch?v=<b>x0Er5zX_sCw</b></span>
-              <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fyoutube-download.bl.ee%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=793574723989121" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowtransparency="true"></iframe>
- 
-              
 
+<body class="bg-dark">
+       <div class="col-md-6 offset-md-3 mt-5">
+    <div class="card">
+      <div class="card-header bg-info">
+        <h5>Youtube Videos Download Any Online Videos</h5>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label class="text-weight"><b>Online Videos Link:</b></label>
+              <input type="txt" name="link" class="form-control link" required>
             </div>
-
-
-
-
-
-
-
-
+          </div>
+        </div>
+        <br>
+        <form class="form-download">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="text-weight"><b>Select Video Fromate:</b></label>
+                <select class="form-control formte" required>
+                  <option selected disabled>Select Video Formate</option>
+                  <option value="mp3">Mp3</option>
+                  <option value="mp4a">144 Mp4</option>
+                  <option value="360">360 Mp4</option>
+                  <option value="480">480 Mp4</option>
+                  <option value="720">720 Mp4</option>
+                  <option value="1080">1080 Mp4</option>
+                  <option value="4k">4k Mp4</option>
+                  <option value="8k">8k Mp4</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group mt-4 download-video">
+                <button class="btn btn-success btn-block click-btn-down" type="submit">Click Me</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+<script type="text/javascript">
+  $(".click-btn-down").click(function(){
+      var link = $(".link").val();
+    var fromate = $(".formte").children("option:selected").val();
+    var src =""+link+"="+fromate+"";
+    downloadVideo(link,fromate);
+  });
+  function downloadVideo(link,fromate) {
+      $('.download-video').html('<iframe style="width:100%;height:60px;border:0;overflow:hidden;" scrolling="no" src="https://loader.to/api/button/?url='+link+'&f='+fromate+'"></iframe>');
+  }
+</script>
 
 
 
@@ -162,8 +243,8 @@
               <div class="fb-comments" data-href="https://www.keezhara.com/sudoku/sudoku.html" data-numposts="5"
                 data-width="auto"></div>
 
-            </div>
-          </div>
+        
+        
 
           <br>
           <div class="sharethis-inline-share-buttons"></div>
