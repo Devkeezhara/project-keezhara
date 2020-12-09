@@ -1,932 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta name="google-site-verification" content="PYzEWKwdnAiKZdZVM7adOkm3BY4NNRqYqzotEixkl7Y" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <meta name="author" content="Vasu Dev" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicon.png" />
-    <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <title>Play Free Sudoku online - solve web sudoku puzzles</title>
+  <meta name="google-site-verification" content="PYzEWKwdnAiKZdZVM7adOkm3BY4NNRqYqzotEixkl7Y" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179394527-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179394527-1');
+  </script>
+  <meta http-equiv="content-language" content="en-gb">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Play free Sudoku online from Easy to Expert level on Sudoku.com. Select a difficulty level of a web sudoku puzzle to challenge yourself and enjoy the game!">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/slick.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/theme.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <!--[if lt IE 9]>
+<script src="../assets/js/html5shiv.min.js"></script>
+<script src="../assets/js/respond.min.js"></script>
+<![endif]-->
 
 
- 
-    <script async="" src="https://cdn.ampproject.org/v0.js"></script>
+  <script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=5f9ee9f9de3ed900198bbe88&product=inline-share-buttons'
+    async='async'></script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '463996767915315');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=463996767915315&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 
-    <style amp-boilerplate>
-        body {
-            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-            animation: -amp-start 8s steps(1, end) 0s 1 normal both
-        }
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700|Anton&display=swap"
+  rel="stylesheet" />
 
-        @-webkit-keyframes -amp-start {
-            from {
-                visibility: hidden
-            }
+<style>
+  body {
+    --main-color-1: #343a40;
+    --main-bg-color: #fff;
+    --main-tx-color-1: #343a40;
+    --white-color: rgba(255, 0, 0, 0.5);
+    --navbar-bg-color: #ffffff00;
+    --navbar-tx-color: #343a40;
+    --footer-bg-color: #fff;
+    --footer-tx-color: #343a40;
+    --title-font: "Julius Sans One", sans-serif;
+    --text-font: "roboto", sans-serif;
+    --main-btn-radius: 30px;
+    --title-1-desktop: 53px "Raleway", sans-serif;
+    --title-1-mobile: 35px "Raleway", sans-serif;
+    --title-2-desktop: 37px "Raleway", sans-serif;
+    --title-2-mobile: 28px "Raleway", sans-serif;
+    --title-3-desktop: 31px "Raleway", sans-serif;
+    --title-3-mobile: 27px "Raleway", sans-serif;
+    --title-4-desktop: 25px "Raleway", sans-serif;
+    --title-4-mobile: 18px "Raleway", sans-serif;
+    --text-1-desktop: 20px "Poppins", sans-serif;
+    --text-1-mobile: 20px "Poppins", sans-serif;
+    --text-2-desktop: 16px "Poppins", sans-serif;
+    --text-2-mobile: 16px "Poppins", sans-serif;
+    --text-3-desktop: 15px "Poppins", sans-serif;
+    --text-3-mobile: 15px "Poppins", sans-serif;
+    --text-4-desktop: 13px "Poppins", sans-serif;
+    --text-4-mobile: 13px "Poppins", sans-serif;
+    font-size: var(--font-size);
+    position: var(--position);
+    --var-navbar-padding: 11px;
+    --mobile-navbar-bg-color: #343a40;
+    --navbar-2nd-bg-color: #343a40;
+    --drop-navbar-bg-color: var(--mobile-navbar-bg-color)
+}
 
-            to {
-                visibility: visible
-            }
-        }
+a,
+span {
+    margin: 5px auto
+}
 
-        @-moz-keyframes -amp-start {
-            from {
-                visibility: hidden
-            }
+/*** end calculato css  ***/
 
-            to {
-                visibility: visible
-            }
-        }
 
-        @-ms-keyframes -amp-start {
-            from {
-                visibility: hidden
-            }
 
-            to {
-                visibility: visible
-            }
-        }
+.calculator {
+width: 250px;
+background-color: #2c3e50;
+background-image: linear-gradient(to right, #334b63 0%, #4b6580 40%, #4b6580 60%, #334b63 100%);
+border-width: 1px;
+border-style: solid;
+border-top-color: rgba(255, 255, 255, 0.6);
+border-bottom-color: black;
+border-right-color: black;
+border-left-color: black;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), inset 0 0 3px 4px rgba(0, 0, 0, 0.5);
+border-top: 4px solid rgba(255, 255, 255, 0.2);
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
 
-        @-o-keyframes -amp-start {
-            from {
-                visibility: hidden
-            }
-
-            to {
-                visibility: visible
-            }
-        }
-
-        @keyframes -amp-start {
-            from {
-                visibility: hidden
-            }
-
-            to {
-                visibility: visible
-            }
-        }
-    </style><noscript>
-        <style amp-boilerplate="">
-            body {
-                -webkit-animation: none;
-                -moz-animation: none;
-                -ms-animation: none;
-                animation: none
-            }
-        </style>
-    </noscript>
-    <!-- end  template head here-->
-    <title> Awesome Calculator </title>
-    <meta name="description" content=" Awesome Calculator  " />
-    <meta property="og:image" content="https://via.placeholder.com/1100x600.png" />
-    <meta property="og:image:secure_url" content="https://via.placeholder.com/1100x600.png" />
-    <meta property="og:image:width" content="1100" />
-    <meta property="og:image:height" content="600" />
-    <link rel="canonical" href="https://www.keezhara.com/" />
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700|Anton&display=swap"
-        rel="stylesheet" />
-
-        <style amp-custom>
-            /*! * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) */
-            .fa,
-            .fab,
-            .fad,
-            .fal,
-            .far,
-            .fas {
-                -moz-osx-font-smoothing: grayscale;
-                -webkit-font-smoothing: antialiased;
-                display: inline-block;
-                font-style: normal;
-                font-variant: normal;
-                text-rendering: auto;
-                line-height: 1
-            }
-    
-    
-    
-            .fab {
-                font-family: 'Font Awesome 5 Brands'
-            }
-    
-    
-    
-            .btn {
-                display: inline-block;
-                cursor: pointer;
-                text-decoration: none;
-                transition: all .2s ease-in-out;
-                padding: 10px 40px;
-                min-width: 120px;
-                align-items: center;
-                color: #fff;
-                background-color: var(--main-color-1)
-            }
-    
-    
-    
-            .center {
-                text-align: center
-            }
-    
-            .left {
-                text-align: left
-            }
-    
-    
-    
-            * {
-                box-sizing: border-box
-            }
-    
-    
-    
-            .col-4 {
-                width: 33.33%
-            }
-    
-    
-    
-            .col-6 {
-                width: 50%
-            }
-    
-    
-    
-            .col-12 {
-                width: 100%
-            }
-    
-            .row::after {
-                content: '';
-                clear: both;
-                display: table
-            }
-    
-            [class*=col-] {
-                float: left;
-                padding: 15px
-            }
-    
-            .inner_ul_abso li:first-child {
-                padding-top: 13px
-            }
-    
-            @media only screen and (max-width:768px) {
-    
-    
-                .col-4m {
-                    width: 33.33%
-                }
-    
-                .col-5 {
-                    width: 100%
-                }
-    
-                .col-6 {
-                    width: 100%
-                }
-    
-            }
-    
-            .container-fluid {
-                width: 100%;
-                padding-right: 15px;
-                padding-left: 15px;
-                margin-right: auto;
-                margin-left: auto
-            }
-    
-            .container {
-                padding: 0 15px;
-                margin-right: auto;
-                margin-left: auto
-            }
-    
-    
-            .nopad,
-            .pad0 {
-                padding: 0
-            }
-    
-    
-    
-    
-    
-            #scrollToTopButton {
-                color: #fafafa;
-                box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
-                width: 62px;
-                height: 64px;
-                border-radius: 0;
-                background-color: #000;
-                background-color: rgba(0, 0, 0, .5);
-                z-index: 9999;
-                bottom: 20px;
-                right: 10px;
-                position: fixed;
-                opacity: 0;
-                visibility: hidden;
-                line-height: 30px;
-                padding-top: 10px;
-                font-size: 32px;
-                outline: 0;
-                border: 0
-            }
-    
-            #marker {
-                position: absolute;
-                top: 100px;
-                width: 0;
-                height: 0
-            }
-    
-            #scrollToTopButton amp-img {
-                position: absolute;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
-                margin: auto
-            }
-    
-            .circle {
-                border-radius: 50%
-            }
-    
-            .shadow {
-                box-shadow: 0 .4rem 2rem rgba(50, 58, 67, .2)
-            }
-    
-            footer li {
-                list-style-type: none;
-                line-height: 1
-            }
-    
-            @media only screen and (min-width:768px) {
-                .center-desktop {
-                    text-align: center
-                }
-            }
-    
-            @media only screen and (max-width:767px) {
-    
-                footer a,
-                h4 {
-                    line-height: 1
-                }
-    
-    
-            }
-    
-    
-    
-    
-    
-    
-    
-            h1 {
-                font-size: 2.5rem
-            }
-    
-            h2 {
-                font-size: 5vh
-            }
-    
-            h3 {
-                font-size: 4vh
-            }
-    
-            h4 {
-                font-size: 3vh
-            }
-    
-            h5 {
-                font-size: 2.5vh
-            }
-    
-            h6 {
-                font-size: 2vh
-            }
-    
-            a,
-            p {
-                font-size: 1.2rem;
-                line-height: 1.6;
-                font-weight: 200
-            }
-    
-            .s {
-                font-size: 1rem
-            }
-    
-            .xs {
-                font-size: .8rem
-            }
-    
-            .xs a {
-                font-size: .8rem
-            }
-    
-            h1,
-            h2,
-            h3 h4,
-            h5,
-            h6 {
-                font-family: var(--title-font);
-                word-wrap: break-word;
-                overflow-wrap: break-word;
-                max-width: calc(100vw - 20px);
-                line-height: 1.2em;
-                margin: auto
-            }
-    
-            h6 {
-                font-family: var(--text-font);
-                font-size: 18px
-            }
-    
-            .btn,
-            a,
-            input,
-            label,
-            p,
-            span {
-                font-weight: 400;
-                line-height: 1.8em;
-                letter-spacing: .9px;
-                word-wrap: break-word;
-                overflow-wrap: break-word;
-                max-width: calc(100vw - 20px);
-                margin: auto
-            }
-    
-            p {
-                font-size: 14px
-            }
-    
-    
-    
-    
-    
-            :root {
-                --space-2: 1rem
-            }
-    
-    
-    
-            a {
-                text-decoration: none;
-                transition: all .2s ease-in-out;
-                display: block;
-                color: inherit
-            }
-    
-    
-    
-            a {
-                font-family: var(--text-font)
-            }
-    
-            header {
-                width: 100%;
-                z-index: 1000;
-                transform: translateY(0);
-                transition: all .4s ease;
-                left: 0;
-                top: calc(0px)
-            }
-    
-    
-    
-            header.nav-fix {
-                position: fixed;
-                position: -webkit-fixed;
-                -webkit-box-shadow: 0 2px 6px -6px rgba(50, 58, 67, .3);
-                -moz-box-shadow: 0 2px 6px -6px rgba(50, 58, 67, .3);
-                box-shadow: 0 3px 6px -6px rgba(50, 58, 67, .3)
-            }
-    
-            section {
-                overflow: hidden
-            }
-    
-    
-    
-            #hamb7,
-            header {
-                position: relative
-            }
-    
-            header {
-                min-height: 73px;
-                height: auto
-            }
-    
-            #custom-header {
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                left: 0;
-                top: 0;
-                opacity: 0;
-                visibility: hidden;
-                z-index: 1;
-                box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28)
-            }
-    
-            .ham_w {
-                z-index: 11111;
-                background: 0;
-                height: 73px
-            }
-    
-            #hamb7 {
-                display: none;
-                width: 50px;
-                height: 27px;
-                cursor: pointer;
-                outline: 0;
-                margin-left: calc(100% - 69px);
-                margin-top: 18px
-            }
-    
-            #hamb7 span {
-                display: block;
-                position: absolute;
-                height: 5px;
-                width: 100%;
-                background: #48525c;
-                border-radius: 9px;
-                opacity: 1;
-                left: 0;
-                transform: rotate(0);
-                transition: .5s ease-in-out
-            }
-    
-            #hamb7 span:nth-child(1) {
-                top: 0;
-                transform-origin: left center
-            }
-    
-            #hamb7 span:nth-child(2),
-            #hamb7 span:nth-child(3) {
-                top: 10px;
-                transform-origin: left center
-            }
-    
-            #hamb7 span:nth-child(3) {
-                top: 20px
-            }
-    
-            #hamb7.mn_cls span:nth-child(1) {
-                transform: translateY(-8px) rotate(45deg)
-            }
-    
-            #hamb7.mn_cls span:nth-child(2) {
-                width: 0;
-                opacity: 0;
-                transition: .1s
-            }
-    
-            #hamb7.mn_cls span:nth-child(3) {
-                transform: translateY(7px) rotate(-45deg)
-            }
-    
-            #nv_m .bg_tm {
-                display: none;
-                transition: all .3s ease
-            }
-    
-            #nv_m.nw_actv>.bg_tm {
-                display: block
-            }
-    
-            #nv_m,
-            #nv_m.nw_actv {
-                transition: transform .5s ease, opacity ease .2s
-            }
-    
-            #nv_m_c #nv_m.nw_actv {
-                transform: translateX(0);
-                opacity: 1;
-                background-color: #333
-            }
-    
-            .nv_lst {
-                margin-left: auto;
-                display: inline-block;
-                list-style-type: none;
-                font-size: 1.3em;
-                padding: 0
-            }
-    
-            .nv_lst a {
-                position: relative;
-                float: left;
-                margin-right: 18px;
-                color: #222;
-                white-space: nowrap;
-                text-decoration: none
-            }
-    
-            .bg_tm,
-            .nm_c {
-                position: relative;
-                top: 0
-            }
-    
-            .nm_c {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-direction: row;
-                width: 100%;
-                min-height: 73px;
-                z-index: 111
-            }
-    
-            .bg_tm {
-                right: 100%;
-                height: 100%;
-                width: 1000%;
-                z-index: 1;
-                background: #222;
-                background: rgba(34, 34, 34, .5)
-            }
-    
-            .nm_lg {
-                position: relative;
-                min-height: 63px;
-                z-index: 111
-            }
-    
-            @media(max-width:1000px) {
-                #hamb7 {
-                    display: block
-                }
-    
-                .nm_c .nm_lg {
-                    margin-right: auto
-                }
-    
-                .nm_c #nv_m {
-                    position: fixed;
-                    width: 100%;
-                    min-width: 45px;
-                    max-width: 60vw;
-                    height: 960%;
-                    left: auto;
-                    right: 0;
-                    transform: translateX(-127vw);
-                    opacity: 0
-                }
-    
-                #nv_m .nv_lst a {
-                    display: inline-block;
-                    width: 100%;
-                    float: none;
-                    margin-right: 0;
-                    padding: 10px 0;
-                    color: #fff
-                }
-    
-                #nv_m .nv_lst {
-                    position: absolute;
-                    width: 100%;
-                    height: 100vh;
-                    overflow-y: scroll;
-                    margin-left: 25px;
-                    top: 0;
-                    z-index: 11;
-                    background-color: var(--mobile-navbar-bg-color, #333);
-                    margin: 0;
-                    padding: 0 10px 0 25px
-                }
-    
-                .nv_lst a:after {
-                    content: '';
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    display: block;
-                    height: 1px;
-                    background: var(--navbar-tx-color);
-                    width: 100%
-                }
-    
-    
-            }
-    
-            .flexmiddle {
-                display: flex;
-                align-items: center
-            }
-    
-            .flexwrap {
-                display: flex;
-                flex-wrap: wrap
-            }
-    
-    
-    
-            .bgcc {
-                background-position: center center
-            }
-    
-            .bgcb {
-                background-position: center bottom
-            }
-    
-            .bgcover {
-                background-size: cover
-            }
-    
-    
-    
-            button {
-                border: 0
-            }
-    
-    
-    
-            .nm_c #nv_m {
-                top: calc(var(--var-navbar-padding, 5px)*2 + 73px)
-            }
-    
-            .nav-1 .nm_c #nv_m,
-            .nav-2 .nm_c #nv_m,
-            .nav-5 .nm_c #nv_m {
-                top: calc(var(--var-navbar-padding, 5px)*2 + 73px)
-            }
-    
-    
-    
-            #nv_m .nv_lst a {
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis
-            }
-    
-            body header.nav-abso,
-            body header.nav-stick {
-                position: fixed
-            }
-    
-    
-            .nm_lg,
-            .nm_lg>a {
-                min-width: 165px
-            }
-    
-            .header-info {
-                position: absolute;
-                top: -38px;
-                left: 0;
-                width: 100%;
-                height: 38px;
-                line-height: 38px
-            }
-    
-            .header-info .col-12 {
-                display: flex
-            }
-    
-            .h-inf {
-                margin-top: 38px
-            }
-    
-            header .header-info {
-                display: none
-            }
-    
-    
-    
-            .postedby,
-            p {
-                font-family: Arial
-            }
-    
-    
-    
-            #nv_m_c {
-                width: fit-content
-            }
-    
-            body {
-                --main-color-1: #343a40;
-                --main-bg-color: #fff;
-                --main-tx-color-1: #343a40;
-                --white-color: rgba(255, 0, 0, 0.5);
-                --navbar-bg-color: #ffffff00;
-                --navbar-tx-color: #343a40;
-                --footer-bg-color: #fff;
-                --footer-tx-color: #343a40;
-                --title-font: "Julius Sans One", sans-serif;
-                --text-font: "roboto", sans-serif;
-                --main-btn-radius: 30px;
-                --title-1-desktop: 53px "Raleway", sans-serif;
-                --title-1-mobile: 35px "Raleway", sans-serif;
-                --title-2-desktop: 37px "Raleway", sans-serif;
-                --title-2-mobile: 28px "Raleway", sans-serif;
-                --title-3-desktop: 31px "Raleway", sans-serif;
-                --title-3-mobile: 27px "Raleway", sans-serif;
-                --title-4-desktop: 25px "Raleway", sans-serif;
-                --title-4-mobile: 18px "Raleway", sans-serif;
-                --text-1-desktop: 20px "Poppins", sans-serif;
-                --text-1-mobile: 20px "Poppins", sans-serif;
-                --text-2-desktop: 16px "Poppins", sans-serif;
-                --text-2-mobile: 16px "Poppins", sans-serif;
-                --text-3-desktop: 15px "Poppins", sans-serif;
-                --text-3-mobile: 15px "Poppins", sans-serif;
-                --text-4-desktop: 13px "Poppins", sans-serif;
-                --text-4-mobile: 13px "Poppins", sans-serif;
-                font-size: var(--font-size);
-                position: var(--position);
-                --var-navbar-padding: 11px;
-                --mobile-navbar-bg-color: #343a40;
-                --navbar-2nd-bg-color: #343a40;
-                --drop-navbar-bg-color: var(--mobile-navbar-bg-color)
-            }
-    
-            a,
-            span {
-                margin: 5px auto
-        }
-
-        /*** end calculato css  ***/
-
-        html {
-            width: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        body {
-            padding: 0;
-            margin: 0;
-            background-image: linear-gradient(to right, #bdc3c7 0%, #ecf0f1 40%, #ecf0f1 60%, #bdc3c7 100%);
-        }
-
-        .calculator {
-            width: 250px;
-            background-color: #2c3e50;
-            background-image: linear-gradient(to right, #334b63 0%, #4b6580 40%, #4b6580 60%, #334b63 100%);
-            border-width: 1px;
-            border-style: solid;
-            border-top-color: rgba(255, 255, 255, 0.6);
-            border-bottom-color: black;
-            border-right-color: black;
-            border-left-color: black;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), inset 0 0 3px 4px rgba(0, 0, 0, 0.5);
-            border-top: 4px solid rgba(255, 255, 255, 0.2);
-            margin-left: 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        /* Screen
+/* Screen
 -------------------------------*/
-        .screen-wrapper {
-            margin: 15px;
-            padding: 3px;
-            background-color: rgba(0, 0, 0, 0.3);
-            box-shadow: 0 2px 2px rgba(255, 255, 255, 0.5);
-            border-radius: 5px;
-        }
+.screen-wrapper {
+margin: 15px;
+padding: 3px;
+background-color: rgba(0, 0, 0, 0.3);
+box-shadow: 0 2px 2px rgba(255, 255, 255, 0.5);
+border-radius: 5px;
+}
 
-        #screen {
-            height: 60px;
-            background-image: linear-gradient(to bottom, #ffcc00 0%, #ffde74 100%);
-            border-radius: 30%/7%;
-            box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.6);
-            padding: 8px 6px;
-        }
+#screen {
+height: 60px;
+background-image: linear-gradient(to bottom, #ffcc00 0%, #ffde74 100%);
+border-radius: 30%/7%;
+box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.6);
+padding: 8px 6px;
+}
 
-        #expression {
-            font-family: 'Press Start 2P', cursive;
-            font-size: 22px;
-            height: 20px;
-            line-height: 20px;
-            overflow: hidden;
-            white-space: nowrap;
-            display: flex;
-            align-items: center;
-        }
+#expression {
+font-family: 'Press Start 2P', cursive;
+font-size: 22px;
+height: 20px;
+line-height: 20px;
+overflow: hidden;
+white-space: nowrap;
+display: flex;
+align-items: center;
+}
 
-        #result {
-            font-family: 'Press Start 2P', cursive;
-            font-size: 28px;
-            text-align: right;
-            margin-top: -3px;
-            white-space: nowrap;
-        }
+#result {
+font-family: 'Press Start 2P', cursive;
+font-size: 28px;
+text-align: right;
+margin-top: -3px;
+white-space: nowrap;
+}
 
-        #typed-cursor {
-            border-right: 3px solid black;
-            height: 14px;
-            animation: 1s blink step-end infinite;
-        }
+#typed-cursor {
+border-right: 3px solid black;
+height: 14px;
+animation: 1s blink step-end infinite;
+}
 
-        @keyframes blink {
+@keyframes blink {
 
-            from,
-            to {
-                border-color: transparent;
-            }
+from,
+to {
+    border-color: transparent;
+}
 
-            50% {
-                border-color: black;
-            }
-        }
+50% {
+    border-color: black;
+}
+}
 
-        .keys {
-            width: 100%;
-            border-spacing: 12px;
-        }
+.keys {
+width: 100%;
+border-spacing: 12px;
+}
 
-        .key {
-            width: 25%;
-            cursor: pointer;
-            font-family: 'Open Sans', sans-serif;
-            color: #ecf0f1;
-            font-size: 18px;
-            text-align: center;
-            padding: 8px 0;
-            border-radius: 5px;
-            border-width: 3px;
-            border-style: solid;
-            border-top-color: rgba(255, 255, 255, 0.2);
-            border-left-color: rgba(0, 0, 0, 0.1);
-            border-right-color: rgba(0, 0, 0, 0.1);
-            border-bottom-color: rgba(0, 0, 0, 0.3);
-            box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.7);
-            transition: all 0.2s ease-out;
-        }
+.key {
+width: 25%;
+cursor: pointer;
+font-family: 'Open Sans', sans-serif;
+color: #ecf0f1;
+font-size: 18px;
+text-align: center;
+padding: 8px 0;
+border-radius: 5px;
+border-width: 3px;
+border-style: solid;
+border-top-color: rgba(255, 255, 255, 0.2);
+border-left-color: rgba(0, 0, 0, 0.1);
+border-right-color: rgba(0, 0, 0, 0.1);
+border-bottom-color: rgba(0, 0, 0, 0.3);
+box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.7);
+transition: all 0.2s ease-out;
+}
 
-        .key:hover {
-            border: 3px solid rgba(226, 154, 26, 0.6);
-            box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.7), inset 0 0 6px rgba(0, 0, 0, 0.4);
-            color: #e2aa1a;
-            text-shadow: 0 0 10px #ffda99;
-        }
+.key:hover {
+border: 3px solid rgba(226, 154, 26, 0.6);
+box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.7), inset 0 0 6px rgba(0, 0, 0, 0.4);
+color: #e2aa1a;
+text-shadow: 0 0 10px #ffda99;
+}
 
-        .key.red {
-            background-image: linear-gradient(to bottom, #963434 0%, #be4d4d 50%, #963434 100%);
-        }
+.key.red {
+background-image: linear-gradient(to bottom, #963434 0%, #be4d4d 50%, #963434 100%);
+}
 
-        .key.blue {
-            background-image: linear-gradient(to bottom, #2c3e50 0%, #3a5066 50%, #2c3e50 100%);
-        }
+.key.blue {
+background-image: linear-gradient(to bottom, #2c3e50 0%, #3a5066 50%, #2c3e50 100%);
+}
 
-        .key.gray {
-            background-image: linear-gradient(to bottom, #6e8597 0%, #829baf 50%, #6e8597 100%);
-        }
+.key.gray {
+background-image: linear-gradient(to bottom, #6e8597 0%, #829baf 50%, #6e8597 100%);
+}
 
-        .key.substract,
-        .key.divide,
-        .key.add,
-        .key.eval {
-            font-size: 28px;
-            line-height: 18px;
-        }
+.key.substract,
+.key.divide,
+.key.add,
+.key.eval {
+font-size: 28px;
+line-height: 18px;
+}
 
-        .key.substract {
-            vertical-align: top;
-        }
+.key.substract {
+vertical-align: top;
+}
 
-        .key span {
-            font-size: 10px;
-            vertical-align: top;
-        }
+.key span {
+font-size: 10px;
+vertical-align: top;
+}
 
-        .footer {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 12px;
-            text-align: center;
-            margin-bottom: 5px;
-            color: rgba(76, 219, 20, 0.5);
-            text-shadow: 0 1px 0 rgba(206, 221, 207, 0.884);
-        }
+.footer1 {
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+text-align: center;
+margin-bottom: 5px;
+color: rgba(76, 219, 20, 0.5);
+text-shadow: 0 1px 0 rgba(206, 221, 207, 0.884);
+}
 
-        /*** end  css site ***/
+/*** end  css site ***/
 
 
-    </style>
+</style>
 
 
 <script async custom-element="amp-facebook-like" src="https://cdn.ampproject.org/v0/amp-facebook-like-0.1.js"></script>
@@ -935,507 +257,547 @@
 
 <script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
 
+
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f9ee9f9de3ed900198bbe88&product=inline-share-buttons' async='async'></script>
+
+
+
+
 </head>
 
 <body>
-
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="WRk7GMj4"></script>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="UxjnvcMv"></script>
-
-
-    <amp-auto-ads type="adsense" data-ad-client="ca-pub-5439573510495356">
-    </amp-auto-ads>
-    <amp-analytics type="gtag" data-credentials="include">
-        <script
-            type="application/json">{"vars" :{"gtag_id": "UA-179394527-1", "config" :{"UA-179394527-1":{"groups": "default"}}}}</script>
-    </amp-analytics>
-
-
-    <div id="top-page"></div>
-
-
-
-
-
-
-
-
-    <!-- css hack -->
-    <div style="display:none">
-        <div class="show_more more_arr_top"></div>
-    </div>
-    <!-- css hack -->
-
-
-    <header data-mydop-display-name="Navbar" class="nav-fix nav-1"
-        style="background-color: var(--navbar-bg-color); padding: 11px 5%; transform: none;" id="i05421460295656502">
-        <div class="header-info" data-mydop-display-name="header info" data-mydop-background-color=""
-            style="background-color: rgb(255, 255, 255);">
-            <div style="padding:2px 5%;">
-                <div class="row">
-                    <div class="col-12"
-                        style="justify-content:center; align-items: center; flex-wrap: wrap; height: auto;padding:0;">
-                        <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" href="#"
-                            class="display-text-4"
-                            style="color: rgb(51, 51, 51); cursor: pointer; transition: all 0.2s ease 0s; margin: 5px 10px; letter-spacing: 2px;">+1
-                        </a>
-                        <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" href="#"
-                            class="display-text-4"
-                            style="color: rgb(51, 51, 51); cursor: pointer; transition: all 0.2s ease 0s; margin: 5px 10px; letter-spacing: 2px;">6555</a>
-
-                    </div>
-                </div>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0"
+    nonce="38f5g3q8"></script>
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  <div class="container">
+    <header id="header">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="header_top">
+            <div class="header_top_left">
+              <ul class="top_nav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/#1972">About</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+                <li><a href="/#1972">Post code 670301</a></li>
+              </ul>
             </div>
+            <div class="header_top_right">
+              <form action="#" class="search_form">
+                <input type="text" placeholder="Text to Search">
+                <input type="submit" value="">
+              </form>
+            </div>
+          </div>
+          <div class="header_bottom">
+            <div class="header_bottom_left"><a class="logo" href="/index.html">KEEZHARA<strong>.COM</strong> <span>
+                  God's own village </span></a></div>
+            <div class="header_bottom_right"><a href="#"><img src="/images/addbanner_728x90_V1.jpg" alt=""></a></div>
+          </div>
         </div>
-        <div id="custom-header" data-mydop-display-name="Second Navbar Color" data-mydop-background-color=""
-            style="background-color: rgb(52, 58, 64);" class="container"></div>
-        <div class="nm_c" id="nav-wrapper">
-            <div class="nm_lg">
-                <a href="/index.html" style="height:63px;margin:0;">
-                    <amp-img data-mydop-display-name="Image" data-mydop-image="" src="/LOGO.png" width="200" height="64"
-                        layout="intrinsic" alt="KEEZHARA"></amp-img>
-                </a>
-            </div>
-            <div class="ham_w">
-                <div id="hamb7" aria-label="menu icon" tabindex="0" role="button"
-                    on="tap:hamb7.toggleClass(class='mn_cls'),nv_m.toggleClass(class='nw_actv')">
-                    <span style="background-color: rgb(255, 255, 255);"></span>
-                    <span style="background-color: rgb(255, 255, 255);"></span>
-                    <span style="background-color: rgb(255, 255, 255);"></span>
-                </div>
-            </div>
-            <div id="nv_m_c">
-                <div id="nv_m">
-                    <div class="bg_tm" tabindex="0" role="button"
-                        on="tap:hamb7.toggleClass(class='mn_cls'),nv_m.toggleClass(class='nw_actv')"></div>
-                    <div id="smart_list" class="nv_lst">
-                        <a href="../index.html" data-mydop-item data-mydop-display-name=Link data-mydop-text
-                            data-mydop-link style=color:#fff class=display-text-3>പൂമുഖം </a>
-                        <a href=# data-mydop-item data-mydop-display-name=Link data-mydop-text data-mydop-link
-                            style=color:#fff class=display-text-3>ആനുകാലികം </a>
-                        <a href=# data-mydop-item data-mydop-display-name=Link data-mydop-text data-mydop-link
-                            style=color:#fff class=display-text-3>വാണിജ്യം</a>
-                        <a href=# data-mydop-item data-mydop-display-name=Link data-mydop-text data-mydop-link
-                            style=color:#fff class=display-text-3></a>
-                        <a href="../nse/nse.html" data-mydop-item data-mydop-display-name=Link data-mydop-text
-                            data-mydop-link style=color:#fff class=display-text-3>ഓഹരി വിപണി </a>
-                        <a href=# data-mydop-item data-mydop-display-name=Link data-mydop-text data-mydop-link
-                            style=color:#fff class=display-text-3></a>
-
-                        <a aria-label="more" data-mydop-display-name="Dropdown" data-mydop-text=""
-                            class="nv-more display-text-3" style="color: rgb(255, 255, 255);"
-                            on="tap:smart_list.toggleClass(class='show_more'),more_arr.toggleClass(class='more_arr_top')">
-                            More
-                            <span id="more_arr">
-                                <i data-mydop-icon="" data-mydop-display-name="Icon" class="fas fa-angle-down"
-                                    style="font-size: 20px;"></i>
-
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </header>
-    <section class="pad70-0 flexmiddle" data-mydop-display-name="about - 5" data-mydop-background-image=""
-        style="background-image: linear-gradient(rgb(97, 172, 247), rgb(52, 58, 64)), url(&quot;https://cdn.dopweb.com/template/default/bg1.png&quot;); min-height: 10vh;"
-        id="i07391412668913695">
-        <div class="container left">
-
-            <div class="col-6 pad10" data-mydop-display-name="Content" data-mydop-item="" data-mydop-card=""
-                style="float: right">
-                <div style="color: rgb(255, 255, 255)">
-
-                    <h1 data-mydop-display-name="Title" data-mydop-text="" data-mydop-item="" class="display-title-2"
-                        style="font-weight: bold; margin-top: 80px; margin-bottom: 20px;">
-                        CALCULATOR</h1>
-                    <p data-mydop-display-name="Text" data-mydop-item="" data-mydop-text="" class="display-text-3"
-                        style="line-height: 120%;"> FUN PROJECT </p>
-                    <p data-mydop-display-name="Text" data-mydop-item="" data-mydop-text="" class="display-text-3"
-                        style="line-height: 120%; font-weight: lighter; margin-bottom: 40px;"> </p>
-                </div>
-            </div>
+    <div id="navarea">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
+                class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav custom_nav">
+              <li class=""><a href="/index.html">Home</a></li>
+              <li><a href="/#123456">Healthy Games</a></li>
+              <li><a href="/rto/rto.html">Informative</a></li>
+              <li><a href="/#5566">utility apps</a></li>
+              <li><a href="/#business">Stock Market</a></li>
+              <li class="dropdown"> <a href="#" class="" data-toggle="dropdown" role="button" aria-expanded="false">Archives</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Archive </a></li>
+                  <li><a href="#">Archive page 1</a></li>
+                  <li><a href="#">Archive page 2</a></li>
+                  <li><a href="#">Archive page 3</a></li>
+                </ul>
+              </li>
+              </li>
+              <li><a href="/pages/contact.html">Contact</a></li>
+              <li><a href="/pages/404.html">404 page</a></li>
+            </ul>
+          </div>
         </div>
-        </div>
-    </section>
-
-
-
-    <div class="calculator">
-        <div class="screen-wrapper">
-            <div id="screen">
-                <div id="expression"><span id="typed-cursor" /></div>
-                <div id="result">0</div>
-            </div>
-        </div>
-        <table class="keys">
-            <tbody>
-                <tr>
-                    <td class="red key" data-func="clear">C</td>
-                    <td class="red key" data-func="cancel_entry">CE</td>
-                    <td class="gray key power" data-token="op_pow">x<span>y</span></td>
-                    <td class="gray key divide" data-token="op_divide">&divide;</td>
-                </tr>
-                <tr>
-                    <td class="blue key" data-token="num_7">7</td>
-                    <td class="blue key" data-token="num_8">8</td>
-                    <td class="blue key" data-token="num_9">9</td>
-                    <td class="gray key" data-token="op_multiply">&times;</td>
-                </tr>
-                <tr>
-                    <td class="blue key" data-token="num_4">4</td>
-                    <td class="blue key" data-token="num_5">5</td>
-                    <td class="blue key" data-token="num_6">6</td>
-                    <td class="gray key substract" data-token="op_substract">&ndash;</td>
-                </tr>
-                <tr>
-                    <td class="blue key" data-token="num_1">1</td>
-                    <td class="blue key" data-token="num_2">2</td>
-                    <td class="blue key" data-token="num_3">3</td>
-                    <td class="gray key add" data-token="op_add" rowspan="2">+</td>
-                </tr>
-                <tr>
-                    <td class="blue key" data-token="num_dot">.</td>
-                    <td class="blue key" data-token="num_0">0</td>
-                    <td class="blue key eval" data-func="eval">=</td>
-                </tr>
-            </tbody>
-        </table>
-        <p class="footer">Vasu Dev</p>
+      </nav><br>
     </div>
-    <script>
+    <section id="mainContent">
+      <div class="content_bottom">
+        <div class="col-lg-8 col-md-8">
+          <div class="content_bottom_left">
+            <div class="single_page_area">
+              <ol class="breadcrumb">
+                <a href="/#123456">GAMES</a>  </ol>
 
 
 
 
 
-        window.onload = function () {
-            new Calculator();
-        };
-        /**
-        * Calculator class
-        */
-        function Calculator() {
-            this.op_add = '+';
-            this.op_substract = '-';
-            this.op_multiply = '*';
-            this.op_divide = '/';
-            this.op_pow = '^';
-            this.num_1 = 1;
-            this.num_2 = 2;
-            this.num_3 = 3;
-            this.num_4 = 4;
-            this.num_5 = 5;
-            this.num_6 = 6;
-            this.num_7 = 7;
-            this.num_8 = 8;
-            this.num_9 = 9;
-            this.num_0 = 0;
-            this.num_dot = '.';
-            this.screen = new Screen(this);
-            this.keys = new Keyboard(this);
-        }
-        Calculator.prototype.infixToPostfix = function (infix) {
-            var length = infix.length;
-            var stack = new Array(); // Holds operators
-            var postfix = ""; // The result expression
-            var chars = infix.split('');
-            // Each character
-            for (var i = 0; i < length; i++) {
-                var curChar = chars[i],
-                    nextChar = '';
-                // Get the next char (unless it's the last char)
-                if (i < length - 1) {
-                    nextChar = chars[i + 1];
+
+
+
+              <div class="calculator">
+                <div class="screen-wrapper">
+                    <div id="screen">
+                        <div id="expression"><span id="typed-cursor" /></div>
+                        <div id="result">0</div>
+                    </div>
+                </div>
+                <table class="keys">
+                    <tbody>
+                        <tr>
+                            <td class="red key" data-func="clear">C</td>
+                            <td class="red key" data-func="cancel_entry">CE</td>
+                            <td class="gray key power" data-token="op_pow">x<span>y</span></td>
+                            <td class="gray key divide" data-token="op_divide">&divide;</td>
+                        </tr>
+                        <tr>
+                            <td class="blue key" data-token="num_7">7</td>
+                            <td class="blue key" data-token="num_8">8</td>
+                            <td class="blue key" data-token="num_9">9</td>
+                            <td class="gray key" data-token="op_multiply">&times;</td>
+                        </tr>
+                        <tr>
+                            <td class="blue key" data-token="num_4">4</td>
+                            <td class="blue key" data-token="num_5">5</td>
+                            <td class="blue key" data-token="num_6">6</td>
+                            <td class="gray key substract" data-token="op_substract">&ndash;</td>
+                        </tr>
+                        <tr>
+                            <td class="blue key" data-token="num_1">1</td>
+                            <td class="blue key" data-token="num_2">2</td>
+                            <td class="blue key" data-token="num_3">3</td>
+                            <td class="gray key add" data-token="op_add" rowspan="2">+</td>
+                        </tr>
+                        <tr>
+                            <td class="blue key" data-token="num_dot">.</td>
+                            <td class="blue key" data-token="num_0">0</td>
+                            <td class="blue key eval" data-func="eval">=</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="footer1">Vasu Dev</p>
+            </div>
+            <script>
+        
+        
+        
+        
+        
+                window.onload = function () {
+                    new Calculator();
+                };
+                /**
+                * Calculator class
+                */
+                function Calculator() {
+                    this.op_add = '+';
+                    this.op_substract = '-';
+                    this.op_multiply = '*';
+                    this.op_divide = '/';
+                    this.op_pow = '^';
+                    this.num_1 = 1;
+                    this.num_2 = 2;
+                    this.num_3 = 3;
+                    this.num_4 = 4;
+                    this.num_5 = 5;
+                    this.num_6 = 6;
+                    this.num_7 = 7;
+                    this.num_8 = 8;
+                    this.num_9 = 9;
+                    this.num_0 = 0;
+                    this.num_dot = '.';
+                    this.screen = new Screen(this);
+                    this.keys = new Keyboard(this);
                 }
-                // Operators
-                if (!this.isInt(chars[i]) && chars[i] !== ".") {
-                    while (stack.length > 0) {
-                        if (this.comparePrecedence(stack.peek(), curChar)) {
-                            postfix += stack.pop() + " ";
+                Calculator.prototype.infixToPostfix = function (infix) {
+                    var length = infix.length;
+                    var stack = new Array(); // Holds operators
+                    var postfix = ""; // The result expression
+                    var chars = infix.split('');
+                    // Each character
+                    for (var i = 0; i < length; i++) {
+                        var curChar = chars[i],
+                            nextChar = '';
+                        // Get the next char (unless it's the last char)
+                        if (i < length - 1) {
+                            nextChar = chars[i + 1];
                         }
+                        // Operators
+                        if (!this.isInt(chars[i]) && chars[i] !== ".") {
+                            while (stack.length > 0) {
+                                if (this.comparePrecedence(stack.peek(), curChar)) {
+                                    postfix += stack.pop() + " ";
+                                }
+                                else {
+                                    break;
+                                }
+                            }
+                            stack.push(curChar);
+                        }
+                        // Operands
                         else {
-                            break;
+                            if (this.isInt(nextChar) || nextChar === '.')
+                                postfix += curChar;
+                            else postfix += curChar + " ";
                         }
                     }
-                    stack.push(curChar);
-                }
-                // Operands
-                else {
-                    if (this.isInt(nextChar) || nextChar === '.')
-                        postfix += curChar;
-                    else postfix += curChar + " ";
-                }
-            }
-            // Pop the remaining operators
-            while (stack.length > 0) {
-                postfix += stack.pop() + " ";
-            }
-            return postfix.trim();
-        };
-        Calculator.prototype.postfixEval = function (postfix) {
-            var resultStack = new Array();
-            var postfix = postfix.split(" ");
-            var length = postfix.length;
-            var decimal;
-            var curElement;
-            // Each element
-            for (var i = 0; i < length; i++) {
-                curElement = postfix[i];
-                // Operand
-                if (this.isFloat(curElement)) {
-                    var decimal = parseFloat(curElement);
-                    resultStack.push(decimal);
-                }
-                // Operator
-                else {
-                    var result = this.applyOperator(resultStack.pop(), resultStack.pop(), curElement);
-                    resultStack.push(result);
-                }
-            }
-            return resultStack.pop();
-        };
-        Calculator.prototype.comparePrecedence = function (op_a, op_b) {
-            var precedence = ['+', '-', '*', '/', '^', '(', ')'];
-            return precedence.indexOf(op_a) > precedence.indexOf(op_b);
-        };
-        Calculator.prototype.applyOperator = function (b, a, operator) {
-            switch (operator) {
-                case "+":
-                    return a + b;
-                case "-":
-                    return a - b;
-                case "*":
-                    return a * b;
-                case "/":
-                    return a / b;
-                case "^":
-                    return Math.pow(a, b);
-            }
-        }
-        Calculator.prototype.isInt = function (num) {
-            return !isNaN(parseInt(num));
-        };
-        Calculator.prototype.isFloat = function (num) {
-            return !isNaN(parseFloat(num));
-        };
-        /**
-        * Screen class
-        */
-        function Screen(calculator) {
-            this.calculator = calculator;
-            this.expressionHolder = document.getElementById('expression');
-            this.expression = '';
-            this.result = document.getElementById('result');
-            this.cursor = new Cursor(this);
-        }
-        Screen.prototype.appendToExpression = function (token) {
-            var value = this.calculator[token];
-            this.expressionHolder.innerHTML += value;
-            this.expressionHolder.scrollLeft = this.expressionHolder.scrollWidth;
-            this.expression += value;
-            this.cursor.moveToEnd();
-        };
-        Screen.prototype.setResult = function (number) {
-            this.result.innerHTML = number.toString().slice(0, 11);
-            this.expression = number.toString();
-            this.expressionHolder.innerHTML = number;
-            this.cursor.moveToEnd();
-        };
-        Screen.prototype.clear = function () {
-            this.result.innerHTML = 0;
-            this.expressionHolder.innerHTML = '';
-            this.expression = '';
-            this.cursor.moveToStart();
-        };
-        Screen.prototype.cancelEntry = function () {
-            this.expressionHolder.innerHTML = '';
-            this.expression = '';
-            this.cursor.moveToStart();
-        };
-        /**
-        * Cursor class
-        */
-        function Cursor(screen) {
-            this.screen = screen;
-            this.pos = 0;
-        }
-        Cursor.prototype.moveTo = function (pos) {
-            if (pos >= 0 && pos <= this.screen.expression.length) {
-                // Remove current cursor
-                try {
-                    document.getElementById('expression').removeChild(document.getElementById('typed-cursor'));
-                }
-                catch (e) {
-                }
-                // Recreate it
-                var cursor = '<span id="typed-cursor"></span>';
-                var expression = this.screen.expression;
-                expression = expression.substring(0, pos) + cursor + expression.substring(pos, expression.length);
-                this.pos = pos;
-                document.getElementById('expression').innerHTML = expression;
-            }
-        };
-        Cursor.prototype.moveToEnd = function () {
-            this.moveTo(this.screen.expression.length);
-        };
-        Cursor.prototype.moveToStart = function () {
-            this.moveTo(0);
-        };
-        /**
-        * Keyboard class
-        */
-        function Keyboard(calculator) {
-            this.calculator = calculator;
-            this.keys = document.querySelectorAll('.key');
-            for (var i = 0; i < this.keys.length; i++) {
-                var self = this;
-                this.keys[i].onclick = function () {
-                    self.keyPress(this);
+                    // Pop the remaining operators
+                    while (stack.length > 0) {
+                        postfix += stack.pop() + " ";
+                    }
+                    return postfix.trim();
                 };
-            }
-        }
-        Keyboard.prototype.keyPress = function (key) {
-            if (key.getAttribute("data-func") === null) {
-                this.calculator.screen.appendToExpression(key.getAttribute("data-token"));
-            }
-            else {
-                this['key_' + key.getAttribute("data-func")]();
-            }
-        };
-        // Calculator key actions
-        Keyboard.prototype.key_eval = function () {
-            var postfix = this.calculator.infixToPostfix(this.calculator.screen.expression);
-            this.calculator.screen.setResult(this.calculator.postfixEval(postfix));
-        };
-        Keyboard.prototype.key_clear = function () {
-            this.calculator.screen.clear();
-        };
-        Keyboard.prototype.key_cancel_entry = function () {
-            this.calculator.screen.cancelEntry();
-        };
-        Array.prototype.peek = function () {
-            return this[this.length - 1];
-        };
-    </script>
+                Calculator.prototype.postfixEval = function (postfix) {
+                    var resultStack = new Array();
+                    var postfix = postfix.split(" ");
+                    var length = postfix.length;
+                    var decimal;
+                    var curElement;
+                    // Each element
+                    for (var i = 0; i < length; i++) {
+                        curElement = postfix[i];
+                        // Operand
+                        if (this.isFloat(curElement)) {
+                            var decimal = parseFloat(curElement);
+                            resultStack.push(decimal);
+                        }
+                        // Operator
+                        else {
+                            var result = this.applyOperator(resultStack.pop(), resultStack.pop(), curElement);
+                            resultStack.push(result);
+                        }
+                    }
+                    return resultStack.pop();
+                };
+                Calculator.prototype.comparePrecedence = function (op_a, op_b) {
+                    var precedence = ['+', '-', '*', '/', '^', '(', ')'];
+                    return precedence.indexOf(op_a) > precedence.indexOf(op_b);
+                };
+                Calculator.prototype.applyOperator = function (b, a, operator) {
+                    switch (operator) {
+                        case "+":
+                            return a + b;
+                        case "-":
+                            return a - b;
+                        case "*":
+                            return a * b;
+                        case "/":
+                            return a / b;
+                        case "^":
+                            return Math.pow(a, b);
+                    }
+                }
+                Calculator.prototype.isInt = function (num) {
+                    return !isNaN(parseInt(num));
+                };
+                Calculator.prototype.isFloat = function (num) {
+                    return !isNaN(parseFloat(num));
+                };
+                /**
+                * Screen class
+                */
+                function Screen(calculator) {
+                    this.calculator = calculator;
+                    this.expressionHolder = document.getElementById('expression');
+                    this.expression = '';
+                    this.result = document.getElementById('result');
+                    this.cursor = new Cursor(this);
+                }
+                Screen.prototype.appendToExpression = function (token) {
+                    var value = this.calculator[token];
+                    this.expressionHolder.innerHTML += value;
+                    this.expressionHolder.scrollLeft = this.expressionHolder.scrollWidth;
+                    this.expression += value;
+                    this.cursor.moveToEnd();
+                };
+                Screen.prototype.setResult = function (number) {
+                    this.result.innerHTML = number.toString().slice(0, 11);
+                    this.expression = number.toString();
+                    this.expressionHolder.innerHTML = number;
+                    this.cursor.moveToEnd();
+                };
+                Screen.prototype.clear = function () {
+                    this.result.innerHTML = 0;
+                    this.expressionHolder.innerHTML = '';
+                    this.expression = '';
+                    this.cursor.moveToStart();
+                };
+                Screen.prototype.cancelEntry = function () {
+                    this.expressionHolder.innerHTML = '';
+                    this.expression = '';
+                    this.cursor.moveToStart();
+                };
+                /**
+                * Cursor class
+                */
+                function Cursor(screen) {
+                    this.screen = screen;
+                    this.pos = 0;
+                }
+                Cursor.prototype.moveTo = function (pos) {
+                    if (pos >= 0 && pos <= this.screen.expression.length) {
+                        // Remove current cursor
+                        try {
+                            document.getElementById('expression').removeChild(document.getElementById('typed-cursor'));
+                        }
+                        catch (e) {
+                        }
+                        // Recreate it
+                        var cursor = '<span id="typed-cursor"></span>';
+                        var expression = this.screen.expression;
+                        expression = expression.substring(0, pos) + cursor + expression.substring(pos, expression.length);
+                        this.pos = pos;
+                        document.getElementById('expression').innerHTML = expression;
+                    }
+                };
+                Cursor.prototype.moveToEnd = function () {
+                    this.moveTo(this.screen.expression.length);
+                };
+                Cursor.prototype.moveToStart = function () {
+                    this.moveTo(0);
+                };
+                /**
+                * Keyboard class
+                */
+                function Keyboard(calculator) {
+                    this.calculator = calculator;
+                    this.keys = document.querySelectorAll('.key');
+                    for (var i = 0; i < this.keys.length; i++) {
+                        var self = this;
+                        this.keys[i].onclick = function () {
+                            self.keyPress(this);
+                        };
+                    }
+                }
+                Keyboard.prototype.keyPress = function (key) {
+                    if (key.getAttribute("data-func") === null) {
+                        this.calculator.screen.appendToExpression(key.getAttribute("data-token"));
+                    }
+                    else {
+                        this['key_' + key.getAttribute("data-func")]();
+                    }
+                };
+                // Calculator key actions
+                Keyboard.prototype.key_eval = function () {
+                    var postfix = this.calculator.infixToPostfix(this.calculator.screen.expression);
+                    this.calculator.screen.setResult(this.calculator.postfixEval(postfix));
+                };
+                Keyboard.prototype.key_clear = function () {
+                    this.calculator.screen.clear();
+                };
+                Keyboard.prototype.key_cancel_entry = function () {
+                    this.calculator.screen.cancelEntry();
+                };
+                Array.prototype.peek = function () {
+                    return this[this.length - 1];
+                };
+            </script>
+        
+        
+        
 
 
 
-<amp-facebook-comments
-width="486"
-height="657"
-layout="responsive"
-data-numposts="5"
-data-href="https://www.keezhara.com/calculator/calculator.html"
->
-</amp-facebook-comments>
-
-
-<amp-facebook-like
-width="90"
-height="20"
-layout="fixed"
-data-layout="button_count"
-data-href="https://www.keezhara.com/calculator/calculator.html"
->
-</amp-facebook-like>
 
 
 
-<amp-addthis width="320" height="92" layout="responsive" data-pub-id="ra-5f8dede0bed61b53" data-widget-id="hk2v" data-widget-type="floating"></amp-addthis>
-
-</body>
 
 
-<footer data-mydop-background-image=""
-    style="background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(&quot;https://cdn.dopweb.com/template/default/bg2.png&quot;);"
-    id="i07540425608495243">
-    <div class="row pad70-0 center">
-        <div class="col-12" data-mydop-display-name="Social Media Icons" data-mydop-card="" data-mydop-item=""
-            style="color: rgb(52, 58, 64)">
-            <a data-mydop-noedit="" data-mydop-display-name="Link" href="#"
-                style="padding:10px; text-decoration:none; display: inline-block" aria-label="icon">
-                <i data-mydop-icon="" data-mydop-link="" data-mydop-display-name="Icon Link" class="fab fa-facebook-f"
-                    style="font-size: 30px; color: rgb(52, 58, 64);"></i>
-            </a>
-            <a data-mydop-noedit="" data-mydop-display-name="Link" href="#"
-                style="padding:10px;text-decoration:none; display: inline-block" aria-label="icon">
-                <i data-mydop-icon="" data-mydop-link="" data-mydop-display-name="Icon Link" class="fab fa-instagram"
-                    style="font-size: 30px; color: rgb(52, 58, 64);"></i>
-            </a>
-            <a data-mydop-noedit="" data-mydop-display-name="Link" href="#"
-                style="padding:10px;text-decoration:none; display: inline-block" aria-label="icon">
-                <i data-mydop-icon="" data-mydop-link="" data-mydop-display-name="Icon Link" class="fab fa-youtube"
-                    style="font-size: 30px; color: rgb(52, 58, 64);"></i>
-            </a>
-        </div>
-        <div class="col-12" data-mydop-display-name="Links" data-mydop-card="" data-mydop-item=""
-            style="color: rgb(52, 58, 64)">
-            <ul data-mydop-noedit="" class="pad0">
-                <li data-mydop-noedit="" class="pad0" data-mydop-item="" style="display: inline-block">
-                    <a data-mydop-display-name="Link" data-mydop-link="" data-mydop-text="" href="#"
-                        style="padding: 5px; letter-spacing: 2px;" class="display-text-3">FAQ</a>
-                </li>
-                <li data-mydop-noedit="" class="pad0" data-mydop-item="" style="display: inline-block">
-                    <a data-mydop-display-name="Link" data-mydop-link="" data-mydop-text="" href="#"
-                        style="padding: 5px; letter-spacing: 2px;" class="display-text-3">TERMS OF SERVICES</a>
-                </li>
-                <li data-mydop-noedit="" class="pad0" data-mydop-item="" style="display: inline-block">
-                    <a data-mydop-display-name="Link" data-mydop-link="" data-mydop-text="" href="#"
-                        style="padding: 5px; letter-spacing: 2px;" class="display-text-3">PRIVACY POLICY</a>
-                </li>
-                <li data-mydop-noedit="" class="pad0" data-mydop-item="" style="display: inline-block">
-                    <a data-mydop-display-name="Link" data-mydop-link="" data-mydop-text="" href="#"
-                        style="padding: 5px; letter-spacing: 2px;" class="display-text-3">#</a>
-                </li>
+
+
+
+
+              <div class="fb-comments" data-href="https://www.keezhara.com/sudoku/sudoku.html" data-numposts="5"
+                data-width="auto"></div>
+
+            </div>
+          </div>
+
+          <br>
+          <div class="sharethis-inline-share-buttons"></div>
+          <div class="similar_post">
+            <h2>Similar Post You May Like <i class="fa fa-thumbs-o-up"></i></h2>
+            <ul class="small_catg similar_nav wow fadeInDown animated">
+              <li>
+                <div class="media wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <a
+                    class="media-left related-img" href="/chess/chess.html"><img src="/chess/chess.png"
+                      alt="Online Chess Game"></a>
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="/chess/chess.html">Online Chess Game</a></h4>
+                    <p>കമ്പ്യൂട്ടറിനെതിരെ ഒരു ഒരു മികച്ച ഓൺലൈൻ ചെസ്സ്</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <a
+                    class="media-left related-img" href="/crossword/crossword.html"><img src="/crossword/crossword.png"
+                      alt="COVID 19 CROSSWORD"></a>
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="/crossword/crossword.html">COVID 19 CROSSWORD</a></h4>
+                    <p>COVID 19 നെ ആസ്പദമാക്കിയുള്ള പദപ്രശ്നനം</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <a
+                    class="media-left related-img" href="/pscgk/psc.html"><img src="/pscgk/psc.png"
+                      alt="KERALA PSC GK QUIZ"></a>
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="/pscgk/psc.html">KERALA PSC GK QUIZ</a></h4>
+                    <p>ചോദ്യോത്തര രീതിയിൽ ക്രമീകരിച്ചത്.</p>
+                  </div>
+                </div>
+              </li>
             </ul>
+          </div>
         </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="content_bottom_right">
+            <div class="single_bottom_rightbar">
+              <h2>Recent Post</h2>
+              <ul class="small_catg popular_catg wow fadeInDown">
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/chess/chess.html" class="media-left"><img
+                        alt="Online Chess Game" src="/chess/chess.png"> </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="/chess/chess.html">Online Chess Game </a></h4>
+                      <p>കമ്പ്യൂട്ടറിനെതിരെ ഒരു ഒരു മികച്ച ഓൺലൈൻ ചെസ്സ് ഗെയിം കളിക്കാ.....</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/crossword/crossword.html" class="media-left"><img
+                        alt="COVID 19 CROSSWORD" src="/crossword/crossword.png"> </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="/crossword/crossword.html">COVID 19 CROSSWORD </a></h4>
+                      <p>COVID 19 നെ ആസ്പദമാക്കിയുള്ള പദപ്രശ്നനം </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/pscgk/psc.html" class="media-left"><img
+                        alt="KERALA PSC GK QUIZ" src="/pscgk/psc.png"> </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="/pscgk/psc.html">KERALA PSC GK QUIZ </a></h4>
+                      <p>ചോദ്യോത്തര രീതിയിൽ ക്രമീകരിച്ചത്. ശരിയുത്തരങ്ങൾ-മലയാളത്തിൽ കൊടുത്തിരിക്കുന്നു
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/qrcode/qrcode.html" class="media-left"><img alt="QR Code Generator" src="/qrcode/qrcode.png"> </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="/pscgk/psc.html">QR Code Generator</a></h4>
+                      <p>Free Online QR Code Generator to make your own QR Codes.
+                        Supports Dynamic Codes, Tracking, Analytics, Free text, vCards and more.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/videodownloader/youtube.html" class="media-left"><img alt="Sudoku Puzzles" src="/videodownloader/video.png"> </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="/pscgk/psc.html">Download Any Online Videos.</a></h4>
+                      <p>Free Online Video Downloader. Catch Video From Any Site</p>
+                    </div>
+                  </div>
+                </li>
+
+
+
+
+
+
+
+
+
+              </ul>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer id="footer">
+    <div class="footer_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="single_footer_top wow fadeInLeft">
+              <h2>Flicker Images</h2>
+              <ul class="flicker_nav">
+                <li><a href="/nse/startinvest.html"><img src="/nse/stock.png" alt="NSE START INVEST"></a></li>
+                <li><a href="/calculator/calculator.html"><img src="/calculator/calculator.webp" alt="Awesome Calculator"></a></li>
+                <li><a href="/rto/rto.html"><img src="/rto/rto.jpg" alt="RTO KERALA"></a></li>
+                <li><a href="/vasu/pages/teachersday.html"><img src="/images/art3.png" alt="teachersday"></a></li>
+                <li><a href="/qrcode/qrcode.html"><img src="/qrcode/qrcode.png" alt="QR Code Generator"></a></li>
+                <li><a href="pscgk/psc.html"><img src="/pscgk/psc.png" alt="കേരള പി‌എസ്‌സി ചോദ്യോത്തരങ്ങൾ"></a></li>
+                <li><a href="/chess/chess.html"><img src="/chess/chess.png" alt="Online Chess Game"></a></li>
+                <li><a href="/sudoku/sudoku.html"><img src="/sudoku/sudoko.png" alt="Sudoku Game Board"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="single_footer_top wow fadeInDown">
+              <h2>Labels</h2>
+              <ul class="labels_nav">
+                <li><a href="/#gallery">Gallery</a></li>
+                <li><a href="/#business">Stock Market</a></li>
+                <li><a href="/#123456">Games</a></li>
+                <li><a href="/#5566">Business</a></li>
+                <li><a href="/#">Sports</a></li>
+                <li><a href="/#">Technology</a></li>
+                <li><a href="/#Slider">Slider</a></li>
+                <li><a href="/#5566">Life &amp; Style</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div id="1972">
+            <div class="single_footer_top wow fadeInRight">
+              <h2>About Us</h2>
+              <p>Keezhara is a small village in Kannur District of Kerala State, India, under Kannapuram Panchayath. It belongs to North Kerala Division. It is found 20 KM towards East from District head quarters Kannur. 10 KM from Talipparamba. 495 KM from State capital Thiruvananthapuram. 
+  
+                Postal address: Keezhara (po),  Cherukunnu (via), Pin code 670301.</p>
+            </div></div>
+  
+          </div>
+        </div>
+      </div>
     </div>
-    <div
-        style="background-color: rgba(0, 0, 0, .5);text-align:center; min-height:50px; height:auto; display:flex; justify-content: center; align-items: center; flex-wrap: wrap; ">
-        <a data-dop-id="104" style="color:rgba(255, 255, 255, 1);font-size:11px;text-decoration: none" target="_blank"
-            rel="noopener noreferrer" href="">Powered by ®</a>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="footer_bottom_left">
+              <p>Copyright &copy; 2020 <a class="logo" href="/index.html">KEEZHARA<strong>.COM</strong> <span> God's own village  </span></a></div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="footer_bottom_right"><p>Developed BY #</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<amp-user-notification id="my-notification" class="cookie-notification" layout="nodisplay">
-    <p data-mydop-display-name="Cookie" data-mydop-text="" class="display-text-4"
-        style="line-height: 120%; letter-spacing: normal;">This website uses cookies to ensure you get the best
-        experience on our website.</p>
-    <button on="tap:my-notification.dismiss"
-        style="margin-left: 5px; background-color:#fff;border:none; line-height:20px;">I accept</button>
-</amp-user-notification>
-<button data-mydop-background-color="" id="scrollToTopButton" on="tap:top-page.scrollTo(duration=800)" class="btn"
-    style="background-color:#000; text-align:center; border-radius:20em;padding:10px;" aria-label="scrolltotop">
-    <amp-img width="30" height="30" layout="fixed" src="https://cdn.dopweb.com/master/angle-double-up-solid.svg"
-        alt="top"></amp-img>
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-</html>
+  </footer>
+  <script src="/assets/js/jquery.min.js"></script> 
+  <script src="/assets/js/bootstrap.min.js"></script> 
+  <script src="/assets/js/wow.min.js"></script> 
+  <script src="/assets/js/slick.min.js"></script> 
+  <script src="/assets/js/custom.js"></script>
+  
+  
+  </body>
+  </html>
