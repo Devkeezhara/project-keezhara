@@ -144,8 +144,8 @@ span.meta_more:before{content:" "; font-family:FontAwesome; font-style:normal
 .blog_archive{display:inline; float:left; width:100%; margin-bottom:15px}
 .blog_archive select{background-color:#fff; border:medium none; height:50px; padding:10px; width:100%}
 .blog_archive select option{cursor:pointer; padding:10px 5px}
-#footer{float:left; display:inline; width:100%; border-top:10px solid #798992; margin-top:30px}
-.footer_top{background-color:#434c51; display:inline; float:left; padding:15px 0; width:100%}
+#footer{float:left; display:inline; width:100%; border-top:10px solid #060707; margin-top:30px}
+.footer_top{background-color:#000608; display:inline; float:left; padding:15px 0; width:100%}
 .single_footer_top{float:left; display:inline; width:100%}
 .single_footer_top > h2{ font-size:18px; margin:0 0 10px; padding:6px 0; text-transform:uppercase}
 
@@ -157,7 +157,9 @@ span.meta_more:before{content:" "; font-family:FontAwesome; font-style:normal
 .labels_nav li{display:inline-block}
 .labels_nav li a{display:inline-block; background:none repeat scroll 0 0 #2e3d45; color:#ddd; line-height:12px; margin:0 2px 4px 0; padding:12px 17px; -webkit-transition:all 0.5s; -o-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; transition:all 0.5s}
 .single_footer_top p{color:#ddd}
-.footer_bottom{float:left; display:inline; width:100%; background:none repeat scroll 0 0 #282e31; color:#eee; font-size:12px; padding:8px 20px}
+
+.footer_bottom{float:left; display:inline; width:100%; background:none repeat scroll 0 0 #070808; color:#eee; font-size:12px; padding:8px 20px}
+
 .footer_bottom_left{float:left; display:inline; width:100%}
 .footer_bottom_left p, .footer_bottom_right p{color:#949494; margin:9px 10px 10px}
 .footer_bottom_right p{font-size:10px}
