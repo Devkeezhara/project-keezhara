@@ -29,8 +29,9 @@ position:absolute;
  
 .questionText{
 font-size:20px;
-margin-left: 1px;
-color:rgb(17, 4, 4);
+margin-left: 0px;
+color:rgb(16, 2, 134);
+font-weight:bold;
 }
 
 .option{width:400px;
