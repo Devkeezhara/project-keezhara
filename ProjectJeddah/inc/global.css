@@ -5,13 +5,13 @@ GLOBAL: HTML ELEMENTS
 -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 body {
-	background-color: #FFF;
+	background-color: #03C462;
 	font: 16px/1.6 "Open Sans", "Arial", sans-serif;
 	color: #222;
 }
 
 h1 {
-	color: #6939E5;
+	color: #f9f8fd;
 	font-weight: 700;
 	line-height: 1;
 }
@@ -90,12 +90,12 @@ GLOBAL: LAYOUT
 	.nav a {
 		display: block;
 		float: left;
-		color: #999;
+		color: rgb(243, 233, 233);
 		text-decoration: none;
 	}
 	.nav .current a,
 	.nav a:hover {
-		color: #6939E5;
+		color: #d9d1ee;
 	}
 
 .content {
@@ -120,14 +120,14 @@ GLOBAL: LAYOUT
 	}
 
 .footer {
-	background-color: #FFF;
-	color: #999;
+	background-color:  #03C462;
+	color: rgb(248, 239, 239);
 }
 	.footer a {
-		color: #999;
+		color: rgb(245, 234, 234);
 	}
 	.footer a:hover {
-		color: #555;
+		color: rgb(248, 241, 241);
 	}
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------
