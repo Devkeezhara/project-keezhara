@@ -21,6 +21,32 @@
   <div class="wrapper cf">
     <p class="logo"><a href="#" title="[Go to homepage]"><img src="/ProjectJeddah/images/Logo.jpg" alt=""></a></p>
     <nav class="nav cf" id="nav">
+      <div id="clockbox" style="font-family:cursive; color: rgb(11, 11, 185)">
+        <script type="text/javascript">
+          var tday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+          var tmonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+          function GetClock() {
+            var d = new Date();
+            var nday = d.getDay(), nmonth = d.getMonth(), ndate = d.getDate(), nyear = d.getFullYear();
+            var nhour = d.getHours(), nmin = d.getMinutes(), nsec = d.getSeconds(), ap;
+
+            if (nhour == 0) { ap = " AM"; nhour = 12; }
+            else if (nhour < 12) { ap = " AM"; }
+            else if (nhour == 12) { ap = " PM"; }
+            else if (nhour > 12) { ap = " PM"; nhour -= 12; }
+
+            if (nmin <= 9) nmin = "0" + nmin;
+            if (nsec <= 9) nsec = "0" + nsec;
+
+            var clocktext = "" + tday[nday] + ", " + tmonth[nmonth] + " " + ndate + ", " + nyear + " " + nhour + ":" + nmin + ":" + nsec + ap + "";
+            document.getElementById('clockbox').innerHTML = clocktext;
+          }
+
+          GetClock();
+          setInterval(GetClock, 1000);
+        </script>
+      </div>
       <ul>
         <li class="current"><a href="/ProjectJeddah/projectjeddah.html">Homepage</a></li>
 
@@ -28,8 +54,8 @@
         <li><a href="https://ebs.saptco.com.sa:4443/OA_HTML/RF.jsp?function_id=28910&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=Gqx2yDmXpopMF3zdmTzwRAUn4aSilECNrkoDm.hi6.s&oas=jh0ajJjIHOR2_saw5t5B-w.." target="_blank">self service</a></li>
         <li><a href="https://portal.saptco.com.sa/Pages/default.aspx" target="_blank">E portal</a></li>
         <li><a href="#">Schedules</a></li>
-        <li ><a href="#">Galary</a></li>
-        <li ><a href="#123456">About Us</a></li>
+        <li ><a href="/ProjectJeddah/gallery.html">gallery</a></li>
+        <li ><a href="https://drive.google.com/drive/u/1/folders/1yRhQRXuLW7ME24I_SvdXYY_Rueheo7m5" target="_blank">Memorandum</a></li>
       </ul>
     </nav>
   </div>
