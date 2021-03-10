@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-	color: #f9f8fd;
+	color: #322d47;
 	font-weight: 700;
 	line-height: 1;
 	text-align: right;
@@ -92,12 +92,12 @@ GLOBAL: LAYOUT
 	.nav a {
 		display: block;
 		float: left;
-		color: rgb(243, 233, 233);
+		color: rgb(24, 20, 20);
 		text-decoration: none;
 	}
 	.nav .current a,
 	.nav a:hover {
-		color: #d9d1ee;
+		color: #f3f3ed;
 		font-size: large;
 	}
 
