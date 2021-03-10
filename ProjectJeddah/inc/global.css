@@ -98,6 +98,7 @@ GLOBAL: LAYOUT
 	.nav .current a,
 	.nav a:hover {
 		color: #d9d1ee;
+		font-size: large;
 	}
 
 .content {
