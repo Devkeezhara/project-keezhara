@@ -25,7 +25,7 @@ body {
 	-moz-font-smoothing: subpixel-antialiased;
 	-ms-font-smoothing: subpixel-antialiased;
 	-o-font-smoothing: subpixel-antialiased;
-	font-smoothing: subpixel-antialiased;
+	
 }
 address, blockquote, body, button, caption, cite, code, dd, dfn, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, label, legend, li, object, ol, p, pre, span, table, td, th, ul {
 	margin: 0;
