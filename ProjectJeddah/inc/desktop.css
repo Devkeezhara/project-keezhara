@@ -178,3 +178,108 @@ PAGE: SUBPAGE
 		padding: 8px 20px;
 		cursor: pointer;
 	}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+BUTTON
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+	.button {
+		border: none;
+		color: rgb(251, 255, 255);
+		padding: 16px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 16px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+	  }
+	  
+	  .button1 {
+		background-color: rgb(251, 252, 251); 
+		color: black; 
+		border: 2px solid #4CAF50;
+	  }
+	  
+	  .button1:hover {
+		background-color: #4CAF50;
+		color: white;
+	  }
+	  
+	  .button2 {
+		background-color: rgb(252, 250, 250); 
+		color: black; 
+		border: 2px solid #008CBA;
+	  }
+	  
+	  .button2:hover {
+		background-color: #008CBA;
+		color: white;
+	  }
+
+	  
+
+	  .button3 {
+		background-color: rgb(253, 253, 251); 
+		color: black; 
+		border: 2px solid #4CAF50;
+	  }
+	  
+	  .button3:hover {
+		background-color: #4CAF50;
+		color: white;
+	  }
+	  
+	  .button4 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #008CBA;
+	  }
+	  
+	  .button4:hover {
+		background-color: #008CBA;
+		color: white;
+	  }
+	  
+
+
+	  .button5 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #4CAF50;
+	  }
+	  
+	  .button5:hover {
+		background-color: #4CAF50;
+		color: white;
+	  }
+	  
+	  .button6 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #008CBA;
+	  }
+	  
+	  .button6:hover {
+		background-color: #008CBA;
+		color: white;
+	  }
+
+
+	  .button1 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #4CAF50;
+	  }
+	  
+	  .button7:hover {
+		background-color: #4CAF50;
+		color: white;
+	  }
+	  
+	  .button7 {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #008CBA;
+	  }
