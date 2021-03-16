@@ -1,190 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<meta name="robots" content="noindex"/>
-<meta name="googlebot" content="noindex"/>
+  <meta name="robots" content="noindex" />
+  <meta name="googlebot" content="noindex" />
 
-<title>Project Jeddah - Data Base</title>
+  <title>Project Jeddah - Data Base</title>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<link rel="stylesheet" href="inc/reset.css" media="all">
-<link rel="stylesheet" href="inc/global.css" media="all">
-<link rel="stylesheet" href="inc/mobile.css" media="all and (max-width:767px)">
-<link rel="stylesheet" href="inc/desktop.css" media="all and (min-width:868px)">
-<link rel="icon" href="/ProjectJeddah/images/favicon.jpg" type="image/gif" sizes="16x16">
-<!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="inc/desktop.css" media="all"><![endif]-->
-<!--[if lt IE 9]><script src="inc/html5.js"></script><![endif]-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="inc/reset.css" media="all">
+  <link rel="stylesheet" href="inc/global.css" media="all">
+  <link rel="stylesheet" href="inc/mobile.css" media="all and (max-width:767px)">
+  <link rel="stylesheet" href="inc/desktop.css" media="all and (min-width:868px)">
+  <link rel="icon" href="/ProjectJeddah/images/favicon.jpg" type="image/gif" sizes="16x16">
+  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="inc/desktop.css" media="all"><![endif]-->
+  <!--[if lt IE 9]><script src="inc/html5.js"></script><![endif]-->
 
 
 </head>
+
 <body>
-<header class="header">
-  <div class="wrapper cf">
-    <p class="logo"><a href="/ProjectJeddah/projectjeddah.html" title="[Go to homepage]"><img src="/ProjectJeddah/images/Logo.jpg" alt=""></a></p>
-    <nav class="nav cf" id="nav">
-      <div id="clockbox" style="font-family:cursive; color: rgb(11, 11, 185)">
-        <script type="text/javascript">
-          var tday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-          var tmonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  <header class="header">
+    <div class="wrapper cf">
+      <p class="logo"><a href="/ProjectJeddah/projectjeddah.html" title="[Go to homepage]"><img
+            src="/ProjectJeddah/images/Logo.jpg" alt=""></a></p>
+      <nav class="nav cf" id="nav">
+        <div id="clockbox" style="font-family:cursive; color: rgb(11, 11, 185)">
+          <script type="text/javascript">
+            var tday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            var tmonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-          function GetClock() {
-            var d = new Date();
-            var nday = d.getDay(), nmonth = d.getMonth(), ndate = d.getDate(), nyear = d.getFullYear();
-            var nhour = d.getHours(), nmin = d.getMinutes(), nsec = d.getSeconds(), ap;
+            function GetClock() {
+              var d = new Date();
+              var nday = d.getDay(), nmonth = d.getMonth(), ndate = d.getDate(), nyear = d.getFullYear();
+              var nhour = d.getHours(), nmin = d.getMinutes(), nsec = d.getSeconds(), ap;
 
-            if (nhour == 0) { ap = " AM"; nhour = 12; }
-            else if (nhour < 12) { ap = " AM"; }
-            else if (nhour == 12) { ap = " PM"; }
-            else if (nhour > 12) { ap = " PM"; nhour -= 12; }
+              if (nhour == 0) { ap = " AM"; nhour = 12; }
+              else if (nhour < 12) { ap = " AM"; }
+              else if (nhour == 12) { ap = " PM"; }
+              else if (nhour > 12) { ap = " PM"; nhour -= 12; }
 
-            if (nmin <= 9) nmin = "0" + nmin;
-            if (nsec <= 9) nsec = "0" + nsec;
+              if (nmin <= 9) nmin = "0" + nmin;
+              if (nsec <= 9) nsec = "0" + nsec;
 
-            var clocktext = "" + tday[nday] + ", " + tmonth[nmonth] + " " + ndate + ", " + nyear + " " + nhour + ":" + nmin + ":" + nsec + ap + "";
-            document.getElementById('clockbox').innerHTML = clocktext;
-          }
+              var clocktext = "" + tday[nday] + ", " + tmonth[nmonth] + " " + ndate + ", " + nyear + " " + nhour + ":" + nmin + ":" + nsec + ap + "";
+              document.getElementById('clockbox').innerHTML = clocktext;
+            }
 
-          GetClock();
-          setInterval(GetClock, 1000);
-        </script>
+            GetClock();
+            setInterval(GetClock, 1000);
+          </script>
+        </div>
+        <ul>
+          <li class="current"><a href="/ProjectJeddah/projectjeddah.html">الصفحة الرئيسية</a></li>
+
+          <li><a
+              href="https://outlook.office.com/mail/inbox/id/AAMkADViZjkwYWNkLThiM2YtNDk1Ny1iYjAyLTNhMjA0N2U1ZjExNABGAAAAAACk4%2FKbo9BqQbXMemxDsz3mBwAXPBZkc4bLT5TKOkzwNRoPAAAAAAENAADysnod3RSOSJC6lIx8HxHhAADMAdZCAAA%3D"
+              target="_blank">بريد الموظفين</a></li>
+          <li><a
+              href="http://erpapps.saptco.local:8001/OA_HTML/RF.jsp?function_id=28910&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=GsVNp3rdo0yT7JJo0KpKCw&oas=cTDjqL4h-jIZLwxcpvr9qA.."
+              target="_blank">Local خدمة ذاتية</a></li>
+          <li><a
+              href="https://ebs.saptco.com.sa:4443/OA_HTML/RF.jsp?function_id=28910&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=Gqx2yDmXpopMF3zdmTzwRAUn4aSilECNrkoDm.hi6.s&oas=jh0ajJjIHOR2_saw5t5B-w.."
+              target="_blank">Net خدمة ذاتية</a></li>
+          <li><a href="https://portal.saptco.com.sa/Pages/default.aspx" target="_blank">بوابة إلكترونية</a></li>
+          <li><a href="https://drive.google.com/drive/u/0/folders/17eaDk2QKTIePjIvUPaNo6o1q37Sg-0iY"
+              target="_blank">جداول </a></li>
+          <li><a href="/ProjectJeddah/gallery.html">صالة عرض</a></li>
+          <li><a href="https://drive.google.com/drive/u/1/folders/1yRhQRXuLW7ME24I_SvdXYY_Rueheo7m5"
+              target="_blank">تعاميم الشركة</a></li>
+          <li><a href="https://drive.google.com/drive/u/1/folders/1U2DMNw3rKMEb8Ey6QzCTE4iKD9P4EqyE"
+              target="_blank">حقيبة البزيد</a></li>
+          <li><a href="https://drive.google.com/drive/folders/1pmDATkYRjEjhzyRuyGItd-RodKi91_B1" target="_blank">قروض
+              شخصية</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="main-subpage">
+    <div class="wrapper">
+      <h1>مشروع جدة</h1>
+      <h3> <span style="color: aqua;">Many Hands One Mind</span> A multi-user Data Base</h3>
+    </div>
+  </div>
+  <div class="content">
+    <div class="wrapper cf">
+      <p class="nomt cf"> <img src="/projectJeddah/images/image-01.jpg" alt="" class="responsive" width="1281px">
+        <br>Public transportation is an important contributing factor to urban sustainability. Effective transportation
+        networks that incorporate public transit help lower a city's per capita carbon footprint, and make cities more
+        livable by easing commute and transportation needs and increasing accessibility</p>
+
+
+
+
+
+      <h2>Links</h2>
+      <ul class="gallery cf">
+        <li><a href="https://drive.google.com/drive/u/1/folders/1Pnn3xcLW850WOwMTQEFBq6zRenOGhFvk" target="_blank"><img
+              src="/ProjectJeddah/images/reports.jpg" alt=""></a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1vq7FkimJuB2QJFRedCDfhvq6pSKENJYh3eyV62koWGY/edit#gid=0"
+            target="_blank"><img src="/ProjectJeddah/images/database.png" alt=""></a></li>
+
+        <li><a href="https://drive.google.com/drive/u/0/folders/1a1U3iWCumnYtwvsetgsfef9rqf_p7x54" target="_blank"><img
+              src="/ProjectJeddah/images/archive.png" alt=""></a></li>
+        <li><a href="https://drive.google.com/drive/u/0/folders/1Svt1J63WOGQVX4eftybOSJuiKjzb83fA" target="_blank"><img
+              src="/ProjectJeddah/images/fleet.jpg" alt=""></a></li>
+      </ul> <br>
+
+
+      <button class="button button5"><a href="https://drive.google.com/drive/folders/1pmDATkYRjEjhzyRuyGItd-RodKi91_B1"
+          target="_blank">قروض شخصية</button></a>
+      <button class="button button5"><a
+          href="https://drive.google.com/drive/u/1/folders/1U2DMNw3rKMEb8Ey6QzCTE4iKD9P4EqyE" target="_blank">حقيبة
+          البزيد</button></a>
+      <button class="button button6"><a
+          href="https://drive.google.com/drive/u/1/folders/1yRhQRXuLW7ME24I_SvdXYY_Rueheo7m5" target="_blank">تعاميم
+          الشركة</button></a>
+      <button class="button button5"><a
+          href="https://drive.google.com/drive/u/0/folders/17eaDk2QKTIePjIvUPaNo6o1q37Sg-0iY"
+          target="_blank">جداول</button></a>
+      <button class="button button7"><a
+          href="https://drive.google.com/drive/folders/1R7dCdelZls7Nn03gQfM6zqLcxkSLL_I_?usp=sharing"
+          target="_blank">MJC Docs</button></a>
+      <button class="button button7"><a
+          href="https://drive.google.com/drive/folders/1uQNT1eGeEPpww03OwOQMQcEPGWMSs969?usp=sharing"
+          target="_blank">FORMATS</button></a>
+      <button class="button button7"><a
+          href="https://drive.google.com/drive/folders/1FyqFkf6bZSZx6DrF-DCukFBZMb-0tsar?usp=sharing"
+          target="_blank">TARGET</button></a>
+
+
+
+
+
+      <div id="demo">
+
+        <button class="button button5">TEST</button>
+        <button class="button button6">TEST</button>
+        <button class="button button7">TEST</button>
+        <button class="button button5">TEST</button>
+        <button class="button button5">TEST</button>
+        <button class="button button6">TEST</button>
+        <button class="button button7">TEST</button>
+        <button class="button button5">TEST</button>
+        <button class="button button5">TEST</button>
+        <button class="button button6">TEST</button>
+        <button class="button button7">TEST</button>
+        <button class="button button5">TEST</button>
       </div>
-      <ul >
-        <li class="current" ><a href="/ProjectJeddah/projectjeddah.html">الصفحة الرئيسية</a></li>
 
-        <li><a href="https://outlook.office.com/mail/inbox/id/AAMkADViZjkwYWNkLThiM2YtNDk1Ny1iYjAyLTNhMjA0N2U1ZjExNABGAAAAAACk4%2FKbo9BqQbXMemxDsz3mBwAXPBZkc4bLT5TKOkzwNRoPAAAAAAENAADysnod3RSOSJC6lIx8HxHhAADMAdZCAAA%3D" target="_blank">بريد الموظفين</a></li>
-        <li><a href="http://erpapps.saptco.local:8001/OA_HTML/RF.jsp?function_id=28910&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=GsVNp3rdo0yT7JJo0KpKCw&oas=cTDjqL4h-jIZLwxcpvr9qA.." target="_blank">Local خدمة ذاتية</a></li>
-        <li><a href="https://ebs.saptco.com.sa:4443/OA_HTML/RF.jsp?function_id=28910&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=Gqx2yDmXpopMF3zdmTzwRAUn4aSilECNrkoDm.hi6.s&oas=jh0ajJjIHOR2_saw5t5B-w.." target="_blank">Net خدمة ذاتية</a></li>
-        <li ><a href="https://portal.saptco.com.sa/Pages/default.aspx" target="_blank">بوابة إلكترونية</a></li>
-        <li><a href="https://drive.google.com/drive/u/0/folders/17eaDk2QKTIePjIvUPaNo6o1q37Sg-0iY" target="_blank">جداول </a></li>
-        <li><a href="/ProjectJeddah/gallery.html">صالة عرض</a></li>
-        <li><a href="https://drive.google.com/drive/u/1/folders/1yRhQRXuLW7ME24I_SvdXYY_Rueheo7m5" target="_blank">تعاميم الشركة</a></li>
-        <li><a href="https://drive.google.com/drive/u/1/folders/1U2DMNw3rKMEb8Ey6QzCTE4iKD9P4EqyE" target="_blank">حقيبة البزيد</a></li>
-        <li><a href="https://drive.google.com/drive/folders/1pmDATkYRjEjhzyRuyGItd-RodKi91_B1" target="_blank">قروض شخصية</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<div class="main-subpage">
-  <div class="wrapper">
-    <h1>مشروع جدة</h1>
-   <h3> <span style="color: aqua;">Many Hands One Mind</span>   A multi-user Data Base</h3>
-  </div>
-</div>
-<div class="content">
-  <div class="wrapper cf">
-    <p class="nomt cf"> <img src="/projectJeddah/images/image-01.jpg" alt="" class="responsive" width="1281px"> <br>Public transportation is an important contributing factor to urban sustainability. Effective transportation networks that incorporate public transit help lower a city's per capita carbon footprint, and make cities more livable by easing commute and transportation needs and increasing accessibility</p>
+      <br>
 
 
-  
+      <br>
 
 
-    <h2>Links</h2>
-    <ul class="gallery cf">
-      <li><a href="https://drive.google.com/drive/u/1/folders/1Pnn3xcLW850WOwMTQEFBq6zRenOGhFvk" target="_blank"><img src="/ProjectJeddah/images/reports.jpg" alt=""></a></li>
-      <li><a href="https://docs.google.com/spreadsheets/d/1vq7FkimJuB2QJFRedCDfhvq6pSKENJYh3eyV62koWGY/edit#gid=0" target="_blank"><img src="/ProjectJeddah/images/database.png" alt=""></a></li>
-      
-      <li><a href="https://drive.google.com/drive/u/0/folders/1a1U3iWCumnYtwvsetgsfef9rqf_p7x54" target="_blank"><img src="/ProjectJeddah/images/archive.png" alt=""></a></li>
-      <li><a href="https://drive.google.com/drive/u/0/folders/1Svt1J63WOGQVX4eftybOSJuiKjzb83fA" target="_blank"><img src="/ProjectJeddah/images/fleet.jpg" alt=""></a></li>
-    </ul> <br>
-  
-  
-    <button class="button button5"><a href="https://drive.google.com/drive/folders/1pmDATkYRjEjhzyRuyGItd-RodKi91_B1" target="_blank">قروض شخصية</button></a>
-    <button class="button button5"><a href="https://drive.google.com/drive/u/1/folders/1U2DMNw3rKMEb8Ey6QzCTE4iKD9P4EqyE" target="_blank">حقيبة البزيد</button></a>
-    <button class="button button6"><a href="https://drive.google.com/drive/u/1/folders/1yRhQRXuLW7ME24I_SvdXYY_Rueheo7m5" target="_blank">تعاميم الشركة</button></a>   
-    <button class="button button5"><a href="https://drive.google.com/drive/u/0/folders/17eaDk2QKTIePjIvUPaNo6o1q37Sg-0iY" target="_blank">جداول</button></a>
-    <button class="button button7"><a href="https://drive.google.com/drive/folders/1R7dCdelZls7Nn03gQfM6zqLcxkSLL_I_?usp=sharing" target="_blank">MJC Docs</button></a>
-    <button class="button button7"><a href="https://drive.google.com/drive/folders/1uQNT1eGeEPpww03OwOQMQcEPGWMSs969?usp=sharing" target="_blank">FORMATS</button></a>
-    <button class="button button7"><a href="https://drive.google.com/drive/folders/1FyqFkf6bZSZx6DrF-DCukFBZMb-0tsar?usp=sharing" target="_blank">TARGET</button></a>
-      
-    
-  
-  
-  
-    <div id="demo">
-    
-    <button class="button button5">TEST</button>
-    <button class="button button6">TEST</button>
-    <button class="button button7">TEST</button>
-    <button class="button button5">TEST</button>
-    <button class="button button5">TEST</button>
-    <button class="button button6">TEST</button>
-    <button class="button button7">TEST</button>
-    <button class="button button5">TEST</button>
-    <button class="button button5">TEST</button>
-    <button class="button button6">TEST</button>
-    <button class="button button7">TEST</button>
-    <button class="button button5">TEST</button>
-  </div>
- 
-<br>
 
- 
-<br>
+      <h3>Multi-user Data Base</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1vq7FkimJuB2QJFRedCDfhvq6pSKENJYh3eyV62koWGY/edit#gid=0"
+        width="100%" height="850" style="border:1px solid black;">
+      </iframe>
 
-
-  
-  <h3>Multi-user Data Base</h3>
-  <iframe src="https://docs.google.com/spreadsheets/d/1vq7FkimJuB2QJFRedCDfhvq6pSKENJYh3eyV62koWGY/edit#gid=0" width="100%" height="850" style="border:1px solid black;">
-  </iframe>
-  
-  <h3>Maintenance report - Live</h3>
-  <iframe src="https://docs.google.com/spreadsheets/d/1v7kngLtassoAYUASo_oK61YOvXa1T04TISuRSvi9GjI/edit#gid=220500258" width="100%" height="800" style="border:1px solid black;">
-  </iframe>
+      <h3>Maintenance report - Live</h3>
+      <iframe
+        src="https://docs.google.com/spreadsheets/d/1v7kngLtassoAYUASo_oK61YOvXa1T04TISuRSvi9GjI/edit#gid=220500258"
+        width="100%" height="800" style="border:1px solid black;">
+      </iframe>
 
 
 
 
-<br><br>
-<h2>Media</h2>
-<div>
-  <iframe width="630" height="315" src="https://www.youtube.com/embed/oPQvGU6op8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-  <iframe width="630" height="315" src="https://www.youtube.com/embed/ued5TGgaY8I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="630" height="315" src="https://www.youtube.com/embed/PfshGSxJUgc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="630" height="315" src="https://www.youtube.com/embed/Nuz3AIbn4-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br>
-<br>
-  </div>
-  </div>
-</div>
-<div class="testimonials">
-  <div class="wrapper cf">
-    <h2>About Us</h2>
-    <article class="half cf">
-      <div class="testimonials-image"> <img src="/ProjectJeddah/images/Logo.jpg" alt=""></div>
-      <div class="testimonials-text">
-        <p>Public transportation is like a magnifying glass that shows you civilization up close.
-
-          </span></p>
+      <br><br>
+      <h2>Media</h2>
+      <div>
+        <iframe width="630" height="315" src="https://www.youtube.com/embed/oPQvGU6op8U" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <iframe width="630" height="315" src="https://www.youtube.com/embed/ued5TGgaY8I" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <iframe width="630" height="315" src="https://www.youtube.com/embed/PfshGSxJUgc" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <iframe width="630" height="315" src="https://www.youtube.com/embed/Nuz3AIbn4-E" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
-    </article>
-    <article class="half f-right cf">
-      <div class="testimonials-image"> <img src="/ProjectJeddah/images/Logo.jpg" alt=""> </div>
-      <div class="testimonials-text">
-        <p>The reality about transportation is that it's future-oriented. If we're planning for what we have, we're behind the curve.
 
-</span></p>
-      </div>
-    </article>
+      <br>
+      <br>
+    </div>
   </div>
-</div>
-<footer class="footer" id="123456">
-  <div class="wrapper cf">
-    <p class="f-right"> <a href="#"><img src="design/facebook.png" alt=""></a> <a href="#"><img src="design/twitter.png" alt=""></a> <a href="#"><img src="design/dribbble.png" alt=""></a> </p>
-    <p class="f-left"> &copy; مشروع جدة 2021<br>
-      <span style="font-size:14px;">Privet Web</a> by <a href="https://www.keezhara.com/" target="_blank">Dev</a></span></p>
   </div>
-</footer>
+  <div class="testimonials">
+    <div class="wrapper cf">
+      <h2>About Us</h2>
+      <article class="half cf">
+        <div class="testimonials-image"> <img src="/ProjectJeddah/images/Logo.jpg" alt=""></div>
+        <div class="testimonials-text">
+          <p>Public transportation is like a magnifying glass that shows you civilization up close.
+
+            </span></p>
+        </div>
+      </article>
+      <article class="half f-right cf">
+        <div class="testimonials-image"> <img src="/ProjectJeddah/images/Logo.jpg" alt=""> </div>
+        <div class="testimonials-text">
+          <p>The reality about transportation is that it's future-oriented. If we're planning for what we have, we're
+            behind the curve.
+
+            </span></p>
+        </div>
+      </article>
+    </div>
+  </div>
+  <footer class="footer" id="123456">
+    <div class="wrapper cf">
+      <p class="f-right"> <a href="#"><img src="design/facebook.png" alt=""></a> <a href="#"><img
+            src="design/twitter.png" alt=""></a> <a href="#"><img src="design/dribbble.png" alt=""></a> </p>
+      <p class="f-left"> &copy; مشروع جدة 2021<br>
+        <span style="font-size:14px;">Privet Web</a> by <a href="https://www.keezhara.com/"
+            target="_blank">Dev</a></span>
+      </p>
+    </div>
+  </footer>
 </body>
 <script>
   document.getElementById("demo").addEventListener("click", myFunction);
-  
+
   function myFunction() {
     document.getElementById("demo").innerHTML = "We Are Working On It!";
   }
-  </script>
-  
+</script>
+
 </html>
