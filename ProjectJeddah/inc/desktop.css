@@ -207,6 +207,8 @@ BUTTON
 		color: white;
 	  }
 	  
+
+
 	  .button2 {
 		background-color: rgb(252, 250, 250); 
 		color: black; 
@@ -220,6 +222,7 @@ BUTTON
 
 	  
 
+
 	  .button3 {
 		background-color: rgb(253, 253, 251); 
 		color: black; 
@@ -231,6 +234,8 @@ BUTTON
 		color: white;
 	  }
 	  
+
+
 	  .button4 {
 		background-color: white; 
 		color: black; 
@@ -244,6 +249,7 @@ BUTTON
 	  
 
 
+
 	  .button5 {
 		background-color: white; 
 		color: black; 
@@ -255,6 +261,8 @@ BUTTON
 		color: white;
 	  }
 	  
+
+
 	  .button6 {
 		background-color: white; 
 		color: black; 
@@ -267,7 +275,9 @@ BUTTON
 	  }
 
 
-	  .button1 {
+
+
+	  .button7 {
 		background-color: white; 
 		color: black; 
 		border: 2px solid #4CAF50;
@@ -278,8 +288,12 @@ BUTTON
 		color: white;
 	  }
 	  
-	  .button7 {
+	  .button8 {
 		background-color: white; 
 		color: black; 
 		border: 2px solid #008CBA;
+	  }
+	  .button8:hover {
+		background-color: #3431e2;
+		color: white;
 	  }
