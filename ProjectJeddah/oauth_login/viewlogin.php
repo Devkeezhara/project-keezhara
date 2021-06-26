@@ -1,6 +1,25 @@
-<HTML>
-<HEAD>
+<!DOCTYPE html>
+<html lang="en">
 
+<HEAD>
+  <meta name="robots" content="no index, nofollow"> 
+  <meta name="googlebot" content="noindex, nofollow" />
+  <meta name="author" content="Dev Anand" />
+
+  <title>Project Jeddah - Data Base</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="inc/reset.css" media="all">
+  <link rel="stylesheet" href="inc/global.css" media="all">
+  <link rel="stylesheet" href="inc/mobile.css" media="all and (max-width:767px)">
+  <link rel="stylesheet" href="inc/desktop.css" media="all and (min-width:868px)">
+  <link rel="icon" href="/ProjectJeddah/images/favicon.jpg" type="image/gif" sizes="16x16">
+  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="inc/desktop.css" media="all"><![endif]-->
+  <!--[if lt IE 9]><script src="inc/html5.js"></script><![endif]-->
+
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
 <style>
 	.box {font-family: Arial, sans-serif;background-color: #F1F1F1;border:0;width:340px;webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);margin: 0 auto 25px;text-align:center;padding:10px 0px;}
 	.box img{padding: 10px 0px;}
@@ -31,5 +50,4 @@
   </div>
 </div>
 </BODY>
-</HTML>
-</HTML>
+</html>
