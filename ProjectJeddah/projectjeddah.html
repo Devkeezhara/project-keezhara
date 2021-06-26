@@ -18,6 +18,8 @@
   <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="inc/desktop.css" media="all"><![endif]-->
   <!--[if lt IE 9]><script src="inc/html5.js"></script><![endif]-->
 
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
 
 </head>
 
@@ -53,6 +55,9 @@
             setInterval(GetClock, 1000);
           </script>
         </div>
+
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
         <ul>
           <li class="current"><a href="/ProjectJeddah/projectjeddah.html">الصفحة الرئيسية</a></li>
 
