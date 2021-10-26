@@ -1,36 +1,192 @@
-<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>https://www.keezhara.com/</loc></url>
-<url><loc>https://www.keezhara.com/calculator/calculator.html</loc></url>
-<url><loc>https://www.keezhara.com/chess/chess.html</loc></url>
-<url><loc>https://www.keezhara.com/converters/converters.html</loc></url>
-<url><loc>https://www.keezhara.com/crossword/crossword.html</loc></url>
-<url><loc>https://www.keezhara.com/dhanaraj/art.html</loc></url>
-<url><loc>https://www.keezhara.com/dhanaraj/dhanaraj.html</loc></url>
-<url><loc>https://www.keezhara.com/index.html</loc></url>
-<url><loc>https://www.keezhara.com/nse/dosanddonts.html</loc></url>
-<url><loc>https://www.keezhara.com/nse/improveyourtrading.html</loc></url>
-<url><loc>https://www.keezhara.com/nse/nse.html</loc></url>
-<url><loc>https://www.keezhara.com/nse/rules-for-picking-stocks</loc></url>
-<url><loc>https://www.keezhara.com/nse/startinvest.html</loc></url>
-<url><loc>https://www.keezhara.com/nse/ten-commandments.html</loc></url>
-<url><loc>https://www.keezhara.com/pages/404.html</loc></url>
-<url><loc>https://www.keezhara.com/pages/contact.html</loc></url>
-<url><loc>https://www.keezhara.com/pscgk/psc.html</loc></url>
-<url><loc>https://www.keezhara.com/qrcode/qrcode.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/coffee.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/family.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/friend.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/happiness.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/life.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/love.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/quotes.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/smile.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/teacher.html</loc></url>
-<url><loc>https://www.keezhara.com/quotes/trust.html</loc></url>
-<url><loc>https://www.keezhara.com/rto/rto.html</loc></url>
-<url><loc>https://www.keezhara.com/sudoku/sudoku.html</loc></url>
-<url><loc>https://www.keezhara.com/vasu/pages/blogs.html</loc></url>
-<url><loc>https://www.keezhara.com/vasu/pages/motivation.html</loc></url>
-<url><loc>https://www.keezhara.com/vasu/pages/teachersday.html</loc></url>
-<url><loc>https://www.keezhara.com/vasu/pages/vasu-home.html</loc></url>
-<url><loc>https://www.keezhara.com/videodownloader/youtube.html</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.keezhara.com/</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/pages/contact.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/index.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/rto/rto.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/pages/404.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/vasu/pages/vasu-home.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/dhanaraj/dhanaraj.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/pscgk/psc.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/converters/converters.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/calculator/calculator.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/chess/chess.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/quotes.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/nse/startinvest.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/nse/nse.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/nse/rules-for-picking-stocks</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/crossword/crossword.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/sudoku/sudoku.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/videodownloader/youtube.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/qrcode/qrcode.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/coffee.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/vasu/pages/motivation.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/vasu/pages/blogs.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/vasu/pages/teachersday.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/dhanaraj/dhanaraj-keezhara-art-gallery.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/teacher.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/happiness.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/life.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/trust.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/family.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/friend.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/smile.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/quotes/love.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/nse/dosanddonts.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/nse/improveyourtrading.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/nse/what-it-takes-to%20a-good-trader</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.keezhara.com/nse/ten-commandments.html</loc>
+  <lastmod>2021-10-26T10:45:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
