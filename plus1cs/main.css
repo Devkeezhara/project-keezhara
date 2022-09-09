@@ -34,8 +34,8 @@ color:rgb(16, 2, 134);
 font-weight:bold;
 }
 
-.option{width:730px;
-height:30px;
+.option{width:auto;
+height:auto;
 margin:15px;
 font-size:18px;
 color:#FFFFFF; 
