@@ -30,6 +30,7 @@ position:absolute;
 .questionText{
 font-size:20px;
 margin-left: 0px;
+margin-right: 55px;
 color:rgb(16, 2, 134);
 font-weight:bold;
 background-color: #FC0;
