@@ -1,7 +1,7 @@
 #navContent {
   margin: auto;
   width: 800px;
-  height: 400px;
+  height: 250px;
   position: relative;
   overflow: hidden;
 }
@@ -50,11 +50,11 @@
   color: #fc0;
 }
 
-.gvhss {
+/* .gvhss {
   background: url("/plus1cs/images/gvhss.jpg") center no-repeat;
   width: 100%;
   height: auto;
-}
+} */
 
 .displaybg {
   text-align: center;
