@@ -52,6 +52,8 @@
 
 .gvhss {
   background: url("/plus1cs/images/gvhss.jpg") center no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 .displaybg {
