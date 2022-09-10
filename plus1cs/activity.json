@@ -9,14 +9,14 @@
 	{
 	"question":"Greek Number System is known as _________.",
 	"option1":"Ionian number system",
-	"option2":"Bogota",
-	"option3":"San Juan"
+	"option2":"Binary number system",
+	"option3":"Decimal number system"
 	},
 	{
 	"question":"Which was the first computer for basic arithmetic calculations?",
 	"option1":"Abacus",
-	"option2":"Uruguay",
-	"option3":"Colombia"
+	"option2":"Babbage Difference Engine",
+	"option3":"ENIAC computing system"
 	},
 	{
 	"question":"Who invented logarithms?",
@@ -27,22 +27,22 @@
 	{
 	"question":"What is the name of the machine developed by Blaise Pascal?",
 	"option1":"Pascaline",
-	"option2":"Uruguay",
-	"option3":"Colombia"
+	"option2":"ENIAC",
+	"option3":"Abacus"
 	}
 
 	,
 	{
 	"question":"Who was the first programmer in the world?",
 	"option1":"Augusta Ada Lowelace",
-	"option2":"Bogota",
+	"option2":"Blaise Pascal",
 	"option3":"San Juan"
 	},
 	{
 	"question":"Computing machines recognizes and operates in ___________ language.",
 	"option1":"Machine",
-	"option2":"Uruguay",
-	"option3":"Colombia"
+	"option2":"high-level language",
+	"option3":"programming languages"
 	},
 	{
 	"question":"What does EDVAC stand for?",
@@ -61,8 +61,8 @@
 	{
 	"question":"The Sumerian number system is also known as _________",
 	"option1":"Sexagesimal",
-	"option2":"Bogota",
-	"option3":"San Juan"
+	"option2":"Assyro-Chaldean",
+	"option3":"Cuneiform Numerals"
 	},
 	{
 	"question":"What are the features of Hindu Arabic Number system?",
