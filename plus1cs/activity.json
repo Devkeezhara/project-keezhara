@@ -1,121 +1,130 @@
-{"quizlist":[
-  
-	{
-	"question":"Which is the base of Mayan’s Number System?",
-	"option1":"Base 20",
-	"option2":"Base 10",
-	"option3":"Base 60"
-	},
-	{
-	"question":"Greek Number System is known as _________.",
-	"option1":"Ionian number system",
-	"option2":"Binary number system",
-	"option3":"Decimal number system"
-	},
-	{
-	"question":"Which was the first computer for basic arithmetic calculations?",
-	"option1":"Abacus",
-	"option2":"Babbage Difference Engine",
-	"option3":"ENIAC computing system"
-	},
-	{
-	"question":"Who invented logarithms?",
-	"option1":"John Napier",
-	"option2":"Bogota",
-	"option3":"San Juan"
-	},
-	{
-	"question":"What is the name of the machine developed by Blaise Pascal?",
-	"option1":"Pascaline",
-	"option2":"ENIAC",
-	"option3":"Abacus"
-	}
+{
+  "quizlist": [
+    {
+      "question": "Which is the base of Mayan’s Number System?",
+      "option1": "Base 20",
+      "option2": "Base 10",
+      "option3": "Base 60"
+    },
+    {
+      "question": "Greek Number System is known as _________.",
+      "option1": "Ionian number system",
+      "option2": "Binary number system",
+      "option3": "Decimal number system"
+    },
+    {
+      "question": "Which was the first computer for basic arithmetic calculations?",
+      "option1": "Abacus",
+      "option2": "Babbage Difference Engine",
+      "option3": "ENIAC computing system"
+    },
+    {
+      "question": "Who invented logarithms?",
+      "option1": "John Napier",
+      "option2": "Bogota",
+      "option3": "San Juan"
+    },
+    {
+      "question": "What is the name of the machine developed by Blaise Pascal?",
+      "option1": "Pascaline",
+      "option2": "ENIAC",
+      "option3": "Abacus"
+    },
 
-	,
-	{
-	"question":"Who was the first programmer in the world?",
-	"option1":"Augusta Ada Lowelace",
-	"option2":"Blaise Pascal",
-	"option3":"San Juan"
-	},
-	{
-	"question":"Computing machines recognizes and operates in ___________ language.",
-	"option1":"Machine",
-	"option2":"high-level language",
-	"option3":"programming languages"
-	},
-	{
-	"question":"What does EDVAC stand for?",
-	"option1":"Electronic Discrete Variable Automatic Computer",
-	"option2":"Bogota",
-	"option3":"San Juan"
-	},
-	{
-	"question":"Give the name for a simple kind of theoretical computing machine.",
-	"option1":"Turing Machine.",
-	"option2":"Uruguay",
-	"option3":"Colombia"
-	}
+    {
+      "question": "Who was the first programmer in the world?",
+      "option1": "Augusta Ada Lowelace",
+      "option2": "Blaise Pascal",
+      "option3": "San Juan"
+    },
+    {
+      "question": "Computing machines recognizes and operates in ___________ language.",
+      "option1": "Machine",
+      "option2": "high-level language",
+      "option3": "programming languages"
+    },
+    {
+      "question": "What does EDVAC stand for?",
+      "option1": "Electronic Discrete Variable Automatic Computer",
+      "option2": "Bogota",
+      "option3": "San Juan"
+    },
+    {
+      "question": "Give the name for a simple kind of theoretical computing machine.",
+      "option1": "Turing Machine.",
+      "option2": "Uruguay",
+      "option3": "Colombia"
+    },
 
-	,
-	{
-	"question":"The Sumerian number system is also known as _________",
-	"option1":"Sexagesimal",
-	"option2":"Assyro-Chaldean",
-	"option3":"Cuneiform Numerals"
-	},
-	{
-	"question":"What are the features of Hindu Arabic Number system?",
-	"option1":"Had a symbol (0)",
-	"option2":"Sexagesimal",
-	"option3":"Blank space"
-	},
-	{
-	"question":"How is the zero represented in the Babylonian Number System?",
-	"option1":"Blank space",
-	"option2":"Sexagesimal",
-	"option3":"Pascaline"
-	},
-	{
-	"question":"Which is the first automatic electromechanical computer?",
-	"option1":"Mark 1",
-	"option2":"Abacus",
-	"option3":"Analytical Engine"
-	}
+    {
+      "question": "The Sumerian number system is also known as _________",
+      "option1": "Sexagesimal",
+      "option2": "Assyro-Chaldean",
+      "option3": "Cuneiform Numerals"
+    },
+    {
+      "question": "What are the features of Hindu Arabic Number system?",
+      "option1": "Had a symbol (0)",
+      "option2": "Sexagesimal",
+      "option3": "Blank space"
+    },
+    {
+      "question": "How is the zero represented in the Babylonian Number System?",
+      "option1": "Blank space",
+      "option2": "Sexagesimal",
+      "option3": "Pascaline"
+    },
+    {
+      "question": "Which is the first automatic electromechanical computer?",
+      "option1": "Mark 1",
+      "option2": "Abacus",
+      "option3": "Analytical Engine"
+    },
 
-	,
-	{
-	"question":"Find the correct match for Abacus",
-	"option1":"Counting frame",
-	"option2":"Preprogrammed",
-	"option3":"Computing Machine"
-	},
-	{
-	"question":"Find the correct match for Pascaline",
-	"option1":"computing machine",
-	"option2":"Counting frame",
-	"option3":"Preprogrammed"
-	},
-	{
-	"question":"Find the correct match for Jacquards Looms",
-	"option1":"Punched cards",
-	"option2":"Counting frame",
-	"option3":"Preprogrammed"
-	},
-	{
-	"question":"Find the correct match for Mark 1",
-	"option1":"Pre programmed",
-	"option2":"Computing Machine",
-	"option3":"Punched cards"
-	}
+    {
+      "question": "Find the correct match for Abacus",
+      "option1": "Counting frame",
+      "option2": "Preprogrammed",
+      "option3": "Computing Machine"
+    },
+    {
+      "question": "Find the correct match for Pascaline",
+      "option1": "computing machine",
+      "option2": "Counting frame",
+      "option3": "Preprogrammed"
+    },
+    {
+      "question": "Find the correct match for Jacquards Looms",
+      "option1": "Punched cards",
+      "option2": "Counting frame",
+      "option3": "Preprogrammed"
+    },
+    {
+      "question": "Find the correct match for Mark 1",
+      "option1": "Pre programmed",
+      "option2": "Computing Machine",
+      "option3": "Punched cards"
+    },
 
-	,
-	{
-	"question":"Who invented a machine to multiply any number by a number between 2 to 9? ",
-	"option1":"G.W. Von Leibniz",
-	"option2":"Blaise Pascal",
-	"option3":"San Juan"
-	}
-	
-]
+    {
+      "question": "Who invented a machine to multiply any number by a number between 2 to 9? ",
+      "option1": "G.W. Von Leibniz",
+      "option2": "Blaise Pascal",
+      "option3": "San Juan"
+    },
+    {
+		"question": "Discuss the impact of the Hindu- Arabic numeral system in the world. ",
+		"option1": "It was originated in India around 1500 years ago and was a positional number system with symbol for zero. This greatest contribution is adopted by many of the countries.",
+		"option2": "Blaise Pascal",
+		"option3": "San Juan"
+	  }
+
+
+
+
+
+
+
+
+  ]
 }
