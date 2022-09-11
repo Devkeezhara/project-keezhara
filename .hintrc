@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "disown-opener": "off",
+    "axe/aria": [
+      "off",
+      {
+        "aria-required-children": "off"
+      }
+    ]
+  }
+}
