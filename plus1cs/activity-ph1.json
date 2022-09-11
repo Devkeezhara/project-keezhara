@@ -1,0 +1,32 @@
+{
+  "quizlist": [
+    {
+      "question": "The word Science originated from a Latin verb. Which is that verb?",
+      "option1": "Scientia - means to know",
+      "option2": "Fusis- means nature",
+      "option3": "Base 60"
+    },
+    {
+      "question": "The word physics comes from a Greek word______.",
+      "option1": "Fusis - means nature",
+      "option2": "Scientia - means to know",
+      "option3": "Decimal number system"
+    },
+    {
+      "question": "Name the branch of science that deals with study of stars",
+      "option1": "Astronomy",
+      "option2": "Geology",
+      "option3": ""
+    },
+    {
+      "question": "Name the branch of science that deals with study of earth",
+      "option1": "Geology",
+      "option2": "Astronomy",
+      "option3": "Sociology"
+    }
+
+
+
+
+  ]
+}
