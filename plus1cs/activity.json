@@ -52,8 +52,8 @@
     {
       "question": "Give the name for a simple kind of theoretical computing machine.",
       "option1": "Turing Machine.",
-      "option2": "Uruguay",
-      "option3": "Colombia"
+      "option2": "Abacus",
+      "option3": "Pascaline"
     },
 
     {
@@ -91,7 +91,7 @@
       "question": "Find the correct match for Pascaline",
       "option1": "computing machine",
       "option2": "Counting frame",
-      "option3": "Preprogrammed"
+      "option3": "Punched cards"
     },
     {
       "question": "Find the correct match for Jacquards Looms",
@@ -102,7 +102,7 @@
     {
       "question": "Find the correct match for Mark 1",
       "option1": "Pre programmed",
-      "option2": "Computing Machine",
+      "option2": "Counting frame",
       "option3": "Punched cards"
     },
 
